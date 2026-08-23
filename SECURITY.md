@@ -34,7 +34,6 @@ ships, unless you'd prefer to stay anonymous.
 
 **In scope:**
 - The Nexus desktop application (all platforms)
-- getnexus.app and any subdomains
 - Update/download infrastructure
 
 **Out of scope:**
