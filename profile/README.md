@@ -4,7 +4,7 @@
   <p>Your Browser. Your Notes. Your AI. Local. Private. Yours.</p>
 
   <p>
-    <a href="https://getnexus.app">Website</a> ·
+    <a href="">Website</a> ·
     <a href="https://getnexus.app/download">Download</a> ·
     <a href="https://github.com/getnexusapp/releases/issues">Report an issue</a> ·
     <a href="https://github.com/getnexusapp/docs">Documentation</a> ·
