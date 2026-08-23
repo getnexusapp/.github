@@ -62,16 +62,17 @@ No account required. No cloud sync you didn't ask for. No *"we may share anonymi
 **License**
 ---
 
-Nexus is proprietary, closed-source software owned by **Nawrass Andaloussi Dahman**. This organization does not
-host the app's source code. The repositories here are for release notes,
+Nexus is proprietary, closed-source software owned by **Nawrass Andaloussi Dahman**.
+
+This organization does not host the app's source code. The repositories here are for release notes,
 documentation, and community support.
 
 Use of the Nexus application is governed by the **Nexus End User License Agreement (EULA)**.
 
 For more information:
 
-- [LICENSE.md](./LICENSE.md)
-- [EULA.md](./EULA.md)
-- [PRIVACY_POLICY.md](./PRIVACY_POLICY.md)
+- [LICENSE.md](https://github.com/getnexusapp/.github/blob/main/LICENSE.md)
+- [EULA.md](https://github.com/getnexusapp/.github/blob/main/EULA.md)
+- [PRIVACY_POLICY.md](https://github.com/getnexusapp/.github/blob/main/PRIVACY_POLICY.md)
 
 ---
