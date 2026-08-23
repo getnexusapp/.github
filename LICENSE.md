@@ -9,5 +9,5 @@ you're free to share and adapt it, with attribution to Nexus.
 
 This license does **not** extend to the Nexus application itself, its
 source code, or its assets (logo, icons, product name), which remain
-proprietary. See [getnexus.app/terms](https://getnexus.app/terms) for
+proprietary. See [terms]() for
 the application's End User License Agreement.
