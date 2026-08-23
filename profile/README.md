@@ -25,6 +25,12 @@ That's the specific gap both Obsidian and Notion leave open:
 
 Nexus keeps everything on your machine — one file on disk, no account, no server — and still gives you the workflow people normally need three separate apps to get.
 
+Here's the part that isn't about convenience: most AI note-taking tools built in the last couple of years still route your notes through someone else's servers to make the AI features work — even ones that market themselves as privacy-conscious. The moment there's a hosted AI layer, your data has to leave your machine to reach it.
+
+Nexus doesn't have that server. It was never built to have one. That's why the Assistant is bring-your-own-key (BYOK) instead of a Nexus-hosted feature: every request goes straight from your device to your provider, because there's nothing of ours in between to route it through. Your notes stay in a single file on your disk, your searches happen entirely on your device, and the one time anything does leave your machine — an AI question — it goes exactly where you told it to go, and nowhere else.
+
+No account required. No cloud sync you didn't ask for. No *"we may share anonymized data with partners"* clause buried in a privacy policy. Just your notes, on your machine, under your control.
+
 ---
 
 ## Features
@@ -42,18 +48,15 @@ Nexus keeps everything on your machine — one file on disk, no account, no serv
 
 **Assistant**
 - Chat that's automatically grounded in your notes via on-device semantic search, and in whatever page is open in the Browser tab.
+- Bring your own API key. Every message goes straight from your device to your provider — there's no Nexus server in between, so there's nothing for us to see, log, or store.
 - Chat history is saved locally and survives a restart.
 
 **Knowledge Graph**
 - A force-directed, draggable, zoomable map of how your notes link together.
 
-**Local & Yours**
-- Every note lives in a single local SQLite file
-- One-click database backup/restore, and Markdown exports your whole vault.
-- No account, no Nexus server, no telemetry — only you and your notes.
-
 **Privacy**
 - **Notes and search are fully local.** Your notes live in one SQLite file on disk. Search — including semantic ("meaning-based") search — runs through a small embedding model that executes entirely on your device. Nothing about your notes touches the network to be searched.
+- **The one place data leaves your device: AI chat, and only with your own key.** Ask the Assistant something, and Nexus sends that message straight from your machine to whichever provider you've connected, using an API key stored in your OS's own secure credential store — never in a Nexus database. We don't operate a server in that path. There's nothing routing through us to see, log, or sell.
 - **Export and backup are things you do, not things that happen automatically.** Backing up, restoring, and exporting to Markdown are explicit actions in Settings.
 
 **License**
