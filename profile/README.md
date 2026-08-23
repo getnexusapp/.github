@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.svg" width="72" alt="Nexus logo" />
+  <img src="Square150x150Logo.png" width="72" alt="Nexus logo" />
   <h1>Nexus</h1>
   <p>Everything you discover becomes part of what you know.</p>
 
