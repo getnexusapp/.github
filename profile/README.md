@@ -5,7 +5,7 @@
 
   <p>
     <a href="">Website</a> ·
-    <a href="https://getnexus.app/download">Download</a> ·
+    <a href="">Download</a> ·
     <a href="https://github.com/getnexusapp/releases/issues">Report an issue</a> ·
     <a href="https://github.com/getnexusapp/docs">Documentation</a> ·
     <a href="https://github.com/getnexusapp/releases">Releases & Changelog</a>
