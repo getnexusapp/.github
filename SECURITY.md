@@ -11,8 +11,7 @@ issues in the app, our infrastructure, or our website.
 Public issues are visible to everyone immediately, including before a fix
 ships.
 
-Instead, email **security@getnexus.app** (or getnexusupport@gmail.com if
-that inbox isn't live yet) with:
+Instead, email **getnexusupport@gmail.com** with:
 
 - A description of the issue and its potential impact
 - Steps to reproduce, or a proof of concept if you have one
