@@ -34,8 +34,7 @@ in public.
 
 ## Enforcement
 
-Violations can be reported to **conduct@getnexus.app** (or
-getnexusupport@gmail.com). Reports are reviewed privately. Depending on
+Violations can be reported to **getnexusupport@gmail.com**. Reports are reviewed privately. Depending on
 severity, consequences range from a warning to a temporary or permanent
 ban from Nexus's community spaces.
 
