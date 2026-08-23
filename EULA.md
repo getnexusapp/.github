@@ -368,4 +368,6 @@ Questions regarding this Agreement can be directed to:
 
 ---
 
-**Nexus is currently an independently developed software product created and operated by Nawrass Andaloussi Dahman in Morocco. Nexus is not currently operated by a corporation named "Nexus, Inc." If a separate legal entity is established to operate Nexus in the future, this Agreement may be updated to identify that entity.**
+**Nexus is currently an independently developed software product created and operated by Nawrass Andaloussi Dahman in Morocco.**
+
+**Nexus is not currently operated by a corporation named "Nexus, Inc." If a separate legal entity is established to operate Nexus in the future, this Agreement may be updated to identify that entity.**
