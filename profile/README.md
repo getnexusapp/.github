@@ -1,7 +1,8 @@
 <div align="center">
   <img src="Square150x150Logo.png" width="72" alt="Nexus logo" />
   <h1>Nexus</h1>
-  <p>Your Browser. Your Notes. Your AI. Local. Private. Yours.</p>
+  <p>Your Notes. Your Browser. Your AI.</p>
+  <p>Local First. Private by Default.</p>
 
   <p>
     <a href="">Website</a> ·
