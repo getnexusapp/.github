@@ -57,7 +57,7 @@ Optional AI functionality uses a Bring Your Own Key (BYOK) model. When you choos
 
 For additional information, see:
 
-**[Nexus Privacy Policy](./PRIVACY.md)**
+**[Nexus Privacy Policy](./PRIVACY_POLICY.md)**
 
 ## No Warranty
 
