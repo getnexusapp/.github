@@ -17,7 +17,7 @@
 
 One app that replaces three. Your notes, a real web browser, and an AI assistant — all in the same window, all talking to each other, all stored on your own computer.
 
-**Here's what that looks like in practice:** you're researching something, so you open the page right inside Nexus's Browser tab — no switching to Chrome. Then you flip to the Assistant tab and ask "does this contradict what I already wrote?" — and it actually knows both, because it's reading your notes *and* the page you have open at the same time. Like the answer? One click saves it as a new note. You never left the app.
+**Here's what that looks like in practice:** you're researching something, so you open the page right inside Nexus's Browser tab — no switching to Chrome. Then you flip to the Assistant tab and ask "does this contradict what I already wrote?" — and it actually knows both, because it's reading your notes *and* the page you have open at the same time. Like the answer? One click saves it as a new note, and the crazy part is you never left the app, not even once.
 
 That's the specific gap both Obsidian and Notion leave open:
  - **Obsidian** is great for notes and linking ideas together — but there's no browser and no built-in AI. You're constantly alt-tabbing between Obsidian, Chrome, and ChatGPT, copy-pasting context between all three.
