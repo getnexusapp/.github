@@ -56,7 +56,6 @@ No account required. No cloud sync you didn't ask for. No *"we may share anonymi
 
 **Privacy**
 - **Notes and search are fully local.** Your notes live in one SQLite file on disk. Search — including semantic ("meaning-based") search — runs through a small embedding model that executes entirely on your device. Nothing about your notes touches the network to be searched.
-- **The one place data leaves your device: AI chat, and only with your own key.** Ask the Assistant something, and Nexus sends that message straight from your machine to whichever provider you've connected, using an API key stored in your OS's own secure credential store — never in a Nexus database. We don't operate a server in that path. Nothing is routing through us to see, log, or sell.
 - **Export and backup are things you do, not things that happen automatically.** Backing up, restoring, and exporting to Markdown are explicit actions in Settings.
 
 **License**
