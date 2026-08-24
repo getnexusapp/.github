@@ -13,23 +13,56 @@
 </div>
 
 ---
+
 ## About Nexus
 
-One app that replaces three. Your notes, a real web browser, and an AI assistant — all in the same window, all talking to each other, all stored on your own computer.
+One app that replaces three. Your notes, a real web browser, and an AI
+assistant — all in the same window, connected to each other, and stored
+on your own computer.
 
-**Here's what that looks like in practice:** you're researching something, so you open the page right inside Nexus's Browser tab — no switching to Chrome. Then you flip to the Assistant tab and ask "does this contradict what I already wrote?" — and it actually knows both, because it's reading your notes *and* the page you have open at the same time. Like the answer? One click saves it as a new note, and the crazy part is you never left the app, not even once.
+**Here's what that looks like in practice:**
 
-That's the specific gap both Obsidian and Notion leave open:
- - **Obsidian** is great for notes and linking ideas together — but there's no browser and no built-in AI. You're constantly alt-tabbing between Obsidian, Chrome, and ChatGPT, copy-pasting context between all three.
- - **Notion** bolts AI on top, but it lives in the cloud, usually needs a paid plan to be any good, and still has no browser tab of its own — same tab-juggling problem, plus your notes live on Notion's servers instead of yours.
+You're researching something, so you open the page directly inside Nexus.
+You find something useful and save it to your notes. Then you ask the
+Assistant, *"Does this contradict what I've already written?"*
 
-Nexus keeps everything on your machine — one file on disk, no account, no server — and still gives you the workflow people normally need three separate apps to get.
+Nexus already has the context: your notes, the page you're reading, and
+the connections between your ideas. There's no switching to another app,
+copying text, uploading files, or explaining everything again. Like the
+answer? Save it directly as a note.
 
-**Here's the part that isn't about convenience:** most AI note-taking tools built in the last couple of years still route your notes through someone else's servers to make the AI features work — even ones that market themselves as privacy-conscious. The moment there's a hosted AI layer, your data has to leave your machine to reach it.
+That's the workflow Nexus is built around:
 
-Nexus doesn't have that server. It was never built to have one. That's why the Assistant is bring-your-own-key (BYOK) instead of a Nexus-hosted feature: every request goes straight from your device to your provider, because there's nothing of ours in between to route it through. Your notes stay in a single file on your disk, your searches happen entirely on your device, and the one time anything does leave your machine — an AI question — it goes exactly where you told it to go, and nowhere else.
+**Browse → Research → Write → Connect → Ask.**
 
-No account required. No cloud sync you didn't ask for. No *"we may share anonymized data with partners"* clause buried in a privacy policy. Just your notes, on your machine, under your control.
+### Why Nexus?
+
+Most knowledge workflows are split across separate applications:
+
+- **Obsidian** gives you powerful notes and linking, but research happens
+  in another browser and AI lives somewhere else.
+- **Notion** combines notes and AI, but your workspace lives in the cloud
+  and the browser isn't part of the workspace.
+
+Nexus brings those pieces together.
+
+Your browser, notes, AI, and knowledge graph aren't separate tools sitting
+next to each other. They're connected parts of the same workspace.
+
+### Local First - Private by Default
+
+Nexus was built without a Nexus backend.
+
+Your workspace is stored locally on your computer. Notes and semantic
+search run locally, including the embedding model used to find meaning
+across your notes.
+
+The Assistant uses **BYOK (Bring Your Own Key)**. When you ask an AI
+question, the request goes directly from your device to your own IP key. Nexus doesn't sit between you and the provider, and Nexus has
+nothing to store or route.
+
+**No account. No Nexus server. No automatic cloud sync. Your knowledge
+stays on your machine.**
 
 ---
 
