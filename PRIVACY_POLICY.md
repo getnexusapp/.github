@@ -303,21 +303,3 @@ Morocco
 **Email:** getnexusupport@gmail.com
 
 ---
-
-## 20. Summary
-
-In simple terms:
-
-- **Your notes stay on your computer.**
-- **Nexus does not operate a cloud server for your workspace.**
-- **No Nexus account is required for the core application.**
-- **Local search runs on your device.**
-- **Local embeddings are generated on your device.**
-- **Your local AI chat history stays on your device.**
-- **Your AI API key is intended to stay on your device.**
-- **When you use AI, the relevant request goes to the AI provider you chose.**
-- **Nexus does not operate a server in the middle of that AI request.**
-- **Websites accessed through Nexus may collect information according to their own policies.**
-- **You control your backups and exports.**
-
-Nexus is built around the principle that your personal workspace should remain under your control.
