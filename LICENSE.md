@@ -72,6 +72,7 @@ Developer and Creator of Nexus
 Morocco
 
 **Email:** getnexusupport@gmail.com
+
 ---
 
-Copyright © 2026 Nawrass Andaloussi Dahman. All rights reserved.
+Copyright © 2026 Nawrass Andaloussi Dahman. All Rights Reserved.
