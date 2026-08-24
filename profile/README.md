@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="Square150x150Logo.png" width="72" alt="Nexus logo" />
+  <img src="Square150x150Logo.png" width="72" alt="Nexus Logo" />
   <h1>Nexus</h1>
   <p>Your Notes. Your Browser. Your AI.</p>
   <p>Local First. Private by Default.</p>
 
   <p>
     <a href="">Website</a> ·
-    <a href="">Download</a> ·
+    <a href="https://github.com/getnexusapp/releases/releases/tag/v3.3.0">Download</a> ·
     <a href="https://github.com/getnexusapp/releases/issues">Report an issue</a> ·
     <a href="https://github.com/getnexusapp/docs">Documentation</a> ·
     <a href="https://github.com/getnexusapp/releases">Releases & Changelog</a>
