@@ -2,7 +2,7 @@
   <img src="Square150x150Logo.png" width="72" alt="Nexus Logo" />
   <h1>Nexus</h1>
   <p>Your Notes. Your Browser. Your AI.</p>
-  <p>Local First. Private by Default.</p>
+  <p>Local First - Private by Default.</p>
 
   <p>
     <a href="">Website</a> ·
