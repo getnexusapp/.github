@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="Nexus.png" width="120" alt="Nexus Logo" />
+  <img src="nexus.png" width="120" alt="Nexus Logo" />
   <h1>Nexus</h1>
   <p>Your Notes. Your Browser. Your AI.</p>
   <p>Local First - Private by Default.</p>
