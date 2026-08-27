@@ -87,6 +87,7 @@ stays on your machine.**
 
 **Knowledge Graph**
 - A force-directed, draggable, zoomable map of how your notes link together.
+- Type <code>[[Note Title]]</code> for a solid link, or just mention another note's title in your writing — Nexus finds it and draws a dashed line here automatically, no special syntax needed.
 
 **Privacy**
 - **Notes and search are fully local.** Your notes live in one SQLite file on disk. Search — including semantic ("meaning-based") search — runs through a small embedding model that executes entirely on your device. Nothing about your notes touches the network to be searched.
