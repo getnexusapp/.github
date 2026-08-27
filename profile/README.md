@@ -95,7 +95,7 @@ stays on your machine.**
 **License**
 ---
 
-Nexus is proprietary, closed-source software owned by **Nawrass Andaloussi Dahman**. This organization does not host the app's source code. The repositories here are for release notes,
+Nexus is proprietary, closed-source software developed and owned by **Nawrass Andaloussi Dahman**. This organization does not host the app's source code. The repositories here are for release notes,
 documentation, and community support. Use of the Nexus application is governed by the **Nexus End User License Agreement (EULA)**.
 
 For more information:
