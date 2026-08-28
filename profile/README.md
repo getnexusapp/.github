@@ -83,7 +83,7 @@ The Assistant uses **BYOK (Bring Your Own Key)**. When you ask an AI question, t
 
 ### Appearance
 
-- Four built-in themes — Default, Dusk, Daylight, and Dawn — covering both dark and light preferences.
+- Four built-in themes — Darkness, Dusk, Daylight, and Dawn — covering both dark and light preferences.
 
 ### Privacy
 
