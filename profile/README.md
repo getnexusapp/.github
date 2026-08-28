@@ -43,7 +43,7 @@ The Assistant uses **BYOK (Bring Your Own Key)**. When you ask an AI question, t
 
 ### Notes
 
-- Markdown editor with Edit / Split / Preview modes, a full formatting toolbar (bold, italic, underline, strikethrough, headings, quotes, lists, inline code, code blocks, links, case transforms), and syntax-highlighted code blocks.
+- Markdown live editor, a full formatting toolbar (bold, italic, underline, strikethrough, headings, quotes, lists, inline code, code blocks, links, case transforms), and syntax-highlighted code blocks.
 - Smart paste detection — code copied from an editor is automatically recognized and wrapped in a fenced code block, with language detection where possible.
 - `[[Wiki Links]]` between notes, with automatic backlinks — plus automatic "mention" detection, so simply writing another note's title in prose creates a connection too, no special syntax required.
 - `#tags`, derived straight from what you type — no separate tag manager to keep in sync.
