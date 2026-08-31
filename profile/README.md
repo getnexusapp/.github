@@ -21,9 +21,9 @@ One app that replaces three. Your notes, a real web browser, and an AI assistant
 
 **Here's what that looks like in practice:**
 
-You're researching something, so you open the page directly inside Nexus. You find something useful and save it to your notes. Then you ask the Assistant, *"Does this contradict what I've already written?"*
+You're researching something, so you open the page directly inside Nexus. You find something useful and clip it straight to a note, or save it manually. Then you ask the Assistant, *"Does this contradict what I've already written?"*
 
-Nexus already has the context: your notes, the page you're reading, and the connections between your ideas. There's no switching to another app, copying text, uploading files, or explaining everything again. Like the answer? Save it directly as a note.
+Nexus already has the context: your notes and every page you currently have open across your browser tabs. There's no switching to another app, copying text, uploading files, or explaining everything again. Nexus is even quietly watching for contradictions between your notes and the trusted sources you're reading, so inconsistencies never slip through unnoticed.
 
 That's the workflow Nexus is built around:
 
@@ -33,9 +33,9 @@ That's the workflow Nexus is built around:
 
 Nexus was built without a Nexus backend.
 
-Your workspace is stored locally on your computer. Notes and semantic search run locally, including the embedding model used to find meaning across your notes.
+Your workspace — notes, folders, tags, links, chat history, version history — is all stored in a single local SQLite file on your computer. Semantic search runs locally too, including the embedding model used to find meaning across your notes.
 
-The Assistant uses **BYOK (Bring Your Own Key)**. When you ask an AI question, the request goes directly from your device to your AI provider using your own API key. Nexus doesn't sit between you and the provider, and Nexus has nothing to store or route.
+The Assistant uses **BYOK (Bring Your Own Key)** with Google Gemini. When you ask a question, your device sends the request straight to Google using your own Gemini API key — Nexus has no shared key, no server of its own, and nothing to route or store on your behalf.
 
 **No account. No Nexus server. No automatic cloud sync. Your knowledge stays on your machine.**
 
@@ -43,25 +43,29 @@ The Assistant uses **BYOK (Bring Your Own Key)**. When you ask an AI question, t
 
 ### Notes
 
-- Markdown live editor, a full formatting toolbar (bold, italic, underline, strikethrough, headings, quotes, lists, inline code, code blocks, links, case transforms), and syntax-highlighted code blocks.
+- A WYSIWYG markdown editor with a full formatting toolbar (bold, italic, underline, strikethrough, headings, quotes, bullet/numbered lists, inline code, code blocks, links, and case transforms), plus syntax-highlighted code blocks.
 - Smart paste detection — code copied from an editor is automatically recognized and wrapped in a fenced code block, with language detection where possible.
 - `[[Wiki Links]]` between notes, with automatic backlinks — plus automatic "mention" detection, so simply writing another note's title in prose creates a connection too, no special syntax required.
 - `#tags`, derived straight from what you type — no separate tag manager to keep in sync.
 - Folders, pinning, and a fuzzy-search Command Palette (`Cmd/Ctrl+K`) for jumping to any note or running a command.
-- Automatic Version History — a snapshot saved roughly every minute while editing, restorable at any time.
+- **Quick Capture**, reachable from anywhere in the app, for jotting a stray thought straight into a new note without losing your place.
+- Automatic Version History — a snapshot saved roughly once a minute while editing, restorable at any time.
 - A full Trash — soft-delete, restore, or delete forever, so nothing is lost by accident.
 
 ### Browser
 
 - Up to 8 real, persistent browser tabs — built on native webviews, not iframes, so sites that block embedding still work.
 - Bookmarks, back/forward/reload, and download tracking, all inside Nexus.
+- One-click **Clip to Note** — turns whatever page you're on into a new note (title, description, and readable text) without leaving the browser.
 - Tabs stay alive in the background: switching away and back preserves scroll position, video playback, and unsaved form input instead of reloading the page.
 
 ### Assistant
 
-- Chat that's automatically grounded in your notes via on-device semantic search, and in whatever page is open in the Browser tab.
-- Bring your own API key. Every message goes straight from your device to your provider — there's no Nexus server in between, so there's nothing for us to see, log, or store.
+- Chat grounded in your notes via on-device semantic search (with a keyword fallback), and in the text of *every* page currently open across your Browser tabs — not just the one you're looking at.
+- Runs on **Google Gemini**, using an API key you provide. Every request goes directly from your device to Google — there's no Nexus server in between, so there's nothing for us to see, log, or store.
 - Built-in safeguards against prompt injection from webpage content: page text is clearly marked as reference material, never as instructions.
+- Optional **contradiction watching**: Nexus can compare pages you have open against your notes in the background and flag likely factual conflicts, using a cheap local similarity check before ever calling Gemini.
+- Multiple, independently saved conversations — organized like tabs in a sidebar — so different threads of thought don't get mixed together.
 - Chat history is saved locally and survives a restart.
 - Answers can be copied or saved directly as a new note.
 
@@ -71,15 +75,12 @@ The Assistant uses **BYOK (Bring Your Own Key)**. When you ask an AI question, t
 - Type `[[Note Title]]` for a solid link, or just mention another note's title in your writing — Nexus finds it and draws a dashed line automatically, no special syntax needed.
 - Nodes are colored by folder and sized by how connected they are, with a legend for quick orientation.
 
-### Vault Stats
-
-- A local, at-a-glance dashboard: total notes, words written, average words per note, notes created this week, your most-used tag, and your longest note — all computed on-device.
-
 ### Data Ownership
 
-- **Export and backup are things you do, not things that happen automatically.** Backing up, restoring, and exporting to Markdown are explicit actions in Settings, never silent background behavior.
+- **Export and backup are things you do, not things that happen automatically.** Backing up, restoring, and exporting are explicit actions in Settings (or, for a single note, from the note itself), never silent background behavior.
 - Export every note as plain `.md` files (organized into folders, zipped) — fully portable, readable in any text editor or another notes app.
-- Back up the entire database as a single file, and restore from a backup with built-in validation and an automatic safety copy first.
+- Export any individual note as a standalone **PDF**, formatting included.
+- Back up the entire database as a single file, and restore from a backup with built-in validation (Nexus checks it's really a SQLite database first) and an automatic safety copy of your current data before restoring.
 
 ### Appearance
 
@@ -87,8 +88,8 @@ The Assistant uses **BYOK (Bring Your Own Key)**. When you ask an AI question, t
 
 ### Privacy
 
-- **Notes and search are fully local.** Your notes live in one SQLite file on disk. Search — including semantic ("meaning-based") search — runs through a small embedding model that executes entirely on your device. Nothing about your notes touches the network to be searched.
-- **AI requests are BYOK and direct.** Nothing is routed through a Nexus server; only what a request explicitly needs (relevant note snippets, your question, and — if enabled — the current page open in the browser) is ever sent, and only to the provider you've configured.
+- **Notes and search are fully local.** Your notes live in one SQLite file on disk. Search — including semantic ("meaning-based") search — runs through a small embedding model that executes entirely on your device via WebAssembly. That model itself is downloaded once, on first use, and cached afterward; your note content is never part of that or any other network request.
+- **AI requests are BYOK and direct.** Nothing is routed through a Nexus server; only what a request explicitly needs — relevant note snippets, your question, and, if enabled, the text of whatever pages you currently have open in the Browser tab — is ever sent, and only to Google's Gemini API.
 
 **License**
 ---
