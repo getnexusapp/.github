@@ -1,8 +1,10 @@
-# Nexus End User License Agreement (EULA)
+# Nexus End User License Agreement
 
-**Last Updated: August 23, 2026**
+**Nexus 5.0.0**
 
-This End User License Agreement ("Agreement") is a legal agreement between you, either an individual or the entity you represent ("You" or "User"), and **Nawrass Andaloussi Dahman**, an individual developer based in Morocco and the creator, developer, and current operator of the Nexus software ("Nexus," "we," "us," or "our").
+**Last Updated: September 2, 2026**
+
+This End User License Agreement ("Agreement") is a legal agreement between you, either an individual or an entity you represent ("You" or "User"), and **Nawrass Andaloussi Dahman**, an individual developer based in Morocco and the creator and current operator of the Nexus software ("Nexus," "we," "us," or "our").
 
 This Agreement governs your download, installation, access to, and use of the Nexus desktop application, including its software, features, updates, and accompanying documentation (collectively, the "Software").
 
@@ -16,7 +18,7 @@ This Agreement governs your download, installation, access to, and use of the Ne
 
 **"Software"** means the Nexus desktop application in object-code form, including its features, updates, and accompanying documentation. The Software does not include source code that is not expressly provided or licensed to you.
 
-**"Your Content"** means notes, text, files, information, browser-related content, and other content that you create, import, access, or store using the Software.
+**"Your Content"** means notes, text, files, information, browser-related content, AI conversation history, and other content that you create, import, access, or store using the Software.
 
 **"Third-Party Provider"** means an external service provider that you choose to connect to or use through the Software, including an AI provider accessed using credentials or an API key supplied by you.
 
@@ -26,17 +28,17 @@ This Agreement governs your download, installation, access to, and use of the Ne
 
 ## 2. Grant of License
 
-Subject to your compliance with this Agreement, Nawrass Andaloussi Dahman grants you a limited, non-exclusive, non-transferable, revocable license to download, install, and use the Software in object-code form for your personal or internal business purposes on devices that you own or control.
+Subject to your compliance with this Agreement, Nawrass Andaloussi Dahman grants you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to download, install, and use the Software in object-code form for your personal or internal business purposes on devices that you own or are authorized to control.
 
 This license does not transfer ownership of the Software or any intellectual property rights to you.
 
-All rights not expressly granted under this Agreement are reserved by Nexus and Nawrass Andaloussi Dahman.
+All rights not expressly granted under this Agreement are reserved by Nawrass Andaloussi Dahman.
 
 ---
 
 ## 3. Restrictions
 
-You shall not, and shall not permit or assist any third party to:
+You shall not, and shall not knowingly permit or assist any third party to:
 
 (a) copy, modify, translate, or create derivative works based on the Software, except to the extent expressly permitted by applicable law;
 
@@ -44,7 +46,7 @@ You shall not, and shall not permit or assist any third party to:
 
 (c) distribute, sell, rent, lease, sublicense, lend, publish, or otherwise transfer the Software or rights granted under this Agreement to a third party, except as expressly authorized by Nexus;
 
-(d) remove, alter, or obscure copyright, trademark, or other proprietary notices contained in or accompanying the Software;
+(d) remove, alter, or obscure copyright, trademark, licensing, or other proprietary notices contained in or accompanying the Software;
 
 (e) use the Software to develop, train, or improve a competing product or service, to the extent permitted by applicable law;
 
@@ -54,13 +56,15 @@ You shall not, and shall not permit or assist any third party to:
 
 (h) intentionally interfere with the normal operation of the Software or attempt to gain unauthorized access to functionality that is not made available to you.
 
+Nothing in this section is intended to restrict rights that cannot legally be restricted under applicable law.
+
 ---
 
 ## 4. Ownership and Intellectual Property
 
 The Software is licensed, not sold.
 
-All rights, title, and interest in and to the Software, including its source code, object code, architecture, design, user interface, documentation, graphics, logos, and other proprietary elements, are owned by or licensed to Nawrass Andaloussi Dahman, except for third-party materials that are subject to their own licenses.
+All rights, title, and interest in and to the proprietary portions of the Software, including its source code, object code, architecture, design, user interface, documentation, graphics, logos, and other proprietary elements, are owned by or licensed to Nawrass Andaloussi Dahman, except for third-party materials that are subject to their own licenses.
 
 Nothing in this Agreement grants you ownership of the Software or any intellectual property rights in the Software except for the limited license expressly granted in Section 2.
 
@@ -68,68 +72,62 @@ The Nexus name, logo, and other branding are proprietary assets of Nexus and/or 
 
 ### Feedback
 
-If you voluntarily provide suggestions, ideas, bug reports, feature requests, or other feedback regarding the Software ("Feedback"), you grant Nexus and Nawrass Andaloussi Dahman a worldwide, royalty-free, perpetual, irrevocable, transferable, and sublicensable right to use, reproduce, modify, distribute, display, and otherwise exploit that Feedback for any purpose without compensation or attribution to you.
+If you voluntarily provide suggestions, ideas, bug reports, feature requests, or other feedback regarding the Software ("Feedback"), you grant Nawrass Andaloussi Dahman a worldwide, royalty-free, perpetual, irrevocable, transferable, and sublicensable right to use, reproduce, modify, distribute, display, and otherwise exploit that Feedback for any lawful purpose without compensation or attribution to you.
 
 ---
 
 ## 5. Local-First Architecture and Your Content
 
-Nexus is designed and built as a **local-first, local-only application**.
+Nexus is designed as a **local-first desktop application**.
 
-Nexus does not operate a cloud service or backend server through which your notes, searches, or AI requests are routed.
+Nexus does not currently operate a cloud service through which your local workspace is routinely synchronized or stored.
 
 ### (a) Local Storage
 
-Your Content is stored locally on your device.
+Your Content is primarily stored locally on your device.
 
-Nexus stores your notes and related workspace data in a local database on your device, including a local SQLite database.
+Nexus stores notes and related workspace data in local application storage, including a local SQLite database where applicable.
 
-Nexus does not require you to create an account to use the Software and does not require your notes to be uploaded to a Nexus-operated cloud service.
+Nexus does not currently require you to create a Nexus online account to use the Software and does not currently require your notes to be uploaded to a Nexus-operated cloud service.
 
-Your local workspace remains on your device unless you explicitly choose to export, back up, copy, or otherwise transmit it yourself.
+Your local workspace remains on your device unless you explicitly choose to export, back up, copy, synchronize, or otherwise transmit it through a feature or external service.
 
 ### (b) Local Search
 
-Nexus's search functionality is designed to operate entirely on your device.
+Nexus's semantic search functionality is designed to operate locally on your device.
 
-This includes semantic or meaning-based search functionality that uses an embedding model running locally on your device.
-
-Nexus does not send your notes to a Nexus server or other remote service merely to perform searches.
-
-Your notes are not uploaded to a Nexus-operated server for indexing or search.
+Where Nexus uses an embedding model for semantic search, the model is intended to run locally rather than requiring your notes to be uploaded to a Nexus-operated server for indexing.
 
 ### (c) Local Version History and Trash
 
 Nexus may maintain version history, deleted content, and related workspace information locally on your device.
 
-These features operate on your local workspace and are not intended to upload your content to Nexus-operated servers.
+These features are designed to operate on your local workspace and are not intended to upload your content to Nexus-operated servers.
 
 ### (d) Bring Your Own Key (BYOK) AI
 
-Nexus's optional AI Assistant is designed around a **Bring Your Own Key (BYOK)** model.
+Nexus's optional AI Assistant uses a **Bring Your Own Key (BYOK)** model where supported.
 
-To use the AI Assistant, you provide credentials, such as an API key, for an AI provider or other Third-Party Provider that you choose.
+To use the AI Assistant, you may provide credentials, such as an API key, for an AI provider or other Third-Party Provider that you choose.
 
-When you send a request to the AI Assistant, information necessary to process that request may be sent directly from your device to the Third-Party Provider you selected.
+When you submit a request through the AI Assistant, information necessary to process that request may be transmitted from your device to the Third-Party Provider you selected.
 
-Depending on the request, this information may include:
+Depending on your request and configuration, this information may include:
 
-- the message you submitted;
-- relevant portions of your notes;
-- relevant information from the web page currently being used as context; and
-- other information necessary for the AI provider to generate a response.
+* the message you submitted;
+* relevant portions of Your Content;
+* relevant information from a web page being used as context; and
+* other information necessary for the Third-Party Provider to generate a response.
 
-**Nexus does not operate a server between your device and the Third-Party Provider for this AI request path.**
-
-Nexus does not receive, route, log, or store the contents of these AI requests or responses through a Nexus-operated backend.
+The exact information transmitted depends on the features you use and the configuration of your Third-Party Provider.
 
 ### (e) AI Credentials
 
-Where supported by the Software, API keys and other credentials are stored locally using your operating system's secure credential-storage facilities.
+Where supported by the Software, API keys and other credentials may be stored locally using operating-system or application-level credential-storage mechanisms.
 
-Your credentials are not intended to be stored in a Nexus-operated database or transmitted to a Nexus-operated server.
+Your credentials are not intended to be stored in a Nexus-operated cloud database.
 
-You are responsible for protecting your credentials and for any charges, usage, or activity associated with the credentials you provide to a Third-Party Provider.
+You are responsible for protecting your credentials and for any charges, usage, or activity associated with credentials you provide to a Third-Party Provider.
 
 ### (f) AI Provider Responsibility
 
@@ -143,9 +141,9 @@ You are responsible for reviewing the policies and terms of any Third-Party Prov
 
 ### (g) Local AI Chat History
 
-Nexus may save your AI conversation history locally on your device.
+Nexus may save AI conversation history locally on your device.
 
-Such local chat history is part of your local workspace and is not stored by Nexus on a Nexus-operated server.
+Such local chat history is part of Your Content and is not currently intended to be stored by Nexus on a Nexus-operated cloud service.
 
 ### (h) Built-In Browser
 
@@ -159,11 +157,11 @@ Your use of third-party websites is governed by the applicable terms and policie
 
 ### (i) Data Transmission
 
-Nexus is designed so that your notes, local search operations, and local workspace data remain on your device.
+Nexus is designed so that local workspace operations, including local storage and local semantic search, can operate without requiring your workspace to be transmitted to a Nexus-operated cloud service.
 
-The primary circumstance in which information from your workspace may leave your device through Nexus is when you explicitly use an external service, such as the AI Assistant with a Third-Party Provider.
+Information may leave your device when you explicitly use an external service or a feature that requires network communication, including the AI Assistant, third-party websites, updates, or other network-dependent functionality.
 
-You are responsible for deciding what information you submit to Third-Party Providers.
+You are responsible for deciding what information you submit to Third-Party Providers and third-party websites.
 
 ---
 
@@ -175,7 +173,7 @@ Nexus does not currently provide or require a Nexus-operated cloud storage servi
 
 Nexus does not currently provide automatic cloud synchronization of your notes.
 
-If Nexus introduces online services, accounts, synchronization, or other network-based features in the future, those features may be governed by additional or updated terms and privacy disclosures.
+If Nexus introduces online services, accounts, synchronization, analytics, or other network-based features in the future, those features may be governed by additional or updated terms and privacy disclosures.
 
 ---
 
@@ -187,18 +185,18 @@ Nexus may provide tools for exporting, copying, or backing up your workspace.
 
 You are solely responsible for deciding whether and where to create backups.
 
-Nexus is not responsible for loss, corruption, deletion, or unavailability of Your Content resulting from:
+To the maximum extent permitted by applicable law, Nexus is not responsible for loss, corruption, deletion, or unavailability of Your Content resulting from:
 
-- device failure;
-- storage failure;
-- operating-system failure;
-- accidental deletion;
-- malware or security incidents;
-- user actions;
-- third-party software;
-- hardware failure;
-- improper backups; or
-- other events beyond the reasonable control of Nexus.
+* device failure;
+* storage failure;
+* operating-system failure;
+* accidental deletion;
+* malware or security incidents;
+* user actions;
+* third-party software;
+* hardware failure;
+* improper backups; or
+* other events beyond the reasonable control of Nexus.
 
 **You should maintain independent backups of important data.**
 
@@ -208,7 +206,7 @@ Nexus is not responsible for loss, corruption, deletion, or unavailability of Yo
 
 Nexus may provide updates, upgrades, bug fixes, patches, security fixes, or new features from time to time.
 
-Nexus is not obligated to provide updates or continue supporting any particular version or feature of the Software.
+Nexus is not obligated to provide updates or continue supporting any particular version or feature of the Software, except where required by applicable law.
 
 Nexus may modify, suspend, replace, or discontinue features of the Software, subject to applicable law.
 
@@ -220,7 +218,7 @@ Unless an update is accompanied by separate terms, this Agreement will continue 
 
 This Agreement begins when you first download, install, access, or use the Software and continues until terminated.
 
-Nexus may terminate or suspend your license if you materially breach this Agreement or use the Software unlawfully.
+Nexus may terminate or suspend your license if you materially breach this Agreement or use the Software unlawfully, subject to applicable law.
 
 You may terminate this Agreement at any time by uninstalling the Software and ceasing to use it.
 
@@ -240,21 +238,23 @@ TO THE MAXIMUM EXTENT PERMITTED BY LAW, NEXUS DISCLAIMS IMPLIED WARRANTIES INCLU
 
 NEXUS DOES NOT WARRANT THAT THE SOFTWARE WILL:
 
-- BE UNINTERRUPTED;
-- BE ERROR-FREE;
-- BE COMPLETELY SECURE;
-- BE AVAILABLE AT ALL TIMES;
-- BE COMPATIBLE WITH EVERY DEVICE OR OPERATING SYSTEM;
-- BE FREE FROM DEFECTS; OR
-- PREVENT DATA LOSS.
+* be uninterrupted;
+* be error-free;
+* be completely secure;
+* be available at all times;
+* be compatible with every device or operating system;
+* be free from defects; or
+* prevent data loss.
 
-NEXUS DOES NOT GUARANTEE THE ACCURACY, COMPLETENESS, OR RELIABILITY OF INFORMATION OR RESPONSES GENERATED BY ANY AI Third-Party Provider.
+NEXUS DOES NOT GUARANTEE THE ACCURACY, COMPLETENESS, OR RELIABILITY OF INFORMATION OR RESPONSES GENERATED BY AI SYSTEMS OR Third-Party Providers.
 
-You are responsible for evaluating AI-generated information before relying on it.
+AI-generated information may be inaccurate, incomplete, outdated, or inappropriate for a particular purpose.
 
-YOU USE THE SOFTWARE AT YOUR OWN RISK.
+You are responsible for evaluating AI-generated information before relying upon it.
 
-NOTHING IN THIS AGREEMENT EXCLUDES OR LIMITS ANY WARRANTY OR RIGHT THAT CANNOT LAWFULLY BE EXCLUDED OR LIMITED UNDER APPLICABLE LAW.
+**YOU USE THE SOFTWARE AT YOUR OWN RISK.**
+
+Nothing in this Agreement excludes or limits any warranty or right that cannot lawfully be excluded or limited under applicable law.
 
 ---
 
@@ -264,7 +264,7 @@ NOTHING IN THIS AGREEMENT EXCLUDES OR LIMITS ANY WARRANTY OR RIGHT THAT CANNOT L
 
 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE TOTAL AGGREGATE LIABILITY OF NEXUS AND NAWRASS ANDALOUSSI DAHMAN ARISING OUT OF OR RELATING TO THE SOFTWARE OR THIS AGREEMENT SHALL NOT EXCEED THE GREATER OF:
 
-(a) the amount you actually paid to Nexus for the Software during the twelve (12) months before the event giving rise to the claim; or
+(a) the amount you actually paid to Nexus for the Software during the twelve (12) months preceding the event giving rise to the claim; or
 
 (b) USD $100.
 
@@ -292,13 +292,13 @@ This section does not require you to indemnify Nexus or Nawrass Andaloussi Dahma
 
 ## 13. Governing Law and Disputes
 
-Because Nexus is currently operated by an individual developer based in Morocco and may be used by people in different jurisdictions, this Agreement does not designate Delaware law or any other U.S. state law merely because Nexus may establish a U.S. company in the future.
+Nexus is currently operated by an individual developer based in Morocco and may be used by individuals and organizations in different jurisdictions.
 
 This Agreement is subject to applicable law and any mandatory consumer protections that apply to you based on your jurisdiction.
 
 Nothing in this Agreement is intended to deprive you of rights or protections that cannot legally be waived under the laws applicable to you.
 
-If Nexus is later transferred to a separate legal entity, including a corporation established in the United States, this section may be replaced or supplemented with appropriate governing-law and dispute-resolution provisions.
+If Nexus is later transferred to a separate legal entity, this Agreement may be updated to identify the applicable contracting entity and appropriate governing-law and dispute-resolution provisions.
 
 ---
 
@@ -350,24 +350,39 @@ Nothing in this Agreement creates a partnership, joint venture, employment relat
 
 Your use of the Software may also be governed by the **Nexus Privacy Policy**.
 
-Because Nexus is designed as a local-first application, the Privacy Policy describes the limited information, if any, that may be collected or processed by Nexus itself, as well as the information that may be transmitted directly to Third-Party Providers when you choose to use their services.
+The Privacy Policy describes how Nexus handles information and how information may be transmitted to Third-Party Providers when you choose to use their services.
+
+Because Nexus is designed as a local-first application, the Privacy Policy should clearly distinguish information stored locally on your device from information transmitted to external services.
 
 The Privacy Policy should be read together with this Agreement.
 
----
-
-## 16. Contact
-
-Questions regarding this Agreement can be directed to:
-
-**Nawrass Andaloussi Dahman**  
-**Developer and Operator of Nexus**  
-**Morocco**
-
-**Email:** getnexusupport@gmail.com
+**[Nexus Privacy Policy](./PRIVACY_POLICY.md)**
 
 ---
 
-**Nexus is currently an independently developed software product created and operated by Nawrass Andaloussi Dahman in Morocco.**
+## 16. Third-Party Licenses
 
-**Nexus is not currently operated by a corporation named "Nexus, Inc." If a separate legal entity is established to operate Nexus in the future, this Agreement may be updated to identify that entity.**
+Nexus may include third-party software and components that are distributed under separate licenses.
+
+Those licenses may grant rights that are independent of this Agreement.
+
+Where required, applicable third-party license notices are provided separately with the Software or in the Nexus repository.
+
+Nothing in this Agreement is intended to limit rights granted to you under applicable third-party open-source licenses.
+
+---
+
+## 17. Contact
+
+Questions regarding this Agreement may be directed to:
+
+**Nawrass Andaloussi Dahman**
+Developer and Operator of Nexus
+Morocco
+
+**Email:** [getnexusupport@gmail.com](mailto:getnexusupport@gmail.com)
+
+---
+
+**Nexus 5.0.0**
+**Copyright © 2026 Nawrass Andaloussi Dahman. All Rights Reserved.**
