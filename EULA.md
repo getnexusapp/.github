@@ -1,7 +1,5 @@
 # Nexus End User License Agreement
 
-**Nexus 5.0.0**
-
 **Last Updated: September 2, 2026**
 
 This End User License Agreement ("Agreement") is a legal agreement between you, either an individual or an entity you represent ("You" or "User"), and **Nawrass Andaloussi Dahman**, an individual developer based in Morocco and the creator and current operator of the Nexus software ("Nexus," "we," "us," or "our").
@@ -377,12 +375,13 @@ Nothing in this Agreement is intended to limit rights granted to you under appli
 Questions regarding this Agreement may be directed to:
 
 **Nawrass Andaloussi Dahman**
-Developer and Operator of Nexus
+
+Developer and Creator of Nexus
+
 Morocco
 
 **Email:** [getnexusupport@gmail.com](mailto:getnexusupport@gmail.com)
 
 ---
 
-**Nexus 5.0.0**
 **Copyright © 2026 Nawrass Andaloussi Dahman. All Rights Reserved.**
