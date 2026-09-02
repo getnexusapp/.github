@@ -56,7 +56,6 @@ The Assistant uses **BYOK (Bring Your Own Key)** with Google Gemini. When you as
 
 - Up to 8 real, persistent browser tabs — built on native webviews, not iframes, so sites that block embedding still work.
 - Bookmarks, back/forward/reload, and download tracking, all inside Nexus.
-- One-click **Clip to Note** — turns whatever page you're on into a new note (title, description, and readable text) without leaving the browser.
 - Tabs stay alive in the background: switching away and back preserves scroll position, video playback, and unsaved form input instead of reloading the page.
 
 ### Assistant
