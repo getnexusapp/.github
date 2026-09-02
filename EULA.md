@@ -374,10 +374,8 @@ Nothing in this Agreement is intended to limit rights granted to you under appli
 
 Questions regarding this Agreement may be directed to:
 
-**Nawrass Andaloussi Dahman**
-
-Developer and Creator of Nexus
-
+**Nawrass Andaloussi Dahman**  
+Developer and Creator of Nexus  
 Morocco
 
 **Email:** [getnexusupport@gmail.com](mailto:getnexusupport@gmail.com)
