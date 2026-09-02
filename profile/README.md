@@ -5,8 +5,8 @@
   <p>Local First - Private by Default.</p>
 
   <p>
-    <a href="">Website</a> ·
-    <a href="https://github.com/getnexusapp/releases/releases/">Download</a> ·
+    <a href="https://nexusdesktop.netlify.app/">Website</a> ·
+    <a href="https://github.com/getnexusapp/releases/releases/tag/v5.0.0">Download</a> ·
     <a href="https://github.com/getnexusapp/releases/issues">Report an issue</a> ·
     <a href="https://github.com/getnexusapp/docs">Documentation</a> ·
     <a href="https://github.com/getnexusapp/releases">Releases & Changelog</a>
