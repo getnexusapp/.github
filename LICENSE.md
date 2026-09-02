@@ -1,7 +1,5 @@
 # Nexus Software License
 
-**Nexus 5.0.0**
-
 **Copyright © 2026 Nawrass Andaloussi Dahman. All Rights Reserved.**
 
 Nexus is proprietary software created and developed by **Nawrass Andaloussi Dahman**.
@@ -179,19 +177,7 @@ Nothing in this license grants any implied license or permission.
 
 ---
 
-## 12. Version
-
-This license applies specifically to:
-
-**Nexus 5.0.0**
-
-Copyright © 2026 **Nawrass Andaloussi Dahman**.
-
-All Rights Reserved.
-
----
-
-## 13. Contact
+## 12. Contact
 
 **Nawrass Andaloussi Dahman**  
 Developer and Creator of Nexus  
