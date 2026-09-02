@@ -15,7 +15,7 @@
 
 ---
 
-# About Nexus
+## About Nexus
 
 One app that replaces three. Your notes, a real web browser, and an AI assistant — all in the same window, connected to each other, and stored on your own computer.
 
@@ -38,6 +38,14 @@ Your workspace — notes, folders, tags, links, chat history, version history �
 The Assistant uses **BYOK (Bring Your Own Key)** with Google Gemini. When you ask a question, your device sends the request straight to Google using your own Gemini API key — Nexus has no shared key, no server of its own, and nothing to route or store on your behalf.
 
 **No account. No Nexus server. No automatic cloud sync. Your knowledge stays on your machine.**
+
+## Works Offline
+ 
+Unplug the router and Nexus barely notices. Everything about actually *using* your notes — typing, organizing, linking, tagging, browsing your history — was built to work with zero connection, because your notes live on your machine, not somewhere out on the internet.
+ 
+That includes the quiet stuff too: **autosave never needs a connection.** Every change you make is written straight to your local SQLite file as you type (on a short debounce, so it's not hammering disk on every keystroke), and the automatic version snapshots taken roughly once a minute save the exact same way — no server round-trip, no "waiting to sync," nothing to lose if your Wi-Fi drops mid-sentence. Exporting to Markdown or PDF, backing up or restoring your whole database, browsing the Knowledge Graph, and keyword-based note search all work exactly the same offline as on.
+ 
+Two things genuinely need the internet, because of what they *are*: loading an actual page in the **Browser** tab, and the **Assistant**, since every question it answers goes straight to Google Gemini. Semantic search rides along with a small asterisk — its on-device model has to be downloaded once, the first time you use it, and after that it's cached for good and runs offline like everything else. Until that first download happens, asking Nexus to search "by meaning" while offline just quietly falls back to keyword search instead of throwing an error — the app never breaks because of a missing connection, it just narrows to what doesn't need one.
 
 ## Features
 
