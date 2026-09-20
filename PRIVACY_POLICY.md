@@ -1,6 +1,6 @@
 # Nexus Privacy Policy
 
-**Last Updated: September 2, 2026**
+**Last Updated: September 20, 2026**
 
 Nexus is developed and operated by **Nawrass Andaloussi Dahman**, an independent software developer based in Morocco.
 
