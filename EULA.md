@@ -14,7 +14,7 @@ This Agreement governs your download, installation, access to, and use of the Ne
 
 ## 1. Definitions
 
-**"Software"** means the Nexus desktop application in object-code form, including its features, updates, and accompanying documentation. The Software does not include source code that is not expressly provided or licensed to you.
+**"Software"** means the Nexus application in object-code form, including its features, updates, and accompanying documentation. The Software does not include source code that is not expressly provided or licensed to you.
 
 **"Your Content"** means notes, text, files, information, browser-related content, AI conversation history, and other content that you create, import, access, or store using the Software.
 
