@@ -85,17 +85,20 @@ You decide when the Assistant can access your information, and you can disable a
 
 ### Notes That Think As You Do
 
-- A real WYSIWYG editor — bold looks bold, headings look like headings, code lights up as you type. No raw markdown symbols cluttering your screen.
-- Paste code from anywhere and Nexus recognizes it instantly, wrapping it in a clean, highlighted code block automatically.
-- Type `[[note's title]]` and it becomes a living link. Or don't even bother with the brackets — just mention another note by name in your writing, and Nexus quietly connects them for you — displayed in the Graph tab.
-- `#tags` appear the moment you type them. No tag manager, no setup.
-- Folders, pinning, and a lightning-fast command palette (`Cmd/Ctrl+K`) that finds any note in a heartbeat.
-- A real Trash, not a delete button with no way back.
+- A rich-text (WYSIWYG) editor — bold looks bold, headings look like headings, code blocks are syntax-highlighted. A formatting toolbar covers undo/redo, bold, italic, underline, strikethrough, headings, quotes, bulleted, numbered and task lists, images, tables, inline code, code blocks, links, and UPPERCASE / lowercase / Title Case.
+- Insert images (PNG, JPEG, GIF, WebP, up to 8 MB each). They are stored inside your database, so they travel with your backups.
+- Type `[[Note Title]]` for a link, or just mention another note by name and Nexus connects them for you. Links appear as clickable pills in the editor.
+- `#tags` become colored pills as you type. No tag manager, no setup.
+- Optional auto-capitalization, and an optional word-count bubble (words, characters, characters without spaces).
+- Undo and redo step one word at a time.
+- Version history: Nexus saves earlier versions as you edit. Preview any of them and restore it.
+- Folders, pinning, and a command palette (`Cmd/Ctrl+K`) to jump to a note by title or run a quick action.
+- A real Trash: deleted notes stay until you restore them, delete them forever, or empty the Trash.
 
 ### A Browser That Belongs to Your Workspace
 
 - Up to 8 tabs, each a real native web page — not an iframe, so sites that block embedding still load.
-- Switch away and back and a tab is exactly as you left it: scroll position, video, form input.
+- Switch away and back, and a tab is exactly as you left it: scroll position, video, form input.
 - Back, forward, reload, an address bar that also searches (Brave Search by default; you can set your own homepage), bookmarks with a bookmark library, and a tab overview.
 - Links that open new windows become new tabs. Only `http` and `https` pages can be opened.
 - Links clicked in your notes or in the Assistant open in the built-in browser, not your system browser.
