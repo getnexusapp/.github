@@ -2,7 +2,7 @@
   <img src="nexus.png" width="120" alt="Nexus Logo" />
   <h1>Nexus</h1>
   <p>Your Notes. Your Browser. Your AI.</p>
-  <p>One app. Everything connected.</p>
+  <p>One App. Everything Connected.</p>
 
   <p>
     <a href="https://letnexusout.vercel.app/">Website</a> ·
@@ -12,8 +12,6 @@
     <a href="https://github.com/getnexusapp/releases">Releases & Changelog</a>
   </p>
 </div>
-
----
 
 ## About Nexus
 
@@ -26,8 +24,6 @@ It's your notes, a real web browser, and an AI assistant, living in the same win
 **Browse → Research → Write → Connect → Ask.**
 
 That's it. That's the whole loop, and it happens without ever leaving the app.
-
----
 
 ## Local-First, With a Clear Boundary
 
@@ -79,14 +75,13 @@ Your full database never leaves your device.
 
 You decide when the Assistant can access your information, and you can disable access to it at any time.
 
----
-
 ## Features
 
 ### Notes That Think As You Do
 
 - A rich-text (WYSIWYG) editor — bold looks bold, headings look like headings, code blocks are syntax-highlighted. A formatting toolbar covers undo/redo, bold, italic, underline, strikethrough, headings, quotes, bulleted, numbered and task lists, images, tables, inline code, code blocks, links, and UPPERCASE / lowercase / Title Case.
 - Insert images (PNG, JPEG, GIF, WebP, up to 8 MB each). They are stored inside your database, so they travel with your backups.
+- Type `[[` anywhere in a note and a dropdown of your note titles appears. Keep typing to narrow it (fuzzy matching, so `[[rcp` finds "Recipe Ideas"), then press Enter or Tab, or click, to insert the link. No more exact-title typing, and no more accidental dashed "missing" links from typos. Want to link to a note you haven't written yet? Choose **New link** to insert a link for what you typed.
 - Type `[[Note Title]]` for a link, or just mention another note by name and Nexus connects them for you. Links appear as clickable pills in the editor.
 - `#tags` become colored pills as you type. No tag manager, no setup.
 - Optional auto-capitalization, and an optional word-count bubble (words, characters, characters without spaces).
@@ -128,13 +123,11 @@ You decide when the Assistant can access your information, and you can disable a
 ### You Own What You Make
 
 - **Markdown export:** every note as a `.md` file in a `.zip`, arranged in your folder structure, with a small metadata header and images included as attachments.
-- **PDF export:** any single note as a PDF, made entirely on your device. Images appear as placeholders, and links and wiki-links are printed as plain text.
+- **PDF export:** any single note as a PDF, made entirely on your device.
 - **Backup:** your whole workspace as one `.db` file, including preferences and bookmarks. Backups are only made when you choose to.
-- **Restore:** pick a backup and Nexus checks that it is a valid SQLite database before replacing anything. It keeps a copy of your previous database (`nexus.db.before-restore`), and the restore takes effect after you restart the app.
+- **Restore:** pick a backup and Nexus checks that it is a valid SQLite database before replacing anything, and the restore takes effect after you restart the app.
 
----
-
-## **License**
+## License
 
 Nexus is proprietary, closed-source software developed and owned by **Nawrass Andaloussi Dahman**. This organization does not host the app's source code. The repositories here are for release notes, documentation, and community support. Use of the Nexus application is governed by the **Nexus End User License Agreement (EULA)**.
 
@@ -143,5 +136,3 @@ For more information:
 - [LICENSE.md](https://github.com/getnexusapp/.github/blob/main/LICENSE.md)
 - [EULA.md](https://github.com/getnexusapp/.github/blob/main/EULA.md)
 - [PRIVACY_POLICY.md](https://github.com/getnexusapp/.github/blob/main/PRIVACY_POLICY.md)
-
----
