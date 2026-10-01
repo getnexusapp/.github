@@ -270,7 +270,7 @@ Your use of the Software and Nexus Cloud Service is also governed by the **Nexus
 
 The Privacy Policy distinguishes information stored locally on your device from account and usage information processed by the Nexus Cloud Service and information sent to Third-Party Providers on your behalf.
 
-[Nexus Privacy Policy](/PRIVACY-POLICY.md)
+[Nexus Privacy Policy](/PRIVACY_POLICY.md)
 
 ## 16. Third-Party Licenses
 
