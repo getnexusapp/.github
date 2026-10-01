@@ -1,289 +1,208 @@
 # Nexus Privacy Policy
 
-**Last Updated: September 20, 2026**
+**Last updated: October 1, 2026**
 
 Nexus is developed and operated by **Nawrass Andaloussi Dahman**, an independent software developer based in Morocco.
 
-This Privacy Policy explains how Nexus handles information when you use the Nexus desktop application ("Nexus" or the "Software") and, where applicable, the Nexus Cloud Service that powers the optional AI Assistant.
+This Privacy Policy explains how Nexus handles information when you use the Nexus desktop application (version 6.1.0 and later, "Nexus" or the "Software") and the Nexus Cloud Service that powers the optional AI Assistant.
 
-Nexus's core notes and workspace functionality is local-first: your notes stay on your device unless you choose to export or back them up. The **AI Assistant is different**: it requires a Nexus Cloud account and is powered by a server that Nexus operates. This policy describes both clearly.
+Nexus's notes and workspace are local-first: your notes stay on your device unless you export or back them up. The **AI Assistant is different**: it requires a Nexus Cloud account and is powered by a server that Nexus operates.
 
----
+## 1. What Stays on Your Device
 
-## 1. Information Nexus Does Not Collect (Local Workspace)
+When you use notes, folders, tags, links, the graph, search, and the browser, the following is stored on your device and is not uploaded to a Nexus-operated server as part of ordinary local operation:
 
-When you use Nexus's core note-taking and browsing functionality, Nexus does not collect or store the following on Nexus-operated servers:
+- Your notes, folders, tags, and links between notes;
+- Images you insert into notes;
+- Version history and Trash;
+- Local search indexes and embeddings generated on your device;
+- Your AI Assistant conversations, which are saved in the local database and associated with the email address of the Nexus Cloud account that was signed in;
+- Your settings, browser bookmarks, and downloaded-file information stored in the application's local browser storage; and
+- Your Nexus Cloud API key, which is stored using your operating system's credential storage, such as Windows Credential Manager or the macOS Keychain.
 
-- Your notes, folders, tags, links, and content;
-- Your local SQLite database;
-- Your local search index and locally generated embeddings;
-- Your local version history and Trash contents;
-- The contents of websites you browse through the built-in browser.
+No Nexus account is required to use these local features.
 
-No Nexus account is required to use this core functionality.
+## 2. Information Nexus Collects (Nexus Cloud / AI Assistant)
 
-## 1a. Information Nexus Does Collect (Nexus Cloud / AI Assistant)
-
-If you create a Nexus Cloud account to use the AI Assistant, Nexus **does** collect and store, on a server-side database it operates:
+If you create a Nexus Cloud account to use the AI Assistant, Nexus does store the following in the Nexus Cloud Service:
 
 - Your email address;
-- A hashed (not plaintext) form of your account password;
-- A hashed form of your Nexus Cloud API key;
-- Usage metadata associated with your account, such as token counts per request and request timestamps, used to enforce usage limits;
-- Rate-limiting records (e.g., counts of recent requests) tied to your account or IP address;
-- If you request a password reset: a hashed reset code and its expiration time, and your email address is used to send you that code.
+- A salted hash of your password;
+- A hash of your current API key;
+- Account-security information such as key-generation counts and failed sign-in information;
+- Usage information such as token counts and request timestamps;
+- Rate-limiting information;
+- Temporary password-reset information, including an appropriately protected reset-code value and expiry information; and
+- Operational information necessary to maintain, secure, and debug the service.
 
-Nexus also necessarily receives the content of each AI Assistant request you submit (such as your question, retrieved note excerpts, and, where enabled, text from open browser tabs) in order to forward it to the third-party AI provider described in Section 4 and return the response to you. See Section 4 for how that content is handled.
+Your API key itself is stored on your device using your operating system's credential storage. The server stores a hash of the key rather than relying on the local plaintext credential.
 
----
+Nexus does not store your local notes, folders, local search index, or local conversation history as a synchronized cloud workspace.
 
-## 2. Local Storage
+## 3. What Is Sent When You Use the AI Assistant
 
-Nexus is designed to store your notes workspace locally on your device.
+The AI Assistant requires the Nexus Cloud Service. When you submit a request, the Nexus Cloud Service may receive:
 
-Your notes and related workspace information are stored in local files and databases on your computer.
+- Your new message;
+- Up to 20 prior conversation messages;
+- Relevant excerpts from notes available to the Assistant;
+- The full contents of a note when you specifically identify that note by title;
+- The current date and time; and
+- Text from pages open in Nexus Browser when that text is included under the applicable browser settings.
 
-This may include:
+The Nexus Cloud Service forwards applicable request content to a third-party AI provider, currently Google through its Gemini models.
 
-- Notes;
-- Folders;
-- Tags;
-- Wiki links;
-- Backlinks;
-- Version history;
-- Trash;
-- Search indexes;
-- Local embeddings;
-- Browser-related application data;
-- Locally saved AI conversation history; and
-- Other application settings.
+The AI model may use web search. Search queries may be sent to Jina AI, and the Nexus Cloud Service may retrieve the text of relevant result pages.
 
-This information is stored locally rather than being uploaded to a Nexus cloud service, except to the extent it is submitted as part of an AI Assistant request as described in Section 4.
+The resulting AI response is returned to your device and your conversation history is stored locally as part of Your Content.
 
-You are responsible for securing your device and maintaining backups of important information.
+Nexus records usage information such as token usage and request timestamps for account management, rate limiting, and service operation. Nexus does not maintain your complete AI conversation history as a server-side conversation database.
 
----
+## 4. Third-Party Providers
 
-## 3. Local Search and Embeddings
+Nexus uses independent third-party providers to operate portions of its services:
 
-Nexus provides search functionality, including semantic or meaning-based search.
+- **Google / Gemini:** third-party AI model provider.
+- **Jina AI:** web search provider used by AI Assistant web-search functionality.
+- **Resend:** transactional email provider, including password-reset messages where applicable.
+- **Cloudflare:** hosting and infrastructure provider for the Nexus Cloud Service.
+- **DuckDuckGo:** favicon provider used by the Nexus Browser.
 
-Where semantic search is used, the embedding model runs locally on your device.
+These providers operate independently and may process information under their own terms and policies. Nexus does not control the internal processing practices of those providers.
 
-Your notes are not sent to a Nexus-operated server merely to perform local searches or generate local embeddings.
+Nexus uses its own service credentials when communicating with the third-party AI provider. Your Nexus API key is not provided to the third-party AI provider as your own provider credential.
 
-The resulting search indexes and embeddings are stored locally as part of your Nexus workspace.
+## 5. Account Security
 
----
+Nexus stores passwords using salted password hashes rather than storing your password in plaintext.
 
-## 4. AI Assistant and the Nexus Cloud Service
+Your Nexus Cloud API key is stored locally using operating-system credential storage such as Windows Credential Manager or the macOS Keychain.
 
-The AI Assistant is powered by the **Nexus Cloud Service**, a backend Nexus operates (currently a Cloudflare Worker with an associated database). This is not a "bring your own key" feature, and Nexus does not currently offer an alternative where you supply your own third-party AI provider key.
+Each successful sign-in may generate a new API key and invalidate the previous key. Nexus may limit API-key regeneration to three times within a relevant period.
 
-### How it works
+Password-reset codes are temporary and may expire after 30 minutes.
 
-1. You create a Nexus Cloud account (email and password) or sign in to an existing one. Nexus issues you a Nexus Cloud API key.
-2. When you submit a message to the AI Assistant, your device sends the request — including relevant portions of your notes and, if you have the "aware of tabs" setting enabled, text from your currently open browser tabs — to the Nexus Cloud Service, authenticated with your Nexus Cloud API key.
-3. The Nexus Cloud Service forwards your request to a third-party AI provider (currently accessed via OpenRouter), using API credentials that belong to Nexus, and receives the generated reply.
-4. The Nexus Cloud Service returns the reply to your device, where it is saved locally as part of your conversation history.
-5. The Nexus Cloud Service records the token usage associated with your account (to enforce usage limits) and timestamps of your requests. It does not intentionally retain the full text of your requests or responses beyond what is needed to generate and return the reply, but see Section 4 below on the AI provider's own handling.
+Nexus takes reasonable measures appropriate to the service to protect account information. However, no online service or storage system can be guaranteed to be completely secure.
 
-### What this means for you
+You are responsible for protecting your device, credentials, and API key.
 
-- Your request content is processed on a Nexus-operated server before it reaches the AI provider — this is different from a local-only or peer-to-peer architecture, and different from a "bring your own key" architecture where your device would talk to the provider directly.
-- Nexus does not currently sell the content of your requests, and does not use them to train its own models, but the content does pass through infrastructure Nexus operates and is also processed by the third-party AI provider.
-- The AI provider used by the Nexus Cloud Service is selected and paid for by Nexus. You do not have a direct account with that provider through this feature, so you should not expect that provider's own end-user privacy controls to apply to you individually; instead, Nexus's use of that provider is governed by the agreement between Nexus and the provider.
+## 6. Retention and Deleting Your Account
 
----
+You may permanently delete your Nexus Cloud account through the available account settings.
 
-## 5. AI Provider Privacy
+When you delete your account, Nexus deletes the account record, usage history, and password-reset records from the active Nexus Cloud Service and immediately invalidates the account's API key.
 
-The third-party AI provider used by the Nexus Cloud Service is an independent company.
+Rate-limiting counters, operational logs, and hosting-provider backups may remain for a limited period where necessary for security, abuse prevention, disaster recovery, accounting, or legal obligations.
 
-That provider may process requests it receives from the Nexus Cloud Service according to its own data-handling practices, to the extent Nexus's agreement with it allows.
+Such retained information is not maintained as your active Nexus Cloud account and is subject to applicable retention and deletion practices.
 
-Nexus does not control the internal security or data-processing practices of that provider.
+Deleting your Nexus Cloud account does not delete notes, conversations, files, bookmarks, or other Your Content stored locally on your device.
 
----
+## 7. Local Search, Embeddings, and On-Device Models
 
-## 6. Nexus Cloud API Keys and Account Credentials
+Nexus may create local search indexes and embeddings from content stored on your device. These indexes and embeddings are stored locally and are used to support local search and related features.
 
-Your Nexus Cloud API key (issued after signup or login) is stored locally on your device using security facilities provided by your operating system where available.
+Some Nexus features use small AI models downloaded to your device from public model-hosting infrastructure. Processing performed by those models may occur locally.
 
-Your account itself — including your email address, a hashed form of your password, and a hashed form of your API key — is stored on the Nexus Cloud Service's server-side database, not solely on your device.
+Downloading a model file from a public model host is separate from transmitting your notes or AI Assistant requests to the Nexus Cloud Service.
 
-You are responsible for protecting your device and your account credentials.
+## 8. Built-In Browser
 
-If you believe your Nexus Cloud account has been compromised, you can regenerate your API key from within the Software, or contact us using the information below.
+The Nexus Browser connects directly from your device to the websites that you visit. Those websites have their own privacy policies and terms.
 
----
+Searches typed as non-URL queries into the browser address bar are sent to Brave Search.
 
-## 7. Browser
+Site icons are requested from DuckDuckGo.
 
-Nexus includes a built-in web browser.
+Websites may store cookies and other site data on your device. Nexus does not currently provide a separate control for clearing all third-party website cookies and site data.
 
-When you visit a website through the Nexus browser, your browser requests may communicate directly with the website and other services operated by third parties.
+Nexus may retrieve and read the text of pages open in Nexus Browser tabs from your device even when the "Aware of tabs" setting is turned off. This can support local browser functionality such as conflict detection.
 
-Those websites may collect information such as:
+Turning off "Aware of tabs" prevents page text from being automatically included in AI Assistant requests and sent to the Nexus Cloud Service through that feature.
 
-- IP address;
-- Browser and device information;
-- Cookies;
-- Authentication information;
-- Usage information; and
-- Other information according to their own privacy policies.
+Turning off the setting does not necessarily prevent local browser functionality from retrieving or analyzing page text on your device.
 
-Nexus does not control the privacy practices of websites that you visit.
+## 9. External Websites and Linked Images
 
-Your use of those websites is governed by their respective terms and privacy policies.
+Nexus may allow you to access external websites or load externally hosted content.
 
-Separately, if you have the AI Assistant's "aware of tabs" setting enabled, text extracted from pages you have open may be sent to the Nexus Cloud Service as described in Section 4.
+When you access an external website, information such as your IP address, browser characteristics, cookies, or other request information may be transmitted directly to that website according to its own policies.
 
----
+Nexus does not control the privacy practices, security, availability, or content of external websites.
 
-## 8. Websites and External Services
+You are responsible for reviewing the privacy policies and terms of external services that you choose to use.
 
-Nexus may provide links or functionality that allows you to interact with external websites and services.
+## 10. Backups, Exports, and Clearing Data
 
-External websites and services are not operated by Nexus.
+Nexus is local-first, so you are responsible for backing up important local content.
 
-Nexus is not responsible for:
+Nexus may provide export and backup functionality. You are responsible for verifying that exported and backed-up data is complete and usable.
 
-- Their privacy practices;
-- Their security;
-- Their availability;
-- Their content;
-- Their data retention;
-- Their use of cookies;
-- Their collection of personal information; or
-- Their compliance with applicable privacy laws.
+Using a device-level cleanup tool, uninstalling the application, or clearing application storage may delete local content.
 
-You should review the privacy policy of each external service you use.
+Nexus does not guarantee recovery of local content after accidental deletion, device failure, corruption, storage failure, or other circumstances outside Nexus's reasonable control.
 
----
+The application may also provide a "Clear All Data" feature. Using that feature may permanently delete local Nexus data from the device.
 
-## 9. Backups and Exports
+## 11. No Cloud Synchronization of Your Notes
 
-Nexus is designed so that backups and exports of your local notes workspace are controlled by you.
+Nexus does not currently provide automatic cloud synchronization of your local notes and workspace.
 
-If you export your notes, copy your workspace, or create a backup, the resulting files are under your control.
+Your local notes, folders, tags, links, images, version history, local indexes, embeddings, and locally stored AI conversation history remain on your device unless you explicitly export, back up, or otherwise transmit them.
 
-If you upload those files to another service, send them to another person, or store them using a cloud-storage provider, that provider may process the information according to its own policies.
+This does not mean that information is never transmitted. AI Assistant requests and other explicitly cloud-based functionality operate through the Nexus Cloud Service as described in this policy.
 
-Nexus does not control what happens to your data after you intentionally transfer it outside the application.
+## 12. Website, Downloads, and GitHub
 
----
+The Nexus Website may use hosting, deployment, repository, analytics, or other infrastructure provided by third parties.
 
-## 10. No Cloud Synchronization of Your Notes Workspace
+Where applicable, the Nexus Website may be hosted or deployed using services such as Vercel or GitHub.
 
-Nexus does not currently provide automatic cloud synchronization or backup of your local notes workspace.
+Those services may process technical information according to their own policies when you access their infrastructure or resources.
 
-Your notes, folders, and local search index do not automatically leave your device.
+## 13. Analytics, Telemetry, and Crash Reports
 
-This is distinct from the Nexus Cloud Service described in Section 4, which handles AI Assistant account and request data, and which does involve a Nexus-operated server by design.
+Nexus does not currently use desktop analytics, behavioral telemetry, or automatic crash-reporting services to monitor your local workspace.
 
-If cloud synchronization of your notes workspace is introduced in a future version of Nexus, the applicable privacy practices will be disclosed before or when that feature becomes available, as required by applicable law.
+This does not prevent the Nexus Cloud Service or hosting providers from maintaining operational logs necessary to provide, secure, rate-limit, and troubleshoot online services.
 
----
+Operational logs may contain information such as IP addresses, timestamps, requested URLs, error information, and limited request metadata.
 
-## 11. Website, Downloads, and GitHub
+## 14. Security and Children
 
-The Nexus desktop application is separate from websites, repositories, download services, and other infrastructure used to distribute Nexus.
+Nexus is intended for users who are at least 16 years old.
 
-For example, Nexus may use third-party services such as GitHub to host source code, documentation, releases, or issue trackers.
+Nexus does not knowingly target children under 16 with account-based services.
 
-Those services may collect information according to their own privacy policies.
+If you believe a person under the applicable minimum age has created an account without appropriate authorization, please contact Nexus using the contact information below.
 
-Nexus does not control the information collected by third-party hosting or distribution platforms.
+No online system can guarantee absolute security. You should avoid submitting highly sensitive information to the AI Assistant unless you understand and accept the applicable transmission and processing.
 
-If you interact with Nexus through a third-party platform, that platform's privacy policy applies to the information it collects.
+## 15. International Users and Your Rights
 
----
+Nexus is developed in Morocco and may be used internationally.
 
-## 12. Analytics and Telemetry
+Your local notes are not transferred to Nexus-operated servers merely because you use the local-first features of the Software.
 
-Nexus is designed to avoid unnecessary analytics and telemetry in the core desktop application.
+If you use the AI Assistant, your account information and request content are processed by the Nexus Cloud Service and applicable third-party providers. Those providers may operate in countries other than the country where you live.
 
-Nexus does not intentionally collect the contents of your local notes, workspace, or local search index for analytics purposes.
+Depending on where you live, you may have legal rights concerning personal information, including rights to access, correction, deletion, restriction, objection, portability, or other rights provided by applicable law.
 
-The Nexus Cloud Service does record usage metadata (token counts, timestamps, rate-limit counters) associated with your account as described in Section 1a, which is necessary to operate that service — this is distinct from general analytics or telemetry about your device or app usage.
+You can delete your Nexus Cloud account through the available settings and may contact Nexus to request access to or correction of account information.
 
-If future versions of Nexus introduce optional or necessary telemetry, diagnostics, crash reporting, or additional analytics, Nexus will provide appropriate information about such functionality and, where required, obtain appropriate consent or provide applicable controls.
+Your local notes workspace is under your direct control and is not something Nexus can access, export, or delete for you through the Nexus Cloud Service.
 
----
+Nothing in this policy limits rights that cannot legally be limited.
 
-## 13. Crash Reports and Diagnostics
+## 16. Changes to This Privacy Policy
 
-Nexus may in the future provide optional diagnostic or crash-reporting functionality.
+This policy may be updated from time to time.
 
-If such functionality is introduced, the information collected will be described in the applicable documentation or user interface.
+For material changes, Nexus may provide reasonable notice through the Website, Software, or another suitable method where required by law.
 
-Nexus does not intentionally include the contents of your private workspace in a crash report unless you explicitly choose to provide that information.
+The "Last updated" date above shows when this policy was most recently revised.
 
----
-
-## 14. Security
-
-Nexus is designed to minimize unnecessary transmission of user data, but the AI Assistant necessarily depends on the Nexus Cloud Service described in Section 4.
-
-No software or computer system can be guaranteed to be completely secure.
-
-Your device, operating system, installed software, network connection, the Nexus Cloud Service, the third-party AI provider, browser websites, and other third-party services may introduce security risks outside Nexus's control.
-
-You are responsible for:
-
-- Securing your device;
-- Using appropriate operating-system security;
-- Protecting your Nexus Cloud account credentials and API key;
-- Maintaining backups;
-- Keeping software updated; and
-- Deciding what information to submit to the AI Assistant or to external websites.
-
----
-
-## 15. Children's Privacy
-
-Nexus is not specifically directed at children.
-
-You should not use Nexus, or create a Nexus Cloud account, in violation of applicable age requirements or laws in your jurisdiction.
-
-If you are a parent or guardian and believe a child has provided personal information to Nexus (for example, by creating a Nexus Cloud account), you may contact us using the information below.
-
----
-
-## 16. International Users
-
-Nexus is developed by Nawrass Andaloussi Dahman in Morocco and may be used internationally.
-
-Your local notes workspace is not transferred to Nexus-operated servers in another country by default.
-
-If you use the AI Assistant, your account information and request content are processed by the Nexus Cloud Service and the third-party AI provider it uses, which may operate in countries different from your own.
-
----
-
-## 17. Your Privacy Rights
-
-Depending on where you live, you may have legal rights concerning personal information processed by a service provider, including the account information (such as your email address) processed by the Nexus Cloud Service.
-
-You may request access to, correction of, or deletion of your Nexus Cloud account information by contacting us using the information below.
-
-Because your local notes workspace is not stored on Nexus-operated servers, it remains under your direct control on your device and is not something Nexus can access, export, or delete on your behalf.
-
-Nothing in this Privacy Policy is intended to limit rights that cannot legally be limited under applicable law.
-
----
-
-## 18. Changes to This Privacy Policy
-
-This Privacy Policy may be updated from time to time.
-
-If material changes are made, we may provide notice through the Nexus website, Software, repository, or another appropriate method.
-
-The "Last Updated" date at the beginning of this Privacy Policy indicates when it was most recently revised.
-
----
-
-## 19. Contact
+## 17. Contact
 
 Privacy questions and requests may be directed to:
 
@@ -292,5 +211,3 @@ Developer and Creator of Nexus
 Morocco
 
 **Email:** getnexusupport@gmail.com
-
----
