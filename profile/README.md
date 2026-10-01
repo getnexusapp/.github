@@ -133,6 +133,7 @@ Nexus is proprietary, closed-source software developed and owned by **Nawrass An
 
 For more information:
 
-- [LICENSE.md](https://github.com/getnexusapp/.github/blob/main/LICENSE.md)
-- [EULA.md](https://github.com/getnexusapp/.github/blob/main/EULA.md)
-- [PRIVACY_POLICY.md](https://github.com/getnexusapp/.github/blob/main/PRIVACY_POLICY.md)
+- [SOFTWARE LICENSE](https://github.com/getnexusapp/.github/blob/main/LICENSE.md)
+- [EULA](https://github.com/getnexusapp/.github/blob/main/EULA.md)
+- [PRIVACY POLICY](https://github.com/getnexusapp/.github/blob/main/PRIVACY_POLICY.md)
+- [TERMS OF SERVICE](https://github.com/getnexusapp/.github/blob/main/TERMS_SERVICE.md)
