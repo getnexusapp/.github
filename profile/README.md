@@ -124,7 +124,7 @@ You decide when the Assistant can access your information, and you can disable a
 
 - **Markdown export:** every note as a `.md` file in a `.zip`, arranged in your folder structure, with a small metadata header and images included as attachments.
 - **PDF export:** any single note as a PDF, made entirely on your device.
-- **Backup:** your whole workspace as one `.db` file, including preferences and bookmarks. Backups are only made when you choose to.
+- **Backup:** your whole workspace as one `.nexus` file, including preferences and bookmarks. Backups are only made when you choose to.
 - **Restore:** pick a backup and Nexus checks that it is a valid SQLite database before replacing anything, and the restore takes effect after you restart the app.
 
 ## License
