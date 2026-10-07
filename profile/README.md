@@ -5,7 +5,7 @@
   <p>One App. Everything Connected.</p>
 
   <p>
-    <a href="https://letnexusout.vercel.app/">Website</a> ·
+    <a href="https://nexusworkspace.net/">Website</a> ·
     <a href="https://github.com/getnexusapp/releases/releases/">Download</a> ·
     <a href="https://github.com/getnexusapp/releases/issues">Report an issue</a> ·
     <a href="https://github.com/getnexusapp/docs">Documentation</a> ·
