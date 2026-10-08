@@ -24,7 +24,7 @@ For purposes of this Agreement:
 
 ### "Nexus Application" or "Application"
 
-"Nexus Application" means the official Nexus software applications made available by the Operator for supported desktop and mobile platforms, including Windows, macOS, Linux, iOS, and Android, together with updates, upgrades, and related components provided by the Operator.
+"Nexus Application" means the official Nexus software applications made available by the Operator for supported desktop platforms, including Windows and any other desktop platforms the Operator makes available, together with updates, upgrades, and related components provided by the Operator.
 
 ### "Software"
 
@@ -109,7 +109,7 @@ The Operator will not sell Your Content.
 
 The Operator does not use Your Content to train general-purpose AI models operated by the Operator.
 
-AI requests may nevertheless be transmitted to independent Third-Party Providers for processing as described in this Agreement and the Nexus Privacy Policy. Those providers may process information under their own applicable terms and policies.
+AI requests may nevertheless be transmitted to independent Third-Party Providers for processing as described in this Agreement and the Nexus Privacy Policy. Those providers may process information under their own applicable terms and policies, which may include using that information to train their models, as described in Section 5(c) and the Nexus Privacy Policy.
 
 You are responsible for ensuring that you have the necessary rights and permissions to use, upload, transmit, or process Your Content through Nexus.
 
@@ -187,6 +187,16 @@ Third-Party Providers may have their own privacy policies, terms, retention prac
 
 The Operator will use commercially reasonable efforts to select providers appropriate for the services Nexus provides, but cannot guarantee the policies or practices of an independent provider.
 
+#### Google Model Training and Your Consent
+
+The AI Assistant currently uses Google's Gemini models. Content included in AI Assistant requests forwarded through the Nexus Cloud Service may be used by Google to train and improve its models, under Google's own terms and policies.
+
+**BY CREATING A NEXUS CLOUD ACCOUNT OR USING THE AI ASSISTANT, YOU ACKNOWLEDGE AND AGREE THAT GOOGLE MAY USE CONTENT SENT THROUGH NEXUS CLOUD AI REQUESTS TO TRAIN AND IMPROVE ITS MODELS. IF YOU DO NOT AGREE, DO NOT CREATE A NEXUS CLOUD ACCOUNT OR USE THE AI ASSISTANT.**
+
+The Operator does not itself use Your Content to train AI models and does not control how Google uses information it receives. Content that remains only on your device, including notes marked "AI: Off" (except for anything you type or paste into the AI Assistant yourself) and content processed by on-device models, is not sent to Google through the Nexus Cloud Service.
+
+You may stop at any time by ceasing to use the AI Assistant or deleting your Nexus Cloud account. However, the Operator cannot recall content that has already been sent to Google, and deleting your account does not reverse any use Google has already made of that content. You are responsible for not submitting confidential information, information you do not have the right to share, or other people's personal information to the AI Assistant.
+
 #### Web Search
 
 Where AI or another Nexus feature uses web search, search queries may be transmitted to a Third-Party Provider.
@@ -207,7 +217,7 @@ The Operator may change such limits from time to time.
 
 Some Nexus features require a Nexus Cloud account.
 
-Accounts may be created and accessed using supported third-party authentication providers, including Google or GitHub.
+Accounts are created and accessed by signing in with a supported third-party authentication provider, currently Google or GitHub. If you sign in with a provider and no Nexus Cloud account exists for you, Nexus creates one automatically; if you already have an account, you are signed in to it.
 
 Nexus does not receive or store your authentication-provider password.
 
@@ -297,6 +307,8 @@ Depending on the feature:
 - page text may be included in an AI request and transmitted to the Nexus Cloud Service.
 
 The exact behavior is described in the applicable Nexus product settings and documentation.
+
+Some local browser functionality, such as conflict detection, may read page text on your device even when "Aware of tabs" is turned off. Turning that setting off prevents page text from being included automatically in AI Assistant requests through that feature. See the Nexus Privacy Policy for details.
 
 You are responsible for deciding whether to enable these features and for determining whether information displayed in your browser is appropriate to transmit to an AI service.
 
