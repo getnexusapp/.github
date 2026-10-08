@@ -1,22 +1,22 @@
 # Nexus Terms of Service
 
-**Last updated: October 1, 2026**
+**Last Updated: October 8, 2026**
 
-These Terms of Service ("Terms") are a legal agreement between you, either an individual or an entity you represent ("You" or "User"), and **Nawrass Andaloussi Dahman**, an individual developer based in Morocco and the creator and current operator of Nexus ("Nexus," "we," "us," or "our").
+These Terms of Service ("Terms") are a legal agreement between you, either an individual or an entity you represent ("You" or "User"), and **Nawrasse Andaloussi Dahman**, an individual developer based in Morocco and the creator and current operator of Nexus ("Nexus," "we," "us," or "our").
 
-These Terms govern your use of the Nexus website and the Nexus Cloud Service. Your use of the Nexus desktop application is additionally governed by the **Nexus End User License Agreement ("EULA")**.
+These Terms govern your use of the Nexus website and the Nexus Cloud Service. Your use of the Nexus desktop application is additionally governed by the **Nexus End User License Agreement ("EULA")** and the Nexus Software License.
 
-> **Nexus is currently an independently developed product operated by Nawrass Andaloussi Dahman. No corporation named "Nexus, Inc." operates the Software or is a party to these Terms. If Nexus is later transferred to or operated by a separate legal entity, these Terms may be updated to identify that entity.**
+**Nexus is currently an independently developed product operated by Nawrasse Andaloussi Dahman. No corporation named "Nexus, Inc." operates the Software or is a party to these Terms. If Nexus is later transferred to or operated by a separate legal entity, these Terms may be updated to identify that entity.**
 
-> **BY ACCESSING OR USING THE NEXUS WEBSITE OR NEXUS CLOUD SERVICE, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THESE TERMS. IF YOU DO NOT AGREE, DO NOT ACCESS OR USE THE WEBSITE OR NEXUS CLOUD SERVICE.**
+**BY ACCESSING OR USING THE NEXUS WEBSITE OR NEXUS CLOUD SERVICE, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THESE TERMS. IF YOU DO NOT AGREE, DO NOT ACCESS OR USE THE WEBSITE OR NEXUS CLOUD SERVICE.**
 
 ---
 
 ## 1. Scope and Document Hierarchy
 
-These Terms apply primarily to the Nexus website and the Nexus Cloud Service. The EULA governs your license to and use of the Nexus desktop application and related installed Software.
+These Terms apply primarily to the Nexus website and, together with the EULA, to the Nexus Cloud Service. The EULA governs your license to and use of the Nexus desktop application and related installed Software, and the Nexus Software License supplements the EULA with respect to intellectual-property rights in the proprietary Software.
 
-If these Terms conflict with the EULA, the EULA controls with respect to the desktop Software and your license to use it. These Terms control with respect to the Nexus website and the Nexus Cloud Service.
+If these Terms conflict with the EULA, the EULA controls with respect to the desktop Software, your license to use it, and your use of the Nexus Cloud Service through the Software. These Terms control with respect to the Nexus website and any other use of the Nexus Cloud Service.
 
 The Nexus Privacy Policy governs the processing of personal information described in that policy. The Privacy Policy does not grant a license to the Software or create rights concerning intellectual property.
 
@@ -26,13 +26,13 @@ Nothing in these Terms, the EULA, or the Privacy Policy limits or excludes any r
 
 **"Nexus Website"** means the websites and web pages operated by Nexus, including pages through which the Software or related information may be made available.
 
-**"Nexus Cloud Service"** means the backend service operated by Nexus that provides optional AI Assistant functionality, account creation and sign-in, forwarding of AI requests to third-party providers, web search for the Assistant, usage tracking, rate limiting, and password-reset functionality.
+**"Nexus Cloud Service"** means the backend service operated by Nexus that provides optional AI Assistant functionality, account creation and sign-in, forwarding of AI requests to third-party providers, web search for the Assistant, usage tracking, and rate limiting.
 
 **"Software"** means the Nexus desktop application, as defined more fully in the EULA.
 
 **"Your Content"** means notes, text, images, files, bookmarks, AI conversation history, browser-related content, and other content that you create, import, access, or store through Nexus.
 
-**"Third-Party Provider"** means an external service used with Nexus, including the AI model provider (currently Google through its Gemini models), web search provider (currently Jina AI), email delivery provider (currently Resend), hosting provider (currently Cloudflare), and favicon provider (currently DuckDuckGo).
+**"Third-Party Provider"** means an external service used with Nexus, including the AI model provider (currently Google through its Gemini models), web search provider (currently Jina AI), sign-in providers (Google and GitHub), hosting provider (currently Cloudflare), and favicon provider (currently DuckDuckGo), and, for the Software, search, model-distribution, and update-distribution providers such as Brave Search, Hugging Face, jsDelivr, and GitHub.
 
 ## 3. Eligibility
 
@@ -46,7 +46,7 @@ The Nexus Cloud Service is an optional online service used primarily for the AI 
 
 The Nexus Cloud Service is currently hosted using Cloudflare infrastructure and may use associated databases and other infrastructure needed to operate the service.
 
-When you use the AI Assistant, the Nexus Cloud Service receives the information necessary to process your request and forwards applicable request content to a third-party AI provider, currently Google through its Gemini models.
+When you use the AI Assistant, the Nexus Cloud Service receives the information necessary to process your request and forwards applicable request content to a third-party AI provider, currently Google through its Gemini models. As explained in Section 7, Google may use that content to train its models.
 
 The AI Assistant may use web search. When it does, the search query may be sent to Jina AI, and the Nexus Cloud Service may retrieve relevant result content.
 
@@ -60,37 +60,52 @@ Nexus is designed as a local-first application. Notes, folders, tags, links, loc
 
 The AI Assistant is different. When you use it, information necessary to answer your request may be transmitted to the Nexus Cloud Service and third-party providers as described in these Terms and the Nexus Privacy Policy.
 
-Depending on your request and enabled features, an AI Assistant request may contain your new message, up to 20 prior conversation messages, relevant excerpts from a note, the full contents of a note when you specifically identify it by title, the current date and time, and text retrieved from pages open in the Nexus Browser when that text is included under the applicable browser settings.
+Depending on your request and enabled features, an AI Assistant request may contain your new message, up to 20 prior conversation messages, relevant excerpts from a note, up to a limited portion of a note's text when relevant-excerpt retrieval is unavailable, the full contents of a note when you specifically identify it by title, the current date and time, and text retrieved from pages open in the Nexus Browser when that text is included under the applicable browser settings.
+
+Notes that you mark "AI: Off" are not intentionally included in AI Assistant requests. However, "AI: Off" does not prevent transmission of anything you personally type, paste, or otherwise submit to the AI Assistant.
 
 You are responsible for determining whether information you submit to the AI Assistant is appropriate for transmission to the Nexus Cloud Service and its third-party providers.
 
 ## 6. Accounts and Credentials
 
-Some Nexus Cloud features require an account. Account information may include your email address, a salted password hash, a hash of your current API key, usage information, rate-limiting information, and temporary password-reset information.
+Some Nexus Cloud features require an account. Accounts are created and accessed only by signing in with Google or GitHub. If you sign in and no Nexus Cloud account exists for you, Nexus creates one automatically; if you already have an account, you are signed in to it. Nexus does not receive or store your Google or GitHub password.
 
-Your Nexus Cloud API key is stored on your device using your operating system's credential storage, such as Windows Credential Manager or the macOS Keychain.
+Account information may include your email address, the account identifier provided by your sign-in provider, a hash of your current API key, usage information, and rate-limiting information.
 
-Each successful sign-in may issue a new API key and invalidate the previous key. Nexus may limit the number of key regenerations available within a given period. Password-reset codes are temporary and may expire after 30 minutes.
+Your Nexus Cloud API key is stored on your device using your operating system's credential storage, such as Windows Credential Manager, the macOS Keychain, or equivalent secure storage on other supported platforms.
 
-You are responsible for protecting your device, account credentials, and API key and for activity occurring through your account, except to the extent caused by Nexus's own failure to maintain required security measures.
+Each successful sign-in may issue a new API key and invalidate the previous key. Nexus may limit the number of key regenerations available within a given period.
 
-**Deleting your account.** You may permanently delete your Nexus Cloud account through the available account settings. Account deletion removes the account record, usage history, and password-reset records from the Nexus Cloud Service and immediately invalidates the account's API key.
+You are responsible for protecting your device, your Google or GitHub account, your credentials, and your API key and for activity occurring through your account, except to the extent caused by Nexus's own failure to maintain required security measures.
 
-Rate-limiting counters, operational logs, and hosting-provider backups may remain for a limited period where necessary for security, accounting, abuse prevention, disaster recovery, or legal obligations. Deleting your Nexus Cloud account does not delete Your Content stored locally on your device.
+**Deleting your account.** You may permanently delete your Nexus Cloud account through the available account settings. Account deletion removes the account record and usage history from the Nexus Cloud Service and immediately invalidates the account's API key.
+
+Rate-limiting counters, operational logs, and hosting-provider backups may remain for a limited period where necessary for security, accounting, abuse prevention, disaster recovery, dispute resolution, record-keeping, or legal obligations. Deleting your Nexus Cloud account does not delete Your Content stored locally on your device.
 
 ## 7. Third-Party Providers
 
 Nexus uses independent third-party providers to operate portions of the Nexus Cloud Service and related functionality.
 
 - **Google / Gemini:** provides the third-party AI models used by the AI Assistant.
+- **Google and GitHub (sign-in):** authentication providers used to create and access Nexus Cloud accounts.
 - **Jina AI:** may provide web search functionality for AI Assistant requests.
-- **Resend:** may provide password-reset or other transactional email delivery.
 - **Cloudflare:** provides hosting and infrastructure for the Nexus Cloud Service.
+- **Brave Search:** receives non-URL queries typed into the Nexus Browser address bar.
 - **DuckDuckGo:** may provide favicon services used by the Nexus Browser.
+- **Hugging Face and jsDelivr:** may distribute on-device model files and related components.
+- **GitHub:** may provide update distribution and website or repository hosting.
 
 These providers operate independently from Nexus and may process information under their own terms and policies. Nexus does not control the internal processing practices of third-party providers.
 
 Nexus does not provide your own API credentials to third-party AI providers through the Nexus Cloud Service. Nexus uses credentials associated with its own service.
+
+### Google Model Training and Your Consent
+
+The AI Assistant currently uses Google's Gemini models. Content included in AI Assistant requests forwarded through the Nexus Cloud Service may be used by Google to train and improve its models, under Google's own terms and policies.
+
+**BY CREATING A NEXUS CLOUD ACCOUNT OR USING THE AI ASSISTANT, YOU ACKNOWLEDGE AND AGREE THAT GOOGLE MAY USE CONTENT SENT THROUGH NEXUS CLOUD AI REQUESTS TO TRAIN AND IMPROVE ITS MODELS. IF YOU DO NOT AGREE, DO NOT CREATE A NEXUS CLOUD ACCOUNT OR USE THE AI ASSISTANT.**
+
+Nexus does not itself use Your Content to train AI models and does not control how Google uses information it receives. Nexus cannot recall content that has already been sent to Google. See Section 5(c) of the EULA and Section 4 of the Nexus Privacy Policy for details, including what stays on your device.
 
 ## 8. Built-In Browser
 
@@ -110,18 +125,18 @@ You may not use Nexus or the Nexus Cloud Service to violate applicable law or th
 
 You may not:
 
-- Use the Nexus Cloud Service to facilitate unlawful activity;
-- Attempt to gain unauthorized access to Nexus accounts, systems, or infrastructure;
-- Circumvent or interfere with usage limits, rate limits, or security mechanisms;
-- Use automated scripts or other mechanisms to abuse the Nexus Cloud Service;
-- Use the Nexus Cloud Service to transmit malware or malicious code;
-- Intentionally interfere with the availability or operation of the service;
-- Use another person's account or credentials without authorization; or
-- Use the service in a manner that infringes another person's intellectual-property, privacy, or other rights.
+- use the Nexus Cloud Service to facilitate unlawful activity;
+- attempt to gain unauthorized access to Nexus accounts, systems, or infrastructure;
+- circumvent or interfere with usage limits, rate limits, or security mechanisms;
+- use automated scripts or other mechanisms to abuse the Nexus Cloud Service;
+- use the Nexus Cloud Service to transmit malware or malicious code;
+- intentionally interfere with the availability or operation of the service;
+- use another person's account or credentials without authorization; or
+- use the service in a manner that infringes another person's intellectual-property, privacy, or other rights.
 
 ## 10. Intellectual Property
 
-Nexus, including its software, interface, branding, logos, design, documentation, and other original materials, is owned by or licensed to Nawrass Andaloussi Dahman and is protected by applicable intellectual property laws.
+Nexus, including its software, interface, branding, logos, design, documentation, and other original materials, is owned by or licensed to Nawrasse Andaloussi Dahman and is protected by applicable intellectual property laws.
 
 Except for the rights expressly granted under the EULA, no ownership or other intellectual-property rights in Nexus are transferred to you.
 
@@ -151,7 +166,7 @@ Clearing local application data or uninstalling the Software may remove local co
 
 ## 14. Disclaimers
 
-> **TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE NEXUS WEBSITE, SOFTWARE, AND NEXUS CLOUD SERVICE ARE PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTIES OF ANY KIND, EXPRESS, IMPLIED, OR STATUTORY.**
+**TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE NEXUS WEBSITE, SOFTWARE, AND NEXUS CLOUD SERVICE ARE PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTIES OF ANY KIND, EXPRESS, IMPLIED, OR STATUTORY.**
 
 Nexus disclaims implied warranties including merchantability, fitness for a particular purpose, title, and non-infringement to the extent permitted by law.
 
@@ -165,29 +180,33 @@ Nothing in these Terms excludes or limits any warranty, remedy, or right that ca
 
 ## 15. Limitation of Liability
 
-To the maximum extent permitted by law, Nawrass Andaloussi Dahman will not be liable for any indirect, incidental, special, consequential, exemplary, or punitive damages, or for loss of profits, revenue, business opportunities, goodwill, or data, arising from or related to the Nexus Website, Software, Nexus Cloud Service, or these Terms.
+To the maximum extent permitted by law, Nawrasse Andaloussi Dahman will not be liable for any indirect, incidental, special, consequential, exemplary, or punitive damages, or for loss of profits, revenue, business opportunities, goodwill, or data, arising from or related to the Nexus Website, Software, Nexus Cloud Service, or these Terms.
 
-To the maximum extent permitted by law, the aggregate liability of Nawrass Andaloussi Dahman for claims arising from or relating to the Nexus Website, Software, Nexus Cloud Service, or these Terms will not exceed the greater of:
+To the maximum extent permitted by law, the aggregate liability of Nawrasse Andaloussi Dahman for claims arising from or relating to the Nexus Website, Software, Nexus Cloud Service, or these Terms will not exceed the greater of:
 
-- The total amount you paid to Nexus for the relevant service during the twelve months immediately preceding the event giving rise to the claim; or
+- the total amount you paid to Nexus for the relevant service during the twelve months immediately preceding the event giving rise to the claim; or
 - USD $100.
+
+This limit applies in the aggregate across these Terms and the EULA and is not cumulative across the two.
 
 This limitation does not apply to liability that cannot legally be limited or excluded under applicable law.
 
 ## 16. Indemnification
 
-To the extent permitted by law, you agree to indemnify and hold harmless Nawrass Andaloussi Dahman from claims, liabilities, damages, losses, and reasonable expenses arising directly from:
+To the extent permitted by law, you agree to indemnify and hold harmless Nawrasse Andaloussi Dahman from claims, liabilities, damages, losses, and reasonable expenses arising directly from:
 
-- Your unlawful use of the Nexus Website, Software, or Nexus Cloud Service;
-- Your material breach of these Terms;
-- Your violation of applicable law; or
-- Your infringement of a third party's rights through content you intentionally transmit or use through Nexus.
+- your unlawful use of the Nexus Website, Software, or Nexus Cloud Service;
+- your material breach of these Terms;
+- your violation of applicable law; or
+- your infringement of a third party's rights through content you intentionally transmit or use through Nexus.
 
-This section does not apply to the extent a claim results from the Operator's own unlawful conduct or where indemnification is prohibited by law.
+This section does not apply to the extent a claim results from Nexus's own unlawful conduct, fraud, or intentional misconduct, or where indemnification is prohibited by law.
 
 ## 17. Suspension and Termination
 
 Nexus may suspend or terminate your access to the Nexus Cloud Service if you materially breach these Terms, use the service unlawfully, abuse usage limits, compromise service security, or otherwise create a material risk to Nexus or other users, subject to applicable law.
+
+Section 11 of the EULA, including the notice and opportunity to remedy it provides where reasonably practicable, also applies to suspension or termination in connection with the Software.
 
 You may stop using the Nexus Website or Nexus Cloud Service at any time. You may also delete your Nexus Cloud account without deleting local content stored on your device.
 
@@ -207,9 +226,9 @@ Nothing in this section deprives you of mandatory rights or remedies that cannot
 
 ### (a) Entire Agreement
 
-These Terms, the EULA, and the Nexus Privacy Policy, together with any additional terms expressly incorporated by reference, form the agreement between you and Nexus concerning the subjects they cover.
+These Terms, the EULA, the Nexus Software License, and the Nexus Privacy Policy, together with any additional terms expressly incorporated by reference, form the agreement between you and Nexus concerning the subjects they cover.
 
-The documents are intended to operate together. The EULA controls matters specifically concerning the desktop Software and its license; these Terms control matters specifically concerning the Nexus Website and Nexus Cloud Service; and the Privacy Policy controls matters concerning the processing of personal information.
+The documents are intended to operate together. The EULA controls matters specifically concerning the desktop Software, its license, and use of the Nexus Cloud Service through the Software; the Nexus Software License supplements the EULA concerning intellectual-property rights in the proprietary Software; these Terms control matters specifically concerning the Nexus Website and any other use of the Nexus Cloud Service; and the Privacy Policy controls matters concerning the processing of personal information.
 
 ### (b) Severability
 
@@ -245,24 +264,24 @@ Your use of the Nexus Website, Software, and Nexus Cloud Service is also subject
 
 The Privacy Policy explains what information remains on your device, what information is processed by the Nexus Cloud Service, what information may be sent to third-party providers, and how account information is handled.
 
-[Nexus Privacy Policy](/PRIVACY_POLICY.md)
+[Nexus Privacy Policy](https://nexusworkspace.net/privacy-policy)
 
 ## 21. Third-Party Licenses
 
 Nexus includes third-party software, models, fonts, and other components distributed under separate licenses, which may grant rights independent of these Terms.
 
-Where required, notices are provided with the Software or in the Nexus repository. Nothing in these Terms limits rights granted to you under applicable open-source or third-party licenses.
+Where required, notices are provided with the Software, within the application, or through associated documentation or repositories. Nothing in these Terms limits rights granted to you under applicable open-source or third-party licenses.
 
 ## 22. Contact
 
 Questions regarding these Terms may be directed to:
 
-**Nawrass Andaloussi Dahman**  
-Developer and Creator of Nexus  
+**Nawrasse Andaloussi Dahman**  
+Operator of Nexus  
 Morocco
 
-**Email:** getnexusupport@gmail.com
+**Email:** [support@nexusworkspace.net](mailto:support@nexusworkspace.net)
 
 ---
 
-**Copyright © 2026 Nawrass Andaloussi Dahman. All Rights Reserved.**
+**Copyright © 2026 Nawrasse Andaloussi Dahman. All Rights Reserved.**
