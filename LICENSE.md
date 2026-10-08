@@ -6,7 +6,7 @@
 
 This Nexus Software License ("License") governs the license granted to you for the proprietary software components of Nexus. Nexus is created and developed by **Nawrasse Andaloussi Dahman**, an independent developer based in Morocco.
 
-Nexus is a proprietary application, available for supported desktop and mobile platforms, that provides a local notes workspace, built-in web browser, knowledge graph, and optional AI Assistant. This License applies to the proprietary portions of the Nexus application and related software components, including versions 6.1.0 and later, unless a later version is accompanied by different license terms.
+Nexus is a proprietary desktop application that provides a local notes workspace, built-in web browser, knowledge graph, and optional AI Assistant. This License applies to the proprietary portions of the Nexus application and related software components, including versions 6.1.0 and later, unless a later version is accompanied by different license terms.
 
 **Nexus is not open-source software.** Except for third-party components distributed under their own licenses, no right to copy, modify, distribute, publish, sublicense, or create derivative works from Nexus is granted except as expressly provided by this License, the Nexus End User License Agreement ("EULA"), applicable third-party licenses, or a separate written agreement signed by Nawrasse Andaloussi Dahman.
 
