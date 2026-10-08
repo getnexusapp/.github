@@ -467,7 +467,7 @@ To the maximum extent permitted by applicable law, the Operator's total aggregat
 1. the total amount you actually paid to the Operator for the relevant Nexus service during the twelve months immediately preceding the event giving rise to the claim; or
 2. **USD $100**.
 
-This limitation applies regardless of the legal theory on which liability is asserted, including contract, tort, negligence, strict liability, or otherwise, except to the extent applicable law prohibits such limitation.
+This limitation applies regardless of the legal theory on which liability is asserted, including contract, tort, negligence, strict liability, or otherwise, except to the extent applicable law prohibits such limitation. This limit applies in the aggregate across this Agreement and the Nexus Terms of Service and is not cumulative across the two.
 
 Nothing in this Agreement excludes or limits liability that cannot legally be excluded or limited, including liability for fraud, intentional misconduct, or other liability that applicable law makes non-excludable.
 
@@ -580,7 +580,7 @@ This Agreement, together with the Nexus Privacy Policy, Nexus Terms of Service w
 
 If there is a conflict:
 
-- this Agreement controls matters concerning the Software license and the permitted use of the Software and Nexus Cloud Service, and the Nexus Software License otherwise supplements this Agreement concerning intellectual-property rights in the proprietary Software;
+- this Agreement controls matters concerning the Software license and the permitted use of the Software and of the Nexus Cloud Service through the Software, and the Nexus Software License otherwise supplements this Agreement concerning intellectual-property rights in the proprietary Software;
 - the Nexus Privacy Policy controls matters concerning personal-information processing;
 - the Nexus Terms of Service control matters specifically concerning the Nexus website or services expressly governed by those Terms; and
 - separate third-party licenses control the components to which those licenses apply.
