@@ -1,293 +1,644 @@
 # Nexus End User License Agreement
 
-**Last Updated: October 1, 2026**
+**Last Updated: October 8, 2026**
 
-This End User License Agreement ("Agreement") is a legal agreement between you, either an individual or an entity you represent ("You" or "User"), and **Nawrass Andaloussi Dahman**, an individual developer based in Morocco and the creator and operator of the Nexus software ("Operator," "We," "Us," or "Our").
+This End User License Agreement ("**Agreement**") is a legal agreement between you, either an individual or an entity you represent ("**You**," "**User**," or "**your**"), and **Nawrasse Andaloussi Dahman**, an individual developer based in Morocco and the creator and operator of the Nexus software ("**Operator**," "**we**," "**us**," or "**our**").
 
-> **Nexus is currently an independently developed product operated by Nawrass Andaloussi Dahman. No corporation named "Nexus, Inc." operates the Software or is a party to this Agreement. If Nexus is later transferred to or operated by a separate legal entity, this Agreement may be updated accordingly.**
+Nexus is currently an independently developed product operated by Nawrasse Andaloussi Dahman. No corporation named "Nexus, Inc." operates the Software or is a party to this Agreement. If Nexus is later transferred to, owned by, or operated by a separate legal entity, this Agreement may be updated accordingly.
 
-> **BY DOWNLOADING, INSTALLING, ACCESSING, OR USING THE SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THIS AGREEMENT. IF YOU DO NOT AGREE, DO NOT DOWNLOAD, INSTALL, ACCESS, OR USE THE SOFTWARE.**
+**BY DOWNLOADING, INSTALLING, ACCESSING, OR USING THE SOFTWARE OR NEXUS CLOUD SERVICE, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THIS AGREEMENT. IF YOU DO NOT AGREE TO THIS AGREEMENT, DO NOT DOWNLOAD, INSTALL, ACCESS, OR USE THE SOFTWARE OR NEXUS CLOUD SERVICE.**
 
-This Agreement governs your download, installation, access to, and use of the Nexus Application on supported desktop and mobile devices, including its software, features, updates, and accompanying documentation, as well as your use of the Nexus Cloud Service described in Section 5, where applicable.
+If you enter into this Agreement on behalf of an organization, you represent that you have authority to bind that organization to this Agreement.
+
+This Agreement governs your use of the Nexus applications and, where applicable, the Nexus Cloud Service. Your use of the Nexus website may additionally be governed by the Nexus Terms of Service. The processing of personal information is governed by the Nexus Privacy Policy.
 
 ---
 
 ## 1. Definitions
 
-**"Nexus"** means the software, applications, services, and related products made available by the Operator under the Nexus name.
+For purposes of this Agreement:
 
-**"Nexus Application"** means the official Nexus software applications made available by the Operator for supported desktop and mobile platforms, including Windows, macOS, Linux, iOS, and Android, together with any updates, upgrades, and related components provided by the Operator.
+### "Nexus"
 
-**"Software"** means the Nexus Application in object-code form, including its features, user interface, notes editor, built-in browser, knowledge graph, AI Assistant interface, updates, documentation, and other components made available as part of the Nexus Application. It does not include source code that is not expressly licensed to you.
+"Nexus" means the software, applications, cloud services, features, and related products made available by the Operator under the Nexus name.
 
-**"Your Content"** means notes, text, images, files, bookmarks, AI conversation history, browser-related content, and other content you create, import, access, or store using the Software.
+### "Nexus Application" or "Application"
 
-**"Nexus Cloud Service"** means the backend service operated by the Operator under the Nexus name, including the infrastructure and systems used to provide account creation and sign-in, AI request processing, forwarding of AI requests to third-party providers, web search for the Assistant, usage tracking, rate limiting, and password-reset email delivery.
+"Nexus Application" means the official Nexus software applications made available by the Operator for supported desktop and mobile platforms, including Windows, macOS, Linux, iOS, and Android, together with updates, upgrades, and related components provided by the Operator.
 
-**"Third-Party Provider"** means an external service or provider used with the Software or Nexus Cloud Service, including providers of AI models, web search, email delivery, hosting, content retrieval, authentication, analytics, or other infrastructure or services used to operate or support Nexus.
+### "Software"
 
-## 2. Grant of License
+"Software" means the Nexus Application in object-code form, including its features, user interface, notes editor, built-in browser, knowledge graph, AI Assistant interface, local functionality, updates, documentation, and other components made available as part of the Nexus Application.
 
-Subject to your compliance with this Agreement, the Operator grants you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to download, install, and use the Software in object-code form for your personal or internal business purposes on supported devices that you own or are authorized to control.
+The Software does not include source code that is not expressly made available to you under a separate license.
 
-This license does not transfer ownership of the Software or any intellectual property rights to you. All rights not expressly granted are reserved.
+### "Your Content"
 
-## 3. Restrictions
+"Your Content" means notes, text, images, files, bookmarks, AI conversation history, browser-related content, downloaded material, and other content that you create, import, access, or store using the Software.
 
-You shall not, and shall not knowingly permit or assist any third party to:
+### "Nexus Cloud Service" or "Cloud Service"
 
-- copy, modify, translate, or create derivative works based on the Software, except as expressly permitted by applicable law;
-- reverse engineer, decompile, disassemble, or attempt to derive source code from the Software, except to the extent applicable law expressly permits such activity;
-- distribute, sell, rent, lease, sublicense, or otherwise make the Software available to third parties;
-- remove or alter proprietary notices, copyright notices, or branding;
-- bypass, disable, defeat, or interfere with security mechanisms, authentication, rate limits, or usage restrictions;
-- use automated scripts, bots, or similar mechanisms to abuse or overload the Nexus Cloud Service;
-- use the Software or Nexus Cloud Service to develop or operate a competing service through unauthorized access to, extraction of, or use of the Software, Nexus Cloud Service, or their proprietary components;
-- use a Nexus Cloud API key outside the Nexus Software or in another application;
-- access the Nexus Cloud Service through means other than the Nexus application or other expressly authorized interfaces; or
-- use the Software or Nexus Cloud Service for unlawful purposes or to infringe the rights of others.
+"Nexus Cloud Service" means the backend services operated by the Operator under the Nexus name, including services used for account creation and authentication, AI request processing, forwarding requests to third-party providers, web search, usage tracking, security, rate limiting, and other cloud functionality expressly provided by Nexus.
 
-## 4. Ownership and Intellectual Property
+### "Third-Party Provider"
 
-The Software, including its object code, user interface, visual design, documentation, branding, and other proprietary components, is owned by or licensed to Nawrass Andaloussi Dahman and is protected by applicable intellectual property laws. Source code, where applicable, remains proprietary unless expressly made available under separate license terms.
-
-Your Content remains your property. Nothing in this Agreement transfers ownership of Your Content to the Operator.
-
-You grant the Operator only the limited rights necessary to provide the features and services you request, including processing AI Assistant requests through the Nexus Cloud Service and applicable third-party providers.
-
-## 5. Nexus Cloud Service and AI Assistant
-
-### (a) Local-First Architecture
-
-Nexus is designed as a local-first application. Your notes and local workspace are stored on your device unless you explicitly export or back them up elsewhere.
-
-Local data may include notes, folders, tags, links, images, version history, Trash contents, search indexes, embeddings, AI conversation history, browser settings, bookmarks, downloaded files, and other application data.
-
-### (b) On-Device Models
-
-Some Nexus features use small AI models that are downloaded to your device from public model-hosting infrastructure. Such models and the indexes they produce may operate locally without sending the underlying content to the Nexus Cloud Service.
-
-Third-party model hosts may be involved in downloading model files. The download process is separate from sending your notes or AI requests to the Nexus Cloud Service.
-
-### (c) AI Assistant Processing
-
-The AI Assistant requires a Nexus Cloud account and uses the Nexus Cloud Service.
-
-Depending on the request and enabled features, an AI Assistant request may contain:
-
-- your new message;
-- up to 20 prior conversation messages;
-- relevant excerpts from notes available to the Assistant;
-- the full contents of a note when you specifically identify that note by title;
-- the current date and time; and
-- text from pages open in Nexus Browser when that text is included under the applicable browser settings.
-
-The Nexus Cloud Service forwards applicable request content to a third-party AI provider using credentials controlled by the Operator.
-
-The AI model may search the web. Search queries may be sent to a third-party web-search provider, and the Nexus Cloud Service may retrieve the text of relevant result pages.
-
-The Nexus Cloud Service applies rolling usage limits and per-minute rate limits. The Operator may decline, delay, or restrict requests that exceed applicable limits and may change those limits.
-
-### (d) Nexus Cloud Account and Credential Storage
-
-Your API key is stored on your device using your operating system's credential storage, such as Windows Credential Manager or the macOS Keychain.
-
-Your account record, including your email address, a salted hash of your password, a hash of your API key, and usage information such as token counts and request timestamps, is stored by the Nexus Cloud Service.
-
-The service may also maintain temporary password-reset records and short-lived rate-limiting information. Operational logs maintained by the Operator or its hosting provider may contain request metadata such as IP addresses, timestamps, URLs, error information, or search-query fragments.
-
-You are responsible for protecting your device and credentials and for activity under your account, except to the extent caused by the Operator's own failure to maintain required security measures.
-
-**Deleting your account.** You can permanently delete your Nexus Cloud account from the available account settings. Upon account deletion, the Operator will delete or otherwise dispose of account information and associated records in accordance with the Nexus Privacy Policy, subject to information that may be retained for security, abuse prevention, disaster recovery, legal obligations, or other legitimate operational purposes.
-
-Rate-limiting counters, hosting-provider backups, and operational logs may remain for a limited period where necessary for security, abuse prevention, disaster recovery, or legal obligations.
-
-Deleting your account does not delete Your Content stored locally on your device.
-
-### (e) Third-Party Providers
-
-The Nexus Cloud Service relies on independent Third-Party Providers. The Operator selects and pays for these providers. You do not receive a separate account with those providers through the Nexus Cloud Service.
-
-The Operator does not control how third-party providers process information they receive and their own terms and policies may apply.
-
-### (f) Local AI Conversation History
-
-AI conversation history is saved locally as part of Your Content and is not maintained as a conversation-history database by the Nexus Cloud Service.
-
-The Nexus Cloud Service and applicable Third-Party Providers do, however, process the content of each AI request and the resulting response while that request is being generated.
-
-### (g) Built-In Browser
-
-The Nexus Browser connects your device directly to the websites you visit. Those websites operate under their own privacy policies and terms.
-
-Searches typed as non-URL queries into the browser address bar are sent to Brave Search. Site icons are requested from DuckDuckGo. Websites may store cookies and site data on your device.
-
-Nexus may retrieve and read the text of pages open in Nexus Browser tabs on your device even when the "Aware of tabs" setting is off. This allows local browser features, including conflict detection, to operate.
-
-Turning off "Aware of tabs" prevents that page text from being automatically included in AI Assistant requests and sent to the Nexus Cloud Service through that feature. It does not necessarily prevent local browser functionality from retrieving or analyzing page text.
-
-### (h) Data Transmission Summary
-
-Local operations such as notes storage, local search, version history, graph functionality, export, and local backup do not require transmission to the Nexus Cloud Service.
-
-Using the AI Assistant does require transmission of the information needed to process your request. Using the browser requires communication with the websites you visit and, where applicable, search and favicon services.
-
-You are responsible for determining what information you submit through the AI Assistant or to third-party websites.
-
-## 6. Nexus Cloud Accounts
-
-Some features require a Nexus Cloud account. You must provide accurate information when creating an account and must keep your credentials secure.
-
-Each successful sign-in may issue a new API key and invalidate the previous key. Nexus may limit API-key regeneration to three times within a relevant period.
-
-Password-reset codes may expire after 30 minutes and may only be used for their intended account.
-
-If you believe your account has been compromised, you should stop using the affected credentials and use the available account-reset or regeneration functionality.
-
-Account deletion does not delete local Your Content. See the Nexus Privacy Policy for additional information concerning account information and retention.
-
-## 7. Backups and Data Loss
-
-Nexus is local-first, and you are responsible for maintaining backups of important local content.
-
-Nexus may provide backup and export functionality, but you are responsible for verifying that backup and export files are complete and usable.
-
-The Operator does not guarantee recovery of local content following device failure, accidental deletion, corruption, operating-system failure, storage failure, or other events outside the Operator's reasonable control.
-
-Clearing application data, uninstalling the Software, or using a device-level cleanup tool may delete local content. You should make a backup before taking actions that may remove local data.
-
-## 8. Updates and Changes
-
-The Operator may provide updates, fixes, security patches, or new features and may modify or discontinue the Nexus Cloud Service.
-
-The Operator is not obligated to provide updates or continue supporting any particular version, feature, or the Nexus Cloud Service except as required by law.
-
-Unless an update has separate terms, this Agreement applies to updated versions of the Software.
-
-## 9. Term and Termination
-
-This Agreement begins when you first download, install, access, or use the Software and continues until terminated.
-
-The Operator may terminate or suspend your license, Nexus Cloud account, or access to the Nexus Cloud Service if you materially breach this Agreement, use the Software or service unlawfully, abuse usage limits, compromise service security, or otherwise create a material risk to the Operator or other users, subject to applicable law.
-
-You may terminate this Agreement at any time by uninstalling the Software and ceasing to use it. You may also stop using the AI Assistant or delete your Nexus Cloud account without affecting your local workspace.
-
-On termination, you must cease using the Software and, to the extent reasonably practicable, delete copies in your possession, except where retention is required by law or reasonably necessary for legitimate archival, backup, or record-keeping purposes.
-
-Termination does not delete Your Content from your device.
-
-Provisions concerning intellectual property, Third-Party Providers, disclaimers, limitations of liability, indemnification, privacy, and other provisions that by their nature should survive termination will remain in effect after termination.
-
-## 10. Disclaimer of Warranties
-
-> **TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SOFTWARE AND THE NEXUS CLOUD SERVICE ARE PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTIES OF ANY KIND, EXPRESS, IMPLIED, OR STATUTORY.**
-
-THE OPERATOR DISCLAIMS IMPLIED WARRANTIES INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT, AND DOES NOT WARRANT THAT THE SOFTWARE OR THE NEXUS CLOUD SERVICE WILL BE UNINTERRUPTED, ERROR-FREE, COMPLETELY SECURE, ALWAYS AVAILABLE, COMPATIBLE WITH EVERY DEVICE, FREE FROM DEFECTS, OR PREVENT DATA LOSS.
-
-THE OPERATOR DOES NOT GUARANTEE THE ACCURACY, COMPLETENESS, OR RELIABILITY OF RESPONSES GENERATED BY THE AI ASSISTANT, THE ON-DEVICE MODELS, OR THIRD-PARTY AI PROVIDERS, INCLUDING ANY "POSSIBLE CONFLICT" OR "RELATED NOTE" SUGGESTIONS.
-
-AI-generated information may be inaccurate, incomplete, or outdated and is not professional, legal, medical, financial, or other regulated professional advice. You are responsible for evaluating it before relying on it.
-
-> **YOU USE THE SOFTWARE AND THE NEXUS CLOUD SERVICE AT YOUR OWN RISK.**
-
-Nothing in this Agreement excludes or limits any warranty or right that cannot lawfully be excluded or limited.
-
-## 11. Limitation of Liability
-
-To the maximum extent permitted by law, the Operator will not be liable for any indirect, incidental, special, consequential, exemplary, or punitive damages, or for loss of profits, revenue, business opportunities, goodwill, or data, arising from or related to the Software, Nexus Cloud Service, or this Agreement.
-
-To the maximum extent permitted by law, the aggregate liability of the Operator for claims arising from or relating to the Software, Nexus Cloud Service, or this Agreement will not exceed the greater of:
-
-- the total amount you paid to Nexus for the relevant service during the twelve months immediately preceding the event giving rise to the claim; or
-- USD $100.
-
-This limitation does not apply to liability that cannot legally be limited or excluded under applicable law.
-
-## 12. Indemnification
-
-To the extent permitted by law, you agree to indemnify and hold harmless the Operator from claims, liabilities, damages, losses, and reasonable expenses arising directly from:
-
-- your unlawful use of the Software or Nexus Cloud Service;
-- your material breach of this Agreement;
-- your violation of applicable law; or
-- your infringement of a third party's rights through content you intentionally transmit or use through the Software or Nexus Cloud Service.
-
-This section does not apply to the extent a claim results from the Operator's own unlawful conduct or where indemnification is prohibited by law.
-
-## 13. Governing Law and Disputes
-
-Except to the extent mandatory law provides otherwise, this Agreement is governed by the laws of the Kingdom of Morocco, without regard to conflict-of-law principles.
-
-Subject to any mandatory consumer protections or other mandatory legal rights applicable to you, disputes arising from or relating to this Agreement, the Software, or the Nexus Cloud Service shall be submitted to the competent courts of the Kingdom of Morocco.
-
-Nothing in this section deprives you of mandatory rights or remedies that cannot legally be waived or restricted.
-
-## 14. General Provisions
-
-### (a) Entire Agreement
-
-This Agreement, together with the Nexus Privacy Policy and any additional terms expressly incorporated by reference, forms the agreement between you and the Operator concerning the Software and the Nexus Cloud Service.
-
-The Nexus Terms of Service separately govern the Nexus Website and any other services or features expressly covered by those Terms. If there is a conflict concerning the Software or the license granted under this Agreement, this Agreement controls. If there is a conflict concerning the processing of personal information, the Nexus Privacy Policy controls to the extent applicable. If there is a conflict concerning the Website, the Nexus Terms of Service control.
-
-### (b) Severability
-
-If any provision is found invalid or unenforceable, it will be enforced to the maximum extent permitted by law, and the remaining provisions will remain in effect.
-
-### (c) No Waiver
-
-Failure to enforce any provision is not a waiver of that provision or any other provision.
-
-### (d) Assignment
-
-You may not assign or transfer your rights or obligations without the Operator's prior written consent, except where such a restriction is prohibited by law.
-
-The Operator may assign this Agreement in connection with a reorganization, sale, merger, acquisition, transfer of the Software or Nexus Cloud Service, or establishment of a successor legal entity.
-
-### (e) Modifications
-
-The Operator may update this Agreement from time to time. For material changes, the Operator may provide reasonable notice through the Software, Website, or another suitable method where required by law.
-
-Continued use after an update takes effect constitutes acceptance to the extent permitted by law.
-
-### (f) Export Compliance
-
-You agree to use the Software and Nexus Cloud Service in compliance with applicable export-control, sanctions, and trade laws.
-
-### (g) Eligibility
-
-You must have the legal capacity to enter into this Agreement and must be at least 16 years old.
-
-If you enter into this Agreement for an organization, you represent that you have authority to bind that organization.
-
-### (h) No Partnership or Agency
-
-Nothing in this Agreement creates a partnership, joint venture, employment, agency, or fiduciary relationship between you and the Operator.
-
-## 15. Privacy
-
-Your use of the Software and Nexus Cloud Service is also governed by the **Nexus Privacy Policy**.
-
-The Privacy Policy distinguishes information stored locally on your device from account and usage information processed by the Nexus Cloud Service and information sent to Third-Party Providers on your behalf.
-
-[Nexus Privacy Policy](/PRIVACY_POLICY.md)
-
-## 16. Third-Party Licenses
-
-Nexus includes third-party software, models, fonts, and other components distributed under separate licenses, which may grant rights independent of this Agreement.
-
-Where required, notices are provided with the Software or in the Nexus repository. Nothing in this Agreement limits rights granted to you under applicable open-source licenses.
-
-## 17. Contact
-
-Questions regarding this Agreement may be directed to:
-
-**Nawrass Andaloussi Dahman**  
-Operator of Nexus  
-Morocco
-
-**Email:** [getnexusupport@gmail.com](mailto:getnexusupport@gmail.com)
+"Third-Party Provider" means an independent service provider used with the Software or Nexus Cloud Service, including providers of AI models, web search, authentication, hosting, content retrieval, email delivery, analytics, model distribution, infrastructure, or other services used to operate or support Nexus.
 
 ---
 
-**Copyright © 2026 Nawrass Andaloussi Dahman. All Rights Reserved.**
+# 2. License Grant
+
+Subject to your compliance with this Agreement, the Operator grants you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to download, install, and use the Software in object-code form:
+
+1. for your personal purposes; or
+2. for the internal business purposes of an organization you represent,
+
+on supported devices that you own, lease, or are otherwise authorized to control.
+
+This license does not transfer ownership of the Software or any intellectual property rights to you.
+
+You may make reasonable backup copies of the Software solely for archival purposes, provided that such copies remain subject to this Agreement and are not distributed to third parties.
+
+Except for the rights expressly granted in this Agreement or rights that cannot legally be restricted, all rights in and to the Software are reserved by the Operator and its licensors.
+
+---
+
+# 3. License Restrictions
+
+Except to the extent expressly permitted by applicable law or by a separate written license, you shall not, and shall not knowingly permit or assist another person to:
+
+1. copy, reproduce, modify, translate, adapt, or create derivative works of the Software;
+
+2. reverse engineer, decompile, disassemble, decrypt, or attempt to derive the source code, underlying algorithms, or structure of the Software, except to the extent applicable law expressly permits such activity;
+
+3. distribute, sell, rent, lease, sublicense, assign, publish, transfer, or otherwise make the Software available to third parties;
+
+4. remove, obscure, or alter copyright notices, trademarks, proprietary notices, or other identification contained in the Software;
+
+5. bypass, disable, defeat, or interfere with authentication, security mechanisms, access controls, rate limits, usage restrictions, or other protective measures;
+
+6. use automated scripts, bots, crawlers, or similar mechanisms to abuse, overload, scrape, or interfere with the Nexus Cloud Service;
+
+7. access or use the Nexus Cloud Service through unauthorized interfaces or methods;
+
+8. use a Nexus Cloud API key or other credential outside the Software except through an interface expressly authorized by the Operator;
+
+9. extract, reproduce, mirror, or systematically collect proprietary data, services, or functionality from the Nexus Cloud Service for the purpose of creating or operating a competing service;
+
+10. interfere with the operation, availability, security, or integrity of Nexus or its infrastructure;
+
+11. use Nexus to violate applicable law or the rights of another person;
+
+12. use Nexus to distribute malware, malicious code, or other harmful material; or
+
+13. attempt to obtain unauthorized access to another user's account, content, credentials, or data.
+
+Nothing in this section prohibits conduct that applicable law expressly permits and that cannot lawfully be restricted by contract.
+
+---
+
+# 4. Ownership and Intellectual Property
+
+The Software, including its object code, user interface, visual design, documentation, branding, logos, trademarks, proprietary technology, and other proprietary components, is owned by or licensed to the Operator and is protected by applicable intellectual-property laws.
+
+Nothing in this Agreement grants you ownership of the Software or any intellectual-property rights in the Software.
+
+### Your Content
+
+You retain all ownership rights that you have in Your Content.
+
+The Operator does not acquire ownership of Your Content merely because you use the Software or Nexus Cloud Service.
+
+You grant the Operator only the limited, non-exclusive rights reasonably necessary to:
+
+1. operate and provide the features you request;
+2. transmit and process AI requests that you initiate;
+3. provide requested Cloud Service functionality;
+4. maintain, secure, troubleshoot, and improve the operation of the Cloud Service; and
+5. comply with applicable law or respond to legitimate legal obligations.
+
+The Operator will not sell Your Content as a standalone commercial product.
+
+The Operator does not use Your Content to train general-purpose AI models operated by the Operator.
+
+AI requests may nevertheless be transmitted to independent Third-Party Providers for processing as described in this Agreement and the Nexus Privacy Policy. Those providers may process information under their own applicable terms and policies.
+
+You are responsible for ensuring that you have the necessary rights and permissions to use, upload, transmit, or process Your Content through Nexus.
+
+---
+
+# 5. Nexus Cloud Service and AI Assistant
+
+## (a) Local-First Architecture
+
+Nexus is designed as a local-first application.
+
+Your local workspace and locally stored content are generally stored on your device unless you explicitly transmit, export, synchronize, back up, or otherwise send that information elsewhere.
+
+Local application data may include:
+
+- notes;
+- folders;
+- tags;
+- links;
+- images;
+- version history;
+- Trash contents;
+- search indexes;
+- embeddings;
+- AI conversation history;
+- browser settings;
+- bookmarks;
+- downloaded files; and
+- other application data.
+
+The availability of local storage does not mean that every feature operates entirely offline. Certain features, including the AI Assistant and account functionality, require communication with the Nexus Cloud Service or Third-Party Providers.
+
+## (b) On-Device Models
+
+Some Nexus features may use AI models or other computational components downloaded to your device.
+
+Where a feature is designed to operate locally, the underlying content processed by that feature may remain on your device and may not be transmitted to the Nexus Cloud Service.
+
+Third-party infrastructure may be used to distribute model files or other components. For example, Nexus may obtain model files from Hugging Face, jsDelivr, or other distribution providers.
+
+Those providers may receive your IP address and ordinary network request information when your device connects to them.
+
+## (c) AI Assistant
+
+The AI Assistant requires a Nexus Cloud account and uses the Nexus Cloud Service.
+
+Depending on your request and enabled settings, an AI Assistant request may contain:
+
+- the message you submit;
+- a portion of your prior conversation;
+- relevant excerpts from your notes;
+- content from a note you explicitly identify;
+- up to the applicable character limit of a note when relevant retrieval is unavailable;
+- the current date and time;
+- text from an active Nexus Browser tab when the relevant browser-awareness setting is enabled; and
+- other information reasonably necessary to fulfill the request.
+
+### AI: Off
+
+You may mark supported notes as "**AI: Off**."
+
+When a note is marked "AI: Off," Nexus will not intentionally include that note's stored contents or automatically retrieved excerpts from that note in AI Assistant requests.
+
+However, "AI: Off" does not prevent transmission of information that you personally type, paste, quote, or otherwise submit to the AI Assistant.
+
+It also does not retroactively remove content that you previously submitted as part of an AI conversation.
+
+### Third-Party AI Processing
+
+The Nexus Cloud Service forwards applicable AI requests to one or more Third-Party Providers using credentials controlled by the Operator.
+
+The Operator does not control the independent processing practices of those providers.
+
+Third-Party Providers may have their own privacy policies, terms, retention practices, security measures, and technical limitations.
+
+The Operator will use commercially reasonable efforts to select providers appropriate for the services Nexus provides, but cannot guarantee the policies or practices of an independent provider.
+
+### Web Search
+
+Where AI or another Nexus feature uses web search, search queries may be transmitted to a Third-Party Provider.
+
+The Nexus Cloud Service may retrieve information from search results or relevant web pages and may provide that information to the AI Assistant.
+
+Web content is controlled by third parties and may be inaccurate, incomplete, unavailable, outdated, or subject to separate terms.
+
+### Usage Limits
+
+The Operator may impose reasonable usage limits, request limits, rate limits, or other restrictions necessary to maintain the security, reliability, availability, and fair use of the Nexus Cloud Service.
+
+The Operator may change such limits from time to time.
+
+---
+
+# 6. Nexus Cloud Accounts and Credentials
+
+Some Nexus features require a Nexus Cloud account.
+
+Accounts may be created and accessed using supported third-party authentication providers, including Google or GitHub.
+
+Nexus does not receive or store your authentication-provider password.
+
+Your authentication provider may provide Nexus with information necessary to create and maintain your Nexus account, such as a verified email address and account identifier.
+
+You are responsible for maintaining the security of:
+
+- your device;
+- your Google, GitHub, or other authentication-provider account;
+- your Nexus credentials;
+- API keys or session credentials stored on your device; and
+- any other authentication mechanism under your control.
+
+Where supported, Nexus may store credentials using operating-system credential storage such as Windows Credential Manager or the macOS Keychain.
+
+### Session Security
+
+Successful sign-in may create a session credential stored on your device.
+
+Session credentials may remain valid until they expire, you sign out, you revoke or regenerate credentials, or the Operator invalidates them for security reasons.
+
+The Operator may impose reasonable limits on credential regeneration, session creation, or related security operations to prevent abuse.
+
+If you believe your account or credentials have been compromised, you should promptly sign out, revoke or regenerate available credentials, secure your authentication-provider account, or delete your Nexus account.
+
+### Account Deletion
+
+Where account deletion is available, you may permanently delete your Nexus Cloud account through the available account settings or another method designated by the Operator.
+
+Upon account deletion, the Operator will delete or dispose of account information and associated records in accordance with the Nexus Privacy Policy, subject to information that may need to be retained for:
+
+- security;
+- fraud or abuse prevention;
+- legal obligations;
+- dispute resolution;
+- legitimate record-keeping;
+- disaster recovery; or
+- other purposes permitted by applicable law.
+
+Operational logs, backups, rate-limiting information, and similar records may remain for a limited period where reasonably necessary for those purposes.
+
+Deleting your Nexus Cloud account does not delete Your Content stored locally on your device.
+
+---
+
+# 7. Your Responsibility for Content and Use
+
+You are responsible for Your Content and for your use of Nexus.
+
+You represent that you have the rights, permissions, and lawful authority necessary to use and transmit Your Content through the Software and Nexus Cloud Service.
+
+You must not use Nexus to knowingly:
+
+- violate applicable law;
+- infringe another person's intellectual-property rights;
+- violate privacy or confidentiality rights;
+- distribute malicious software;
+- facilitate unlawful activity;
+- interfere with the operation of Nexus; or
+- gain unauthorized access to systems, accounts, or information.
+
+Nexus is a general-purpose software product. The Operator does not monitor every item of Your Content and is not responsible for determining whether Your Content is lawful, accurate, appropriate, or suitable for your intended use.
+
+---
+
+# 8. Built-In Browser and External Websites
+
+Nexus may include a built-in web browser.
+
+When you use the browser, your device may communicate directly with websites and external services.
+
+Those websites and services are controlled by third parties and operate under their own terms, privacy policies, cookie policies, and other rules.
+
+Searches entered as non-URL queries may be sent to a search provider such as Brave Search.
+
+Site icons or favicon information may be requested from third-party services such as DuckDuckGo.
+
+Websites may place cookies or other data on your device.
+
+### Browser Awareness
+
+When browser-awareness features such as "Aware of tabs" or "Watching for conflicts" are enabled, Nexus may retrieve text from the active browser page for the relevant feature.
+
+Depending on the feature:
+
+- page text may be analyzed locally on your device; or
+- page text may be included in an AI request and transmitted to the Nexus Cloud Service.
+
+The exact behavior is described in the applicable Nexus product settings and documentation.
+
+You are responsible for deciding whether to enable these features and for determining whether information displayed in your browser is appropriate to transmit to an AI service.
+
+---
+
+# 9. Updates and Changes to Nexus
+
+The Operator may provide:
+
+- software updates;
+- bug fixes;
+- security patches;
+- performance improvements;
+- new features;
+- feature modifications; or
+- other changes to Nexus.
+
+Nexus may periodically check for updates by contacting an update-distribution service such as GitHub.
+
+Update requests may disclose your IP address and ordinary network request information to the relevant provider.
+
+Where technically supported, updates may be digitally signed and the Software may reject updates that fail applicable signature verification.
+
+The Operator may modify, suspend, replace, or discontinue particular features or the Nexus Cloud Service.
+
+The Operator is not obligated to maintain any particular feature, version, platform, integration, or Cloud Service indefinitely except where required by applicable law or a separate written agreement.
+
+If an update is accompanied by separate license terms, those terms will apply to the relevant update to the extent stated in those terms.
+
+---
+
+# 10. Backups and Data Loss
+
+Nexus is local-first.
+
+You are responsible for maintaining appropriate backups of important content stored on your device.
+
+Nexus may provide export, backup, recovery, or other data-management functionality, but you remain responsible for verifying that any backup or export is complete, accessible, and usable.
+
+The Operator does not guarantee recovery of locally stored content following:
+
+- device failure;
+- accidental deletion;
+- application-data deletion;
+- corruption;
+- operating-system failure;
+- storage failure;
+- loss of access to a device;
+- unauthorized access;
+- user error; or
+- other circumstances outside the Operator's reasonable control.
+
+Clearing application data, uninstalling Nexus, resetting a device, or using device-level cleanup software may permanently delete local content.
+
+You should maintain independent backups of important information.
+
+---
+
+# 11. Term and Termination
+
+This Agreement begins when you first download, install, access, or use the Software and continues until terminated.
+
+### Termination by You
+
+You may terminate this Agreement at any time by ceasing to use the Software and, where applicable, uninstalling it.
+
+You may also stop using the Nexus Cloud Service or delete your Nexus Cloud account without necessarily terminating your license to use the local Software, provided that you continue to comply with this Agreement.
+
+### Suspension or Termination by the Operator
+
+The Operator may suspend or terminate your access to the Nexus Cloud Service, or terminate your license to use the Software, where reasonably necessary because:
+
+1. you materially breach this Agreement;
+2. your use violates applicable law;
+3. you engage in abuse, fraud, or unauthorized access;
+4. you materially threaten the security or integrity of Nexus;
+5. your use creates a material risk of harm to the Operator, Nexus, or other users; or
+6. suspension or termination is required by law or a competent authority.
+
+Where reasonably practicable and legally permitted, the Operator may provide notice and an opportunity to remedy a material breach before termination.
+
+The Operator may immediately suspend access where reasonably necessary to address an active security, fraud, abuse, or legal risk.
+
+### Effect of Termination
+
+Upon termination of your Software license, you must cease using the Software and delete copies in your possession, except where retention is required by law or reasonably necessary for legitimate archival, backup, or record-keeping purposes.
+
+Termination of a Nexus Cloud account does not, by itself, delete Your Content stored locally on your device.
+
+Sections concerning ownership, intellectual property, content rights, disclaimers, limitations of liability, indemnification, privacy, dispute resolution, and provisions that by their nature should survive termination will survive termination.
+
+---
+
+# 12. Disclaimer of Warranties
+
+**TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE AND NEXUS CLOUD SERVICE ARE PROVIDED "AS IS" AND "AS AVAILABLE."**
+
+Except to the extent expressly required by applicable law, the Operator makes no express, implied, statutory, or other warranty regarding the Software or Nexus Cloud Service.
+
+To the maximum extent permitted by law, the Operator disclaims implied warranties of:
+
+- merchantability;
+- fitness for a particular purpose;
+- title;
+- non-infringement; and
+- uninterrupted or error-free operation.
+
+The Operator does not warrant that Nexus will:
+
+- be uninterrupted;
+- be error-free;
+- be completely secure;
+- be available at all times;
+- work with every device or operating system;
+- remain compatible with every third-party service;
+- remain unchanged;
+- be free of defects; or
+- prevent data loss.
+
+### AI Disclaimer
+
+Nexus may provide AI-generated content using on-device models, third-party AI models, or other automated systems.
+
+AI-generated content may be inaccurate, incomplete, misleading, biased, outdated, or inappropriate for a particular purpose.
+
+The Operator does not guarantee the accuracy, reliability, completeness, or suitability of AI-generated content.
+
+AI-generated content is not a substitute for professional legal, medical, financial, technical, or other regulated professional advice.
+
+You are responsible for independently evaluating AI-generated information before relying upon it.
+
+**YOU USE THE SOFTWARE, AI FEATURES, AND NEXUS CLOUD SERVICE AT YOUR OWN RISK.**
+
+Nothing in this Agreement excludes or limits any warranty, right, or remedy that cannot lawfully be excluded or limited.
+
+---
+
+# 13. Limitation of Liability
+
+**TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE OPERATOR SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES ARISING OUT OF OR RELATING TO THE SOFTWARE, NEXUS CLOUD SERVICE, OR THIS AGREEMENT.**
+
+This includes, where legally permitted, losses relating to:
+
+- profits;
+- revenue;
+- business opportunities;
+- goodwill;
+- reputation;
+- anticipated savings;
+- data;
+- business interruption; or
+- inability to use the Software or Cloud Service.
+
+To the maximum extent permitted by applicable law, the Operator's total aggregate liability for all claims arising out of or relating to the Software, Nexus Cloud Service, or this Agreement will not exceed the greater of:
+
+1. the total amount you actually paid to the Operator for the relevant Nexus service during the twelve months immediately preceding the event giving rise to the claim; or
+2. **USD $100**.
+
+This limitation applies regardless of the legal theory on which liability is asserted, including contract, tort, negligence, strict liability, or otherwise, except to the extent applicable law prohibits such limitation.
+
+Nothing in this Agreement excludes or limits liability that cannot legally be excluded or limited, including liability for fraud, intentional misconduct, or other liability that applicable law makes non-excludable.
+
+---
+
+# 14. Indemnification
+
+To the extent permitted by applicable law, you agree to indemnify and hold harmless the Operator from third-party claims, liabilities, damages, losses, and reasonable expenses arising directly from:
+
+1. your unlawful use of the Software or Nexus Cloud Service;
+2. your material breach of this Agreement;
+3. your violation of applicable law; or
+4. your infringement of a third party's rights through Your Content where you knowingly or intentionally transmitted or used that content through Nexus.
+
+You will not be required to indemnify the Operator to the extent a claim results from the Operator's own unlawful conduct, fraud, or intentional misconduct, or where indemnification is prohibited by applicable law.
+
+---
+
+# 15. Governing Law and Disputes
+
+Except to the extent mandatory law provides otherwise, this Agreement is governed by the laws of the **Kingdom of Morocco**, without regard to conflict-of-law principles.
+
+Subject to mandatory consumer protections and other non-waivable rights applicable to you, disputes arising from or relating to this Agreement, the Software, or the Nexus Cloud Service shall be submitted to the competent courts of the Kingdom of Morocco.
+
+Nothing in this section prevents you from exercising a mandatory right or remedy available under the laws applicable to you.
+
+If you have a dispute or concern, you are encouraged to contact the Operator first so that the issue may be addressed informally where possible.
+
+---
+
+# 16. Privacy
+
+Your use of the Software and Nexus Cloud Service is also governed by the **Nexus Privacy Policy**.
+
+The Privacy Policy explains how Nexus handles information, including distinctions between:
+
+- information stored locally on your device;
+- account information;
+- authentication information;
+- usage and operational information;
+- AI requests;
+- information sent to Third-Party Providers; and
+- information collected through the Nexus website or other services.
+
+The Nexus Privacy Policy is available at:
+
+**https://nexusworkspace.net/privacy-policy**
+
+If there is a conflict between this Agreement and the Nexus Privacy Policy concerning the processing of personal information, the Privacy Policy controls to the extent applicable.
+
+---
+
+# 17. Third-Party Services and Licenses
+
+Nexus may depend upon or integrate with independent Third-Party Providers.
+
+These may include providers of:
+
+- authentication;
+- artificial intelligence;
+- web search;
+- hosting;
+- content retrieval;
+- model distribution;
+- update distribution;
+- email;
+- analytics;
+- infrastructure; and
+- other technical services.
+
+The Operator does not own or control independent Third-Party Providers.
+
+Your use of a third-party service may be subject to that provider's own terms and privacy policy.
+
+The Operator is not responsible for the availability, accuracy, security, content, or independent processing practices of third-party websites and services.
+
+Nexus may also include third-party software, libraries, models, fonts, codecs, or other components distributed under separate licenses.
+
+Where applicable, those licenses may grant you rights that are independent of and take precedence over conflicting restrictions in this Agreement.
+
+Nothing in this Agreement limits rights granted to you under applicable open-source or other third-party licenses.
+
+Third-party notices and license information may be provided with the Software, within the Software, or through the official Nexus repository or documentation.
+
+---
+
+# 18. Changes to This Agreement
+
+The Operator may update this Agreement from time to time.
+
+For non-material changes, the updated Agreement may become effective when published.
+
+For material changes, the Operator may provide reasonable notice through the Software, Nexus website, email, or another appropriate method where required by applicable law.
+
+The updated Agreement will identify its effective or updated date.
+
+Where legally permitted, your continued use of Nexus after the effective date of an updated Agreement constitutes acceptance of the updated Agreement.
+
+If you do not agree to a material change, you should stop using the affected Software or Cloud Service.
+
+Nothing in this section limits rights or remedies that cannot legally be restricted.
+
+---
+
+# 19. General Provisions
+
+## (a) Entire Agreement
+
+This Agreement, together with the Nexus Privacy Policy, Nexus Terms of Service where applicable, and any additional terms expressly incorporated by reference, constitutes the agreement between you and the Operator concerning the Software and Nexus Cloud Service.
+
+If there is a conflict:
+
+- this Agreement controls matters concerning the Software license;
+- the Nexus Privacy Policy controls matters concerning personal-information processing;
+- the Nexus Terms of Service control matters specifically concerning the Nexus website or services expressly governed by those Terms; and
+- separate third-party licenses control the components to which those licenses apply.
+
+## (b) Severability
+
+If any provision of this Agreement is determined to be invalid, unlawful, or unenforceable, that provision will be enforced to the maximum extent legally permitted and the remaining provisions will remain in effect.
+
+## (c) No Waiver
+
+The failure of the Operator to enforce any provision of this Agreement does not constitute a waiver of that provision or any other provision.
+
+## (d) Assignment
+
+You may not assign or transfer this Agreement or your rights under it without the Operator's prior written consent, except where such restriction is prohibited by applicable law.
+
+The Operator may assign or transfer this Agreement in connection with:
+
+- a reorganization;
+- merger;
+- acquisition;
+- sale of substantially all relevant assets;
+- transfer of Nexus;
+- transfer of the Nexus Cloud Service; or
+- establishment of a successor legal entity.
+
+## (e) No Partnership or Agency
+
+Nothing in this Agreement creates a partnership, joint venture, employment relationship, agency relationship, or fiduciary relationship between you and the Operator.
+
+## (f) Force Majeure
+
+The Operator will not be responsible for failure or delay in performing obligations caused by circumstances beyond the Operator's reasonable control, including natural disasters, war, terrorism, government action, widespread internet or infrastructure failures, service-provider failures, power outages, or other extraordinary events.
+
+This provision does not excuse obligations that cannot legally be excused.
+
+## (g) Export and Sanctions Compliance
+
+You agree to use the Software and Nexus Cloud Service in compliance with applicable export-control, sanctions, and trade laws.
+
+## (h) Eligibility
+
+You must have the legal capacity to enter into this Agreement and must be at least **16 years old**, unless applicable law requires a different minimum age.
+
+If you enter into this Agreement on behalf of an organization, you represent that you have authority to bind that organization.
+
+---
+
+# 20. Contact
+
+Questions regarding this Agreement may be directed to:
+
+**Nawrasse Andaloussi Dahman**
+Operator of Nexus
+Morocco
+
+**Email:** support@nexusworkspace.net
+
+---
+
+**Copyright © 2026 Nawrasse Andaloussi Dahman. All Rights Reserved.**
