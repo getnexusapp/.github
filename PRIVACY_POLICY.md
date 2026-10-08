@@ -8,7 +8,7 @@ This Privacy Policy explains how Nexus handles information when you use the Nexu
 
 Nexus's notes and workspace are local-first: your notes stay on your device unless you export or back them up. The **AI Assistant is different**: it requires a Nexus Cloud account and is powered by a server that Nexus operates.
 
-Your use of Nexus is also governed by the [Nexus End User License Agreement](https://nexusworkspace.net/eula) and the [Nexus Software License](https://nexusworkspace.net/license). Capitalized terms used but not defined in this Privacy Policy, such as "Your Content" and "Nexus Cloud Service," have the meanings given to them in the Nexus End User License Agreement.
+Your use of Nexus is also governed by the [Nexus End User License Agreement](https://nexusworkspace.net/eula), the [Nexus Software License](https://nexusworkspace.net/license), and, where applicable, the Nexus Terms of Service governing the Nexus website and Nexus Cloud Service. Capitalized terms used in this Privacy Policy but not otherwise defined herein, including “Your Content” and “Nexus Cloud Service,” have the meanings assigned to them in the Nexus End User License Agreement.
 
 ## 1. What Stays on Your Device
 
