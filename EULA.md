@@ -10,7 +10,7 @@ Nexus is currently an independently developed product operated by Nawrasse Andal
 
 If you enter into this Agreement on behalf of an organization, you represent that you have authority to bind that organization to this Agreement.
 
-This Agreement governs your use of the Nexus applications and, where applicable, the Nexus Cloud Service. Your use of the Nexus website may additionally be governed by the Nexus Terms of Service. The processing of personal information is governed by the Nexus Privacy Policy.
+This Agreement governs your use of the Nexus applications and, where applicable, the Nexus Cloud Service. Your use of the Nexus website may additionally be governed by the Nexus Terms of Service. The processing of personal information is governed by the Nexus Privacy Policy. The Nexus Software License supplements this Agreement with respect to intellectual-property rights in the proprietary Software.
 
 ---
 
@@ -538,7 +538,7 @@ Where applicable, those licenses may grant you rights that are independent of an
 
 Nothing in this Agreement limits rights granted to you under applicable open-source or other third-party licenses.
 
-Third-party notices and license information may be provided with the Software, within the Software, or through the official Nexus repository or documentation.
+Third-party notices and license information may be provided with the Software, within the Software, or through associated documentation or repositories.
 
 ---
 
@@ -564,11 +564,11 @@ Nothing in this section limits rights or remedies that cannot legally be restric
 
 ### (a) Entire Agreement
 
-This Agreement, together with the Nexus Privacy Policy, Nexus Terms of Service where applicable, and any additional terms expressly incorporated by reference, constitutes the agreement between you and the Operator concerning the Software and Nexus Cloud Service.
+This Agreement, together with the Nexus Privacy Policy, Nexus Terms of Service where applicable, the Nexus Software License, and any additional terms expressly incorporated by reference, constitutes the agreement between you and the Operator concerning the Software and Nexus Cloud Service.
 
 If there is a conflict:
 
-- this Agreement controls matters concerning the Software license;
+- this Agreement controls matters concerning the Software license and the permitted use of the Software and Nexus Cloud Service, and the Nexus Software License otherwise supplements this Agreement concerning intellectual-property rights in the proprietary Software;
 - the Nexus Privacy Policy controls matters concerning personal-information processing;
 - the Nexus Terms of Service control matters specifically concerning the Nexus website or services expressly governed by those Terms; and
 - separate third-party licenses control the components to which those licenses apply.
