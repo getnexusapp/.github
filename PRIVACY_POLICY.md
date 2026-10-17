@@ -1,14 +1,18 @@
 # Nexus Privacy Policy
 
-**Last Updated: October 8, 2026**
+*Last updated: October 16, 2026*
 
 Nexus is developed and operated by **Nawrasse Andaloussi Dahman**, an independent software developer based in Morocco.
+
+"Nexus Software" is a trade name used by Nawrasse Andaloussi Dahman, not a separate legal entity.
 
 This Privacy Policy explains how Nexus handles information when you use the Nexus desktop application (version 6.1.0 and later, "Nexus" or the "Software") and the Nexus Cloud Service that powers the optional AI Assistant.
 
 Nexus's notes and workspace are local-first: your notes stay on your device unless you export or back them up. The **AI Assistant is different**: it requires a Nexus Cloud account and is powered by a server that Nexus operates.
 
-Your use of Nexus is also governed by the [Nexus End User License Agreement](https://nexusworkspace.net/eula), the [Nexus Software License](https://nexusworkspace.net/license), and, where applicable, the Nexus Terms of Service governing the Nexus website and Nexus Cloud Service. Capitalized terms used in this Privacy Policy but not otherwise defined herein, including “Your Content” and “Nexus Cloud Service,” have the meanings assigned to them in the Nexus End User License Agreement.
+Your use of Nexus is also governed by the [Nexus Software License](https://nexusworkspace.net/software-license) and, for the Nexus website and Nexus Cloud Service, the Nexus Terms of Service. Capitalized terms used but not defined in this Privacy Policy, such as "Your Content" and "Nexus Cloud Service," have the meanings given to them in the Nexus Software License.
+
+This Privacy Policy also covers **Nova**, the optional command-line tool for Nexus, published as **@getnexus/nova**. Section 17 explains what Nova stores and sends. Nova is governed by the [Nova CLI License](https://nexusworkspace.net/nova-license) as well as the documents listed above.
 
 ## 1. What Stays on Your Device
 
@@ -23,6 +27,8 @@ When you use notes, folders, tags, links, the graph, search, and the browser, th
 - Your Nexus Cloud API key, which is stored using your operating system's credential storage, such as Windows Credential Manager, the macOS Keychain, or equivalent secure storage on other supported platforms.
 
 No Nexus account is required to use these local features.
+
+If you sign in using Nova, Nova also keeps its own copy of your session key in a file on your computer. See Section 17.
 
 ## 2. Information Nexus Collects (Nexus Cloud / AI Assistant)
 
@@ -82,11 +88,14 @@ Nexus uses independent third-party providers to operate portions of its services
 - **Google / Gemini:** third-party AI model provider; see Section 4 for how Google may use content sent to its models.
 - **Jina AI:** web search provider used by AI Assistant web-search functionality.
 - **Cloudflare:** hosting and infrastructure provider for the Nexus Cloud Service.
+- **Vercel:** hosting provider for the Nexus Website. Vercel receives ordinary request information, such as your IP address and browser details, when you visit the website.
+- **UptimeRobot:** monitors the availability of Nexus services and provides the uptime data shown on the status page.
 - **Google and GitHub (sign-in):** third-party authentication providers used to create and access Nexus Cloud accounts.
 - **Brave Search:** search provider for non-URL queries typed into the Nexus Browser address bar.
 - **DuckDuckGo:** favicon provider used by the Nexus Browser.
 - **Hugging Face and jsDelivr:** distribution infrastructure for on-device model files and related components.
 - **GitHub:** update distribution and, where applicable, website or repository hosting.
+- **npm:** distribution infrastructure for the Nova command-line tool. npm receives ordinary network request information when you install Nova.
 
 These providers operate independently and may process information under their own terms and policies. Nexus does not control the internal processing practices of those providers.
 
@@ -176,7 +185,7 @@ This does not mean that information is never transmitted. AI Assistant requests 
 
 The Nexus Website may use hosting, deployment, repository, analytics, or other infrastructure provided by third parties.
 
-Where applicable, the Nexus Website may be hosted or deployed using services such as Vercel or GitHub.
+The Nexus Website is hosted on Vercel. The status page at status.nexusworkspace.net uses uptime data from UptimeRobot, which Nexus retrieves from its servers; your browser does not contact UptimeRobot when you view the page.
 
 Nexus may periodically check for updates by contacting an update-distribution service such as GitHub. Update requests may disclose your IP address and ordinary network request information to the relevant provider.
 
@@ -220,7 +229,36 @@ Your local notes workspace is under your direct control and is not something Nex
 
 Nothing in this policy limits rights that cannot legally be limited.
 
-## 17. Changes to This Privacy Policy
+## 17. Nova Command-Line Tool
+
+Nova is an optional command-line tool for Windows that installs, updates, and signs in to Nexus. You do not need Nova to use Nexus. This section describes what Nova stores and sends. Nova never opens or reads your Nexus notes database, and it does not send Your Content to Nexus Cloud or anyone else.
+
+### What Nova stores on your device
+
+- **Its own session.** After you sign in, Nova saves a file at `%APPDATA%\nova\credentials.json` containing your Nexus Cloud session key, the time it was saved, your account email (when available), and whether the session was shared with the Nexus app. This is an ordinary file protected by the permissions of your Windows user account. Unlike the Nexus app's own copy of the key, Nova does not encrypt it or store it in Windows Credential Manager.
+- **A copy for the Nexus app.** So that the app is signed in too, Nova writes the same key to Windows Credential Manager, where the Nexus app reads it.
+- **Temporary installer files.** Nova downloads Nexus installers to your system's temporary folder. It deletes the file after a passive or silent install. For a normal interactive install, the file remains while the installer runs.
+
+Running `nova logout` revokes the session on the Nexus Cloud Service, deletes Nova's credential file, and, if the session was shared with the app, removes the app's copy from Windows Credential Manager.
+
+### What Nova reads on your device
+
+To tell whether Nexus is installed, which version it is, and whether it is running, Nova reads Windows' installed-program records and looks in the usual install folders. It also checks the list of running programs for Nexus. To sign the app in, it runs a short Windows PowerShell step that writes to Credential Manager, and it passes the key to that step through the environment rather than a command line.
+
+### What Nova sends, and to whom
+
+- **GitHub.** Nova requests the Nexus release information and downloads the installer from GitHub. GitHub receives your IP address and ordinary request information, including a user-agent identifying the Nova version. If you set a `GITHUB_TOKEN` environment variable, Nova sends it to GitHub's API to avoid rate limits, and only there.
+- **Nexus Cloud.** For sign-in, Nova sends the provider you chose and a hash of a random secret it generated, and later the sign-in session identifier and the secret itself to collect the result. After sign-in, Nova sends your session key to Nexus Cloud to fetch your account details and usage, to sign out, and, without the key, to check service health. These requests are handled like other Nexus Cloud requests, as described in Section 2 and Section 14, and may appear in operational logs with information such as IP address and timestamps.
+- **Google or GitHub (sign-in).** You authenticate with the provider in your browser. Nova never sees your password.
+- **Your browser.** Nova can open Nexus pages and the sign-in link in your default browser.
+
+Nova includes no analytics, telemetry, or crash reporting. After you install it, Nova does not contact npm.
+
+### Your choices
+
+Sign-in is optional. You can sign out at any time with `nova logout`, delete your Nexus Cloud account as described in Section 7, or uninstall Nova with `npm uninstall -g @getnexus/nova`, which removes only the command-line tool and does not affect Nexus or your notes.
+
+## 18. Changes to This Privacy Policy
 
 This policy may be updated from time to time.
 
@@ -228,12 +266,12 @@ For material changes, Nexus may provide reasonable notice through the Website, S
 
 The "Last updated" date above shows when this policy was most recently revised.
 
-## 18. Contact
+## 19. Contact
 
 Privacy questions and requests may be directed to:
 
-**Nawrasse Andaloussi Dahman**  
-Operator of Nexus  
+**Nawrasse Andaloussi Dahman**\
+Operator of Nexus\
 Morocco
 
 **Email:** [support@nexusworkspace.net](mailto:support@nexusworkspace.net)
