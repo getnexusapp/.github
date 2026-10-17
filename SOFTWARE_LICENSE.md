@@ -1,16 +1,20 @@
-# Nexus End User License Agreement
+# Nexus Software License
 
-**Last Updated: October 8, 2026**
+*Last updated: October 16, 2026*
 
-This End User License Agreement ("**Agreement**") is a legal agreement between you, either an individual or an entity you represent ("**You**," "**User**," or "**your**"), and **Nawrasse Andaloussi Dahman**, an individual developer based in Morocco and the creator and operator of the Nexus software ("**Operator**," "**we**," "**us**," or "**our**").
+This software license ("**Agreement**") is a legal agreement between you, either an individual or an entity you represent ("**You**," "**User**," or "**your**"), and **Nawrasse Andaloussi Dahman**, an individual developer based in Morocco and the creator and operator of the Nexus software ("**Operator**," "**we**," "**us**," or "**our**").
 
 Nexus is currently an independently developed product operated by Nawrasse Andaloussi Dahman. No corporation named "Nexus, Inc." operates the Software or is a party to this Agreement. If Nexus is later transferred to, owned by, or operated by a separate legal entity, this Agreement may be updated accordingly.
+
+"Nexus Software" is a trade name used by Nawrasse Andaloussi Dahman for the Nexus products and services. It is not a separate legal entity, and references on the Nexus Website to "Nexus Software" are references to the Operator.
 
 **BY DOWNLOADING, INSTALLING, ACCESSING, OR USING THE SOFTWARE OR NEXUS CLOUD SERVICE, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THIS AGREEMENT. IF YOU DO NOT AGREE TO THIS AGREEMENT, DO NOT DOWNLOAD, INSTALL, ACCESS, OR USE THE SOFTWARE OR NEXUS CLOUD SERVICE.**
 
 If you enter into this Agreement on behalf of an organization, you represent that you have authority to bind that organization to this Agreement.
 
-This Agreement governs your use of the Nexus applications and, where applicable, the Nexus Cloud Service. Your use of the Nexus website may additionally be governed by the Nexus Terms of Service. The processing of personal information is governed by the Nexus Privacy Policy. The Nexus Software License supplements this Agreement with respect to intellectual-property rights in the proprietary Software.
+This Agreement governs your use of the Nexus applications and, where applicable, the Nexus Cloud Service. Your use of the Nexus website may additionally be governed by the Nexus Terms of Service. The processing of personal information is governed by the Nexus Privacy Policy.
+
+Nova, the Nexus command-line tool, is additionally governed by the [Nova CLI License](https://nexusworkspace.net/nova-license), which supplements this Agreement with respect to intellectual-property rights in Nova. If the Nova CLI License and this Agreement conflict, this Agreement controls.
 
 ---
 
@@ -32,6 +36,10 @@ For purposes of this Agreement:
 
 The Software does not include source code that is not expressly made available to you under a separate license.
 
+### "Nova" or "Nova CLI"
+
+"Nova" means the Nova command-line tool published as the npm package **@getnexus/nova**, the official companion tool for Nexus, together with its updates and documentation. Nova is part of the Software for purposes of this Agreement, and its use is also governed by the [Nova CLI License](https://nexusworkspace.net/nova-license).
+
 ### "Your Content"
 
 "Your Content" means notes, text, images, files, bookmarks, AI conversation history, browser-related content, downloaded material, and other content that you create, import, access, or store using the Software.
@@ -42,7 +50,7 @@ The Software does not include source code that is not expressly made available t
 
 ### "Third-Party Provider"
 
-"Third-Party Provider" means an independent service provider used with the Software or Nexus Cloud Service, including providers of AI models, web search, authentication, hosting, content retrieval, email delivery, analytics, model distribution, infrastructure, or other services used to operate or support Nexus.
+"Third-Party Provider" means an independent service provider used with the Software, the Nexus Cloud Service, or the Nexus Website, including providers of AI models, web search, authentication, hosting (currently Cloudflare for the Nexus Cloud Service and Vercel for the Nexus Website), service-status monitoring (currently UptimeRobot), content retrieval, email delivery, analytics, model distribution, infrastructure, or other services used to operate or support Nexus.
 
 ---
 
@@ -74,7 +82,7 @@ Except to the extent expressly permitted by applicable law or by a separate writ
 5. bypass, disable, defeat, or interfere with authentication, security mechanisms, access controls, rate limits, usage restrictions, or other protective measures;
 6. use automated scripts, bots, crawlers, or similar mechanisms to abuse, overload, scrape, or interfere with the Nexus Cloud Service;
 7. access or use the Nexus Cloud Service through unauthorized interfaces or methods;
-8. use a Nexus Cloud API key or other credential outside the Software except through an interface expressly authorized by the Operator;
+8. use a Nexus Cloud API key or other credential outside the Software except through an interface expressly authorized by the Operator, such as Nova or the Nexus Application, or write or alter credentials in the Nexus Application's credential storage by any means other than the Software's own sign-in;
 9. extract, reproduce, mirror, or systematically collect proprietary data, services, or functionality from the Nexus Cloud Service for the purpose of creating or operating a competing service;
 10. interfere with the operation, availability, security, or integrity of Nexus or its infrastructure;
 11. use Nexus to violate applicable law or the rights of another person;
@@ -210,6 +218,42 @@ Web content is controlled by third parties and may be inaccurate, incomplete, un
 The Operator may impose reasonable usage limits, request limits, rate limits, or other restrictions necessary to maintain the security, reliability, availability, and fair use of the Nexus Cloud Service.
 
 The Operator may change such limits from time to time.
+
+### (d) Nova Command-Line Tool
+
+Nova is an optional command-line tool for Windows that helps you install, update, sign in to, and check Nexus from a terminal. You do not need Nova to use Nexus. Nova is part of the Software and is governed by this Agreement and the [Nova CLI License](https://nexusworkspace.net/nova-license).
+
+Nova can:
+
+- find the latest Nexus release and download, verify, and launch the Nexus installer;
+- detect which version of Nexus is installed and whether it is running;
+- sign you in to the Nexus Cloud Service and share that session with the installed Nexus Application;
+- show your account email, your Nexus Cloud usage, and the health of the Nexus Cloud Service; and
+- open Nexus web pages and run diagnostic checks.
+
+#### Downloads and Installers
+
+Nova downloads Nexus installers only from GitHub over HTTPS. Where GitHub publishes a SHA-256 checksum for the installer, Nova compares the download with it and refuses to continue if they do not match. Where no checksum is published, Nova tells you that it could not verify the file. Nova cannot guarantee that any download is free of defects, and Windows may show its own security prompts.
+
+Nova can run installers in passive or silent mode, without interactive prompts. You are responsible for deciding when to use those options and for their effect on computers you control, including when you use Nova in scripts or automated tasks.
+
+#### Sign-In and Credentials
+
+Nova signs you in with a supported third-party provider, currently Google or GitHub. Nova displays a confirmation code, and the sign-in page asks you to confirm. You should continue only if the code shown in your browser matches the code shown by Nova.
+
+After sign-in, Nova keeps its own copy of your session in a file on your computer, at `%APPDATA%\nova\credentials.json`, and writes the same session to Windows Credential Manager so that the Nexus Application is signed in as well. Nova's own file is an ordinary file protected by the permissions of your Windows user account; it is not separately encrypted by Nova. You are responsible for the security of your Windows account and device, and Section 6 applies to credentials created by Nova.
+
+Running `nova logout` revokes the session on the Nexus Cloud Service and deletes Nova's credential file. If the session was shared with the Nexus Application, Nova also removes the application copy from Windows Credential Manager.
+
+#### What Nova Does Not Do
+
+Nova does not open or read your Nexus notes database and does not send Your Content to the Nexus Cloud Service. AI Assistant requests are made by the Nexus Application, not by Nova, and are described in Section 5(c).
+
+#### Automation and Fair Use
+
+You may run Nova from your own scripts and scheduled tasks to manage Nexus on computers you own or are authorized to control. Usage limits, rate limits, and the restrictions in Section 3 apply equally to requests made through Nova. You must not use Nova to evade them.
+
+Information Nova handles is described in Section 17 of the [Nexus Privacy Policy](https://nexusworkspace.net/privacy-policy).
 
 ---
 
@@ -530,6 +574,8 @@ These may include providers of:
 - artificial intelligence;
 - web search;
 - hosting;
+- website hosting;
+- service-status monitoring;
 - content retrieval;
 - model distribution;
 - update distribution;
@@ -576,14 +622,15 @@ Nothing in this section limits rights or remedies that cannot legally be restric
 
 ### (a) Entire Agreement
 
-This Agreement, together with the Nexus Privacy Policy, Nexus Terms of Service where applicable, the Nexus Software License, and any additional terms expressly incorporated by reference, constitutes the agreement between you and the Operator concerning the Software and Nexus Cloud Service.
+This Agreement, together with the Nexus Privacy Policy, Nexus Terms of Service where applicable, the Nova CLI License, and any additional terms expressly incorporated by reference, constitutes the agreement between you and the Operator concerning the Software and Nexus Cloud Service.
 
 If there is a conflict:
 
-- this Agreement controls matters concerning the Software license and the permitted use of the Software and of the Nexus Cloud Service through the Software, and the Nexus Software License otherwise supplements this Agreement concerning intellectual-property rights in the proprietary Software;
+- this Agreement, including Section 21, controls matters concerning the Software license, the permitted use of the Software and of the Nexus Cloud Service through the Software, and intellectual-property rights in the proprietary Software;
 - the Nexus Privacy Policy controls matters concerning personal-information processing;
 - the Nexus Terms of Service control matters specifically concerning the Nexus website or services expressly governed by those Terms; and
 - separate third-party licenses control the components to which those licenses apply.
+- the Nova CLI License supplements this Agreement concerning intellectual-property rights in Nova and how Nova may be used and distributed, and, if it conflicts with this Agreement, this Agreement controls.
 
 ### (b) Severability
 
@@ -629,15 +676,65 @@ If you enter into this Agreement on behalf of an organization, you represent tha
 
 ---
 
-## 20. Contact
+## 20. Proprietary Software
+
+This Section applies to the proprietary components of Nexus, including versions 6.1.0 and later, unless a later version is accompanied by different license terms. It forms part of this Agreement, so the license grant (Section 2), restrictions (Section 3), termination (Section 11), disclaimers (Section 12), and limitation of liability (Section 13) apply to it. A material breach of this Section is a material breach of this Agreement for purposes of Section 11.
+
+### (a) Proprietary, Not Open-Source
+
+**Nexus is not open-source software.** Except for third-party components distributed under their own licenses, no right to copy, modify, distribute, publish, sublicense, or create derivative works from Nexus is granted except as expressly provided in this Agreement, applicable third-party licenses, or a separate written agreement signed by the Operator.
+
+### (b) Proprietary Components
+
+Proprietary components may include, where applicable:
+
+- compiled application binaries;
+- source code;
+- software architecture and implementation;
+- application design and visual presentation;
+- user-interface elements and original artwork;
+- proprietary functionality;
+- documentation and written materials;
+- logos, product names, and branding; and
+- other original materials created for or incorporated into Nexus.
+
+Except for third-party materials governed by their own licenses, these components are owned by or licensed to the Operator and protected by applicable intellectual-property laws.
+
+### (c) Source Code
+
+The Nexus source code is proprietary and confidential, except for portions that consist of or incorporate third-party components subject to separate licenses. No right to access, inspect, copy, modify, publish, distribute, or create derivative works from it is granted under this Agreement. Access to a repository, development build, debugging interface, or other development resource does not by itself grant any license or ownership rights, and any authorized access may be subject to additional written terms.
+
+### (d) Third-Party Software and Open-Source Components
+
+Nexus includes or depends on third-party software, libraries, frameworks, models, fonts, and other components under separate licenses. These may include the Tauri application framework, React, TipTap, SQLite, Transformers.js, ONNX Runtime, PDF-generation libraries, syntax-highlighting libraries, and typefaces such as Inter, Space Grotesk, and JetBrains Mono. Those licenses govern those components to the extent their terms require, and nothing in this Agreement restricts rights they grant you. See also Section 17.
+
+### (e) On-Device AI Models
+
+Models downloaded to and run on your device, such as those used for semantic search, related-note suggestions, page analysis, or conflict detection, are third-party materials that may be subject to separate licenses. Their availability, terms, and requirements may change independently of Nexus. See Section 5(b) for how they are distributed and what network information their hosts may see.
+
+### (f) Nexus Cloud Service Systems
+
+This Agreement does not give you ownership of, or an independent license to, the infrastructure, server-side software, credentials, APIs, or other proprietary systems used to operate the Nexus Cloud Service. Your rights concerning the Cloud Service are governed by this Agreement and the Nexus Privacy Policy.
+
+### (g) Trademarks and Branding
+
+The names **Nexus** and **Nova**, associated logos, product names, and branding may be trademarks or protected identifiers of the Operator or their respective owners. You may not use them in a way that suggests endorsement, sponsorship, affiliation, authorization, or ownership without prior written permission. Third-party names and logos remain the property of their owners.
+
+### (h) No Transfer of Ownership; Reservation of Rights
+
+Possessing or using Nexus does not give you ownership of the Software or any proprietary intellectual property in it. All rights not expressly granted are reserved by the Operator or the applicable third-party rights holder, and no license is granted by implication, estoppel, exhaustion, or otherwise, except as applicable law requires. Your rights in Your Content are unaffected (see Section 4).
+
+---
+
+## 21. Contact
 
 Questions regarding this Agreement may be directed to:
 
-**Nawrasse Andaloussi Dahman**  
-Operator of Nexus  
+**Nawrasse Andaloussi Dahman**\
+Operator of Nexus\
 Morocco
 
-**Email:** support@nexusworkspace.net
+**Email:** [support@nexusworkspace.net](mailto:support@nexusworkspace.net)
 
 ---
 
