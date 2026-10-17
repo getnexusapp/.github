@@ -6,10 +6,10 @@
 
   <p>
     <a href="https://nexusworkspace.net/">Website</a> ·
-    <a href="https://github.com/getnexusapp/releases/releases/">Download</a> ·
+    <a href="https://nexusworkspace.net/#download">Download</a> ·
     <a href="https://github.com/getnexusapp/releases/issues">Report an issue</a> ·
-    <a href="https://github.com/getnexusapp/docs">Documentation</a> ·
-    <a href="https://github.com/getnexusapp/releases">Releases & Changelog</a>
+    <a href="https://nexusworkspace.net/docs">Documentation</a> ·
+    <a href="https://nexusworkspace.net/changelog">Releases & Changelog</a>
   </p>
 </div>
 
@@ -159,7 +159,6 @@ Nexus is proprietary, closed-source software developed and owned by **Nawrasse A
 
 For more information:
 
-- [SOFTWARE LICENSE](https://github.com/getnexusapp/.github/blob/main/LICENSE.md)
-- [END USER LICENSE AGREEMENT](https://github.com/getnexusapp/.github/blob/main/EULA.md)
+- [SOFTWARE LICENSE](https://github.com/getnexusapp/.github/blob/main/SOFTWARE_LICENSE.md)
 - [PRIVACY POLICY](https://github.com/getnexusapp/.github/blob/main/PRIVACY_POLICY.md)
 - [TERMS OF SERVICE](https://github.com/getnexusapp/.github/blob/main/TERMS_SERVICE.md)
