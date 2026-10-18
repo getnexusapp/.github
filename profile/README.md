@@ -6,7 +6,7 @@
 
   <p>
     <a href="https://nexusworkspace.net/">Website</a> ·
-    <a href="https://nexusworkspace.net/#download">Download</a> ·
+    <a href="https://nexusworkspace.net/download">Download</a> ·
     <a href="https://github.com/getnexusapp/releases/issues">Report an issue</a> ·
     <a href="https://nexusworkspace.net/docs">Documentation</a> ·
     <a href="https://nexusworkspace.net/changelog">Releases & Changelog</a>
@@ -155,7 +155,7 @@ Nexus also applies its own safety checks when reading pages: it only reads `http
 
 ## License
 
-Nexus is proprietary, closed-source software developed and owned by **Nawrasse Andaloussi Dahman**. This organization does not host the app's source code. The repositories here are for release notes, documentation, and community support. Use of the Nexus application is governed by the **Nexus End User License Agreement (EULA)**.
+Nexus is proprietary, closed-source software developed and owned by **Nawrasse Andaloussi Dahman**. This organization does not host the app's source code. The repositories here are for release notes, documentation, and community support. Use of the Nexus application is governed by the **Nexus Software License**.
 
 For more information:
 
