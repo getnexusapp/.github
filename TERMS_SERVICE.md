@@ -1,12 +1,12 @@
 # Nexus Terms of Service
 
-*Last updated: October 16, 2026*
+**Last updated:** October 18, 2026
 
 These Terms of Service ("Terms") are a legal agreement between you, either an individual or an entity you represent ("You" or "User"), and **Nawrasse Andaloussi Dahman**, an individual developer based in Morocco and the creator and current operator of Nexus ("Nexus," "we," "us," or "our").
 
 These Terms govern your access to and use of the Nexus website and Nexus Cloud Service. Your use of the Nexus desktop application is also subject to the **Nexus Software License**, which sets out the terms and conditions governing the use of the software.
 
-Nova, the official command-line tool for Nexus, is part of the Software for purposes of these Terms. Its use is additionally governed by the [Nova CLI License](https://nexusworkspace.net/nova-license), and these Terms apply to Nova's use of the Nexus Cloud Service.
+Nova, the official command-line tool for Nexus, is part of the Software for purposes of these Terms. Its use is additionally governed by the  [Nova CLI License](/nova-license), and these Terms apply to Nova's use of the Nexus Cloud Service.
 
 **Nexus is currently an independently developed product operated by Nawrasse Andaloussi Dahman. No corporation named "Nexus, Inc." operates the Software or is a party to these Terms. If Nexus is later transferred to or operated by a separate legal entity, these Terms may be updated to identify that entity.**
 
@@ -80,11 +80,11 @@ Some Nexus Cloud features require an account. Accounts are created and accessed 
 
 Account information may include your email address, the account identifier provided by your sign-in provider, a hash of your current API key, usage information, and rate-limiting information.
 
-Your Nexus Cloud API key is stored on your device using your operating system's credential storage, such as Windows Credential Manager, the macOS Keychain, or equivalent secure storage on other supported platforms.
+Your Nexus Cloud API key is stored on your device using your operating system's credential storage, such as Windows Credential Manager, the Secret Service keyring (such as GNOME Keyring or KWallet) on Linux, or equivalent secure storage on other supported platforms.
 
 Each successful sign-in may issue a new API key and invalidate the previous key. Nexus may limit the number of key regenerations available within a given period.
 
-If you sign in with Nova, Nova also keeps its own copy of your session in a file on your computer, at `%APPDATA%\nova\credentials.json`, and shares the session with the Nexus app through Windows Credential Manager. Nova does not separately encrypt its file, so you are responsible for the security of your Windows account and device. Running `nova logout` revokes the session and removes both copies.
+If you sign in with Nova, Nova also keeps its own copy of your session in a file on your computer, at  `'%APPDATA%\\\nova\\\credentials.json'`, and shares the session with the Nexus app through Windows Credential Manager. Nova does not separately encrypt its file, so you are responsible for the security of your Windows account and device. Running `nova logout`  revokes the session and removes both copies.
 
 You are responsible for protecting your device, your Google or GitHub account, your credentials, and your API key and for activity occurring through your account, except to the extent caused by Nexus's own failure to maintain required security measures.
 
@@ -97,15 +97,25 @@ Rate-limiting counters, operational logs, and hosting-provider backups may remai
 Nexus uses independent third-party providers to operate portions of the Nexus Cloud Service and related functionality.
 
 - **Google / Gemini:** provides the third-party AI models used by the AI Assistant.
+
 - **Google and GitHub (sign-in):** authentication providers used to create and access Nexus Cloud accounts.
+
 - **Jina AI:** may provide web search functionality for AI Assistant requests.
+
 - **Cloudflare:** provides hosting and infrastructure for the Nexus Cloud Service.
+
 - **Brave Search:** receives non-URL queries typed into the Nexus Browser address bar.
+
 - **DuckDuckGo:** may provide favicon services used by the Nexus Browser.
+
 - **Hugging Face and jsDelivr:** may distribute on-device model files and related components.
+
 - **Vercel:** hosts and serves the Nexus Website.
+
 - **UptimeRobot:** monitors the availability of Nexus services and supplies the uptime data shown on the Nexus status page.
-- **GitHub:** may provide update distribution and website or repository hosting.
+
+- **GitHub:** may provide installer and update distribution for Windows and Linux, and website or repository hosting.
+
 - **npm:** distributes the Nova command-line tool as the package @getnexus/nova.
 
 These providers operate independently from Nexus and may process information under their own terms and policies. Nexus does not control the internal processing practices of third-party providers.
@@ -139,12 +149,19 @@ You may not use Nexus or the Nexus Cloud Service to violate applicable law or th
 You may not:
 
 - use the Nexus Cloud Service to facilitate unlawful activity;
+
 - attempt to gain unauthorized access to Nexus accounts, systems, or infrastructure;
+
 - circumvent or interfere with usage limits, rate limits, or security mechanisms;
+
 - use automated scripts or other mechanisms to abuse the Nexus Cloud Service;
+
 - use the Nexus Cloud Service to transmit malware or malicious code;
+
 - intentionally interfere with the availability or operation of the service;
+
 - use another person's account or credentials without authorization; or
+
 - use the service in a manner that infringes another person's intellectual-property, privacy, or other rights.
 
 ## 10. Intellectual Property
@@ -198,6 +215,7 @@ To the maximum extent permitted by law, Nawrasse Andaloussi Dahman will not be l
 To the maximum extent permitted by law, the aggregate liability of Nawrasse Andaloussi Dahman for claims arising from or relating to the Nexus Website, Software, Nexus Cloud Service, or these Terms will not exceed the greater of:
 
 - the total amount you paid to Nexus for the relevant service during the twelve months immediately preceding the event giving rise to the claim; or
+
 - USD $100.
 
 This limit applies in the aggregate across these Terms and the Software License and is not cumulative across the two.
@@ -209,8 +227,11 @@ This limitation does not apply to liability that cannot legally be limited or ex
 To the extent permitted by law, you agree to indemnify and hold harmless Nawrasse Andaloussi Dahman from claims, liabilities, damages, losses, and reasonable expenses arising directly from:
 
 - your unlawful use of the Nexus Website, Software, or Nexus Cloud Service;
+
 - your material breach of these Terms;
+
 - your violation of applicable law; or
+
 - your infringement of a third party's rights through content you intentionally transmit or use through Nexus.
 
 This section does not apply to the extent a claim results from Nexus's own unlawful conduct, fraud, or intentional misconduct, or where indemnification is prohibited by law.
@@ -289,11 +310,9 @@ Where required, notices are provided with the Software, within the application, 
 
 Questions regarding these Terms may be directed to:
 
-**Nawrasse Andaloussi Dahman**\
-Operator of Nexus\
-Morocco
+**Nawrasse Andaloussi Dahman**  Operator of Nexus  Morocco
 
-**Email:** [support@nexusworkspace.net](mailto:support@nexusworkspace.net)
+**Email:**  [support@nexusworkspace.net](mailto:support@nexusworkspace.net)
 
 ---
 
