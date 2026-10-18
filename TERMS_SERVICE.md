@@ -6,7 +6,7 @@ These Terms of Service ("Terms") are a legal agreement between you, either an in
 
 These Terms govern your access to and use of the Nexus website and Nexus Cloud Service. Your use of the Nexus desktop application is also subject to the **Nexus Software License**, which sets out the terms and conditions governing the use of the software.
 
-Nova, the official command-line tool for Nexus, is part of the Software for purposes of these Terms. Its use is additionally governed by the  [Nova CLI License](/nova-license), and these Terms apply to Nova's use of the Nexus Cloud Service.
+Nova, the official command-line tool for Nexus, is part of the Software for purposes of these Terms. Its use is additionally governed by the  [Nova CLI License](https://nexusworkspace.net/nova-license), and these Terms apply to Nova's use of the Nexus Cloud Service.
 
 **Nexus is currently an independently developed product operated by Nawrasse Andaloussi Dahman. No corporation named "Nexus, Inc." operates the Software or is a party to these Terms. If Nexus is later transferred to or operated by a separate legal entity, these Terms may be updated to identify that entity.**
 
