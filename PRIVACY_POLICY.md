@@ -1,6 +1,6 @@
 # Nexus Privacy Policy
 
-**Last updated: October 18, 2026**
+**Last updated:** October 18, 2026
 
 Nexus is developed and operated by **Nawrasse Andaloussi Dahman**, an independent software developer based in Morocco.
 
@@ -10,13 +10,14 @@ This Privacy Policy explains how Nexus handles information when you use the Nexu
 
 Nexus's notes and workspace are local-first: your notes stay on your device unless you export or back them up. The **AI Assistant is different**: it requires a Nexus Cloud account and is powered by a server that Nexus operates.
 
-Your use of Nexus is also governed by the [Nexus Software License](https://nexusworkspace.net/software-license) and, for the Nexus website and Nexus Cloud Service, the Nexus Terms of Service. Capitalized terms used but not defined in this Privacy Policy, such as "Your Content" and "Nexus Cloud Service," have the meanings given to them in the Nexus Software License.
+Your use of Nexus is also governed by the [Nexus Software License](/software-license) and, for the Nexus website and Nexus Cloud Service, the Nexus Terms of Service. Capitalized terms used but not defined in this Privacy Policy, such as "Your Content" and "Nexus Cloud Service," have the meanings given to them in the Nexus Software License.
 
-This Privacy Policy also covers **Nova**, the optional command-line tool for Nexus, published as **@getnexus/nova**. Section 17 explains what Nova stores and sends. Nova is governed by the [Nova CLI License](https://nexusworkspace.net/nova-license) as well as the documents listed above.
+This Privacy Policy also covers **Nova**, the optional command-line tool for Nexus, published as **@getnexus/nova**. Section 17 explains what Nova stores and sends. Nova is governed by the [Nova CLI License](/nova-license) as well as the documents listed above.
 
 ## 1. What Stays on Your Device
 
 When you use notes, folders, tags, links, the graph, search, and the browser, the following is stored on your device and is not uploaded to a Nexus-operated server as part of ordinary local operation:
+
 - Your notes, folders, tags, and links between notes;
 - Images you insert into notes;
 - Version history and Trash;
@@ -32,6 +33,7 @@ If you sign in using Nova, Nova also keeps its own copy of your session key in a
 ## 2. Information Nexus Collects (Nexus Cloud / AI Assistant)
 
 If you create a Nexus Cloud account to use the AI Assistant, Nexus does store the following in the Nexus Cloud Service:
+
 - your email address and the account identifier provided by your sign-in provider (Google or GitHub);
 - a hash of your current API key;
 - account-security information such as key-generation counts;
@@ -48,6 +50,7 @@ Nexus does not store your local notes, folders, local search index, or local con
 ## 3. What Is Sent When You Use the AI Assistant
 
 The AI Assistant requires the Nexus Cloud Service. When you submit a request, the Nexus Cloud Service may receive:
+
 - your new message;
 - up to 20 prior conversation messages;
 - relevant excerpts from notes available to the Assistant;
@@ -58,7 +61,7 @@ The AI Assistant requires the Nexus Cloud Service. When you submit a request, th
 
 Notes that you mark "AI: Off" are not intentionally included in AI Assistant requests, either as stored contents or as automatically retrieved excerpts. However, "AI: Off" does not prevent transmission of anything you personally type, paste, quote, or otherwise submit to the AI Assistant, and it does not retroactively remove content you previously submitted in an AI conversation.
 
-The Nexus Cloud Service forwards applicable request content to a third-party AI provider, currently Google through its Gemini models. As explained in Section 4, Google may use that content to train its models.
+The Nexus Cloud Service forwards applicable request content to a third-party AI provider, currently Google through its Gemini models. As explained in Section 4, Google does not use that content to train its models.
 
 The AI model may use web search. Search queries may be sent to Jina AI, and the Nexus Cloud Service may retrieve the text of relevant result pages.
 
@@ -66,21 +69,18 @@ The resulting AI response is returned to your device and your conversation histo
 
 Nexus records usage information such as token usage and request timestamps for account management, rate limiting, and service operation. Nexus does not maintain your complete AI conversation history as a server-side conversation database.
 
-## 4. Google Model Training and Your Consent
+## 4. How Google Handles Your Content
 
-The Nexus Cloud Service currently forwards AI Assistant requests to Google, which provides the Gemini models. Content included in those requests, which may include your messages, prior conversation messages, note excerpts, the contents of notes you identify, and text from pages open in Nexus Browser, may be used by Google to train and improve its AI models, under Google's own terms and privacy practices.
+The Nexus Cloud Service currently forwards AI Assistant requests to Google, which provides the Gemini models. Nexus accesses Gemini through Google's paid API services, under terms that state Google does not use content sent in those requests to train or improve its models.
 
-**BY CREATING A NEXUS CLOUD ACCOUNT OR USING THE AI ASSISTANT, YOU ACKNOWLEDGE AND AGREE THAT GOOGLE MAY USE CONTENT SENT THROUGH NEXUS CLOUD AI REQUESTS TO TRAIN AND IMPROVE ITS MODELS. IF YOU DO NOT AGREE, DO NOT CREATE A NEXUS CLOUD ACCOUNT OR USE THE AI ASSISTANT.**
+Google may still process and temporarily retain requests as described in its terms, for example to provide the service, detect abuse, and comply with law. Nexus itself does not use your content to train AI models.
 
-Nexus itself does not use your content to train AI models. Nexus does not control how Google uses information it receives.
-
-Content that stays on your device is not sent to Google through the Nexus Cloud Service. This includes local notes you have not submitted to the AI Assistant, notes marked "AI: Off" (except for anything you type or paste into the Assistant yourself), and content processed by on-device models.
-
-You can stop at any time by no longer using the AI Assistant or by deleting your Nexus Cloud account. However, Nexus cannot recall or delete content that has already been sent to Google, and deleting your account does not reverse any use Google has already made of that content. You should not submit confidential information, information you do not have the right to share, or other people's personal information to the AI Assistant.
+Content you send to the AI Assistant does leave your device and is processed by Google. Nexus does not control Google's practices, and Google's terms may change. Avoid submitting confidential information, information you do not have the right to share, or other people's personal information to the AI Assistant.
 
 ## 5. Third-Party Providers
 
 Nexus uses independent third-party providers to operate portions of its services:
+
 - **Google / Gemini:** third-party AI model provider; see Section 4 for how Google may use content sent to its models.
 - **Jina AI:** web search provider used by AI Assistant web-search functionality.
 - **Cloudflare:** hosting and infrastructure provider for the Nexus Cloud Service.
@@ -211,7 +211,7 @@ No online system can guarantee absolute security. You should avoid submitting hi
 
 Nexus is developed in Morocco and may be used internationally.
 
-Nexus processes personal data in accordance with Moroccan Law No. 09-08 on the protection of individuals with regard to the processing of personal data, which is supervised by the Commission Nationale de contrôle de la protection des Données à caract&egrave;re Personnel (CNDP), and with other laws that apply to it.
+Nexus processes personal data in accordance with Moroccan Law No. 09-08 on the protection of individuals with regard to the processing of personal data, which is supervised by the Commission Nationale de contrôle de la protection des Données à caractère Personnel (CNDP), and with other laws that apply to it.
 
 Where Law No. 09-08 applies to you, you have the right to be informed about the processing of your personal data and to access, rectify, and object, on legitimate grounds, to that processing. You can exercise these rights by contacting Nexus using the contact information below, and you may also contact the CNDP.
 
@@ -232,10 +232,11 @@ Nothing in this policy limits rights that cannot legally be limited.
 Nova is an optional command-line tool for Windows and Linux that installs, updates, and signs in to Nexus. You do not need Nova to use Nexus. This section describes what Nova stores and sends. Nova never opens or reads your Nexus notes database, and it does not send Your Content to Nexus Cloud or anyone else.
 
 ### What Nova stores on your device
-- **Its own session.** After you sign in, Nova saves a file containing your Nexus Cloud session key, the time it was saved, your account email (when available), and whether the session was shared with the Nexus app. On Windows the file is at `{'%APPDATA%\\\nova\\\credentials.json'}`. On Linux it is at `\~/.config/nova/credentials.json` (or under `$XDG_CONFIG_HOME`) and is readable only by your user. It is an ordinary file protected by the permissions of your user account. Unlike the Nexus app's own copy of the key, Nova does not encrypt it or store it in the system credential storage.
+
+- **Its own session.** After you sign in, Nova saves a file containing your Nexus Cloud session key, the time it was saved, your account email (when available), and whether the session was shared with the Nexus app. On Windows the file is at `%APPDATA%\nova\credentials.json`. On Linux it is at `~/.config/nova/credentials.json` (or under `$XDG_CONFIG_HOME`) and is readable only by your user. It is an ordinary file protected by the permissions of your user account. Unlike the Nexus app's own copy of the key, Nova does not encrypt it or store it in the system credential storage.
 - **A copy for the Nexus app.** So that the app is signed in too, Nova writes the same key to Windows Credential Manager on Windows, or to your Secret Service keyring (such as GNOME Keyring or KWallet) through `secret-tool` on Linux, where the Nexus app reads it.
 - **Temporary installer files.** Nova downloads Nexus installers and packages to your system's temporary folder. It deletes the file after a passive or silent install. For a normal interactive install, the file remains while the installer runs.
-- **AppImage installs (Linux).** If you install Nexus as an AppImage, Nova places the app in `\~/.local/share/nexus`, may add a `nexus` command in `\~/.local/bin`, adds a launcher entry in `\~/.local/share/applications`, and keeps a small record of the install under `\~/.local/share/nova`.
+- **AppImage installs (Linux).** If you install Nexus as an AppImage, Nova places the app in `~/.local/share/nexus`, may add a `nexus` command in `~/.local/bin`, adds a launcher entry in `~/.local/share/applications`, and keeps a small record of the install under `~/.local/share/nova`.
 
 Running `nova logout` revokes the session on the Nexus Cloud Service, deletes Nova's credential file, and, if the session was shared with the app, removes the app's copy from Windows Credential Manager or your Linux keyring.
 
@@ -248,6 +249,7 @@ To tell whether Nexus is installed, which version it is, and whether it is runni
 On Linux, installing a .deb or .rpm requires root. Nova runs only your package manager with elevated privileges, through sudo or pkexec, and never needs to run as root itself. Your password is handled by sudo or pkexec; Nova does not see or store it.
 
 ### What Nova sends, and to whom
+
 - **GitHub.** Nova requests the Nexus release information and downloads the installer or package from GitHub. GitHub receives your IP address and ordinary request information, including a user-agent identifying the Nova version. If you set a `GITHUB_TOKEN` environment variable, Nova sends it to GitHub's API to avoid rate limits, and only there.
 - **Nexus Cloud.** (unchanged from your current text)
 - **Google or GitHub (sign-in).** (unchanged)
