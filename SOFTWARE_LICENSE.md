@@ -14,7 +14,7 @@ If you enter into this Agreement on behalf of an organization, you represent tha
 
 This Agreement governs your use of the Nexus applications and, where applicable, the Nexus Cloud Service. Your use of the Nexus website may additionally be governed by the Nexus Terms of Service. The processing of personal information is governed by the Nexus Privacy Policy.
 
-Nova, the Nexus command-line tool, is additionally governed by the [Nova CLI License](/nova-license), which supplements this Agreement with respect to intellectual-property rights in Nova. If the Nova CLI License and this Agreement conflict, this Agreement controls.
+Nova, the Nexus command-line tool, is additionally governed by the [Nova CLI License](https://nexusworkspace.net/nova-license), which supplements this Agreement with respect to intellectual-property rights in Nova. If the Nova CLI License and this Agreement conflict, this Agreement controls.
 
 ---
 
@@ -38,7 +38,7 @@ The Software does not include source code that is not expressly made available t
 
 ### "Nova" or "Nova CLI"
 
-"Nova" means the Nova command-line tool published as the npm package **@getnexus/nova**, the official companion tool for Nexus, together with its updates and documentation. Nova is part of the Software for purposes of this Agreement, and its use is also governed by the [Nova CLI License](/nova-license).
+"Nova" means the Nova command-line tool published as the npm package **@getnexus/nova**, the official companion tool for Nexus, together with its updates and documentation. Nova is part of the Software for purposes of this Agreement, and its use is also governed by the [Nova CLI License](https://nexusworkspace.net/nova-license).
 
 ### "Your Content"
 
@@ -221,7 +221,7 @@ The Operator may change such limits from time to time.
 
 ### (d) Nova Command-Line Tool
 
-Nova is an optional command-line tool for Windows and Linux that helps you install, update, sign in to, and check Nexus from a terminal. You do not need Nova to use Nexus. Nova is part of the Software and is governed by this Agreement and the [Nova CLI License](/nova-license).
+Nova is an optional command-line tool for Windows and Linux that helps you install, update, sign in to, and check Nexus from a terminal. You do not need Nova to use Nexus. Nova is part of the Software and is governed by this Agreement and the [Nova CLI License](https://nexusworkspace.net/nova-license).
 
 Nova can:
 
@@ -253,7 +253,7 @@ Nova does not open or read your Nexus notes database and does not send Your Cont
 
 You may run Nova from your own scripts and scheduled tasks to manage Nexus on computers you own or are authorized to control. Usage limits, rate limits, and the restrictions in Section 3 apply equally to requests made through Nova. You must not use Nova to evade them.
 
-Information Nova handles is described in Section 17 of the [Nexus Privacy Policy](/privacy-policy).
+Information Nova handles is described in Section 17 of the [Nexus Privacy Policy](https://nexusworkspace.net/privacy-policy).
 
 ---
 
