@@ -10,9 +10,9 @@ This Privacy Policy explains how Nexus handles information when you use the Nexu
 
 Nexus's notes and workspace are local-first: your notes stay on your device unless you export or back them up. The **AI Assistant is different**: it requires a Nexus Cloud account and is powered by a server that Nexus operates.
 
-Your use of Nexus is also governed by the [Nexus Software License](/software-license) and, for the Nexus website and Nexus Cloud Service, the Nexus Terms of Service. Capitalized terms used but not defined in this Privacy Policy, such as "Your Content" and "Nexus Cloud Service," have the meanings given to them in the Nexus Software License.
+Your use of Nexus is also governed by the [Nexus Software License](https://nexusworkspace.net/software-license) and, for the Nexus website and Nexus Cloud Service, the Nexus Terms of Service. Capitalized terms used but not defined in this Privacy Policy, such as "Your Content" and "Nexus Cloud Service," have the meanings given to them in the Nexus Software License.
 
-This Privacy Policy also covers **Nova**, the optional command-line tool for Nexus, published as **@getnexus/nova**. Section 17 explains what Nova stores and sends. Nova is governed by the [Nova CLI License](/nova-license) as well as the documents listed above.
+This Privacy Policy also covers **Nova**, the optional command-line tool for Nexus, published as **@getnexus/nova**. Section 17 explains what Nova stores and sends. Nova is governed by the [Nova CLI License](https://nexusworkspace.net/nova-license) as well as the documents listed above.
 
 ## 1. What Stays on Your Device
 
@@ -251,9 +251,9 @@ On Linux, installing a .deb or .rpm requires root. Nova runs only your package m
 ### What Nova sends, and to whom
 
 - **GitHub.** Nova requests the Nexus release information and downloads the installer or package from GitHub. GitHub receives your IP address and ordinary request information, including a user-agent identifying the Nova version. If you set a `GITHUB_TOKEN` environment variable, Nova sends it to GitHub's API to avoid rate limits, and only there.
-- **Nexus Cloud.** (unchanged from your current text)
-- **Google or GitHub (sign-in).** (unchanged)
-- **Your browser.** (unchanged)
+- **Nexus Cloud.**
+- **Google or GitHub (sign-in).**
+- **Your browser.**
 
 Nova includes no analytics, telemetry, or crash reporting. After you install it, Nova does not contact npm.
 
