@@ -1,6 +1,6 @@
 # Nexus Terms of Service
 
-**Last updated:** October 18, 2026
+*Last updated: October 18, 2026*
 
 These Terms of Service ("Terms") are a legal agreement between you, either an individual or an entity you represent ("You" or "User"), and **Nawrasse Andaloussi Dahman**, an individual developer based in Morocco and the creator and current operator of Nexus ("Nexus," "we," "us," or "our").
 
@@ -18,7 +18,7 @@ Nova, the official command-line tool for Nexus, is part of the Software for purp
 
 ## 1. Scope and Document Hierarchy
 
-These Terms apply primarily to the Nexus website and, together with the Software License, to the Nexus Cloud Service. The Software License, governs your license to and use of the Nexus desktop application and related installed Software, and intellectual-property rights in the proprietary Software.
+These Terms apply primarily to the Nexus website and, together with the Software License, to the Nexus Cloud Service. The Software License governs your license to and use of the Nexus desktop application and related installed Software, and intellectual-property rights in the proprietary Software.
 
 If these Terms conflict with the Software License, then the Software License controls with respect to the desktop Software, your license to use it, and your use of the Nexus Cloud Service through the Software. These Terms control with respect to the Nexus website and any other use of the Nexus Cloud Service.
 
@@ -84,7 +84,7 @@ Your Nexus Cloud API key is stored on your device using your operating system's 
 
 Each successful sign-in may issue a new API key and invalidate the previous key. Nexus may limit the number of key regenerations available within a given period.
 
-If you sign in with Nova, Nova also keeps its own copy of your session in a file on your computer, at `%APPDATA%\nova\credentials.json`, and shares the session with the Nexus app through Windows Credential Manager. Nova does not separately encrypt its file, so you are responsible for the security of your Windows account and device. Running `nova logout` revokes the session and removes both copies.
+If you sign in with Nova, Nova also keeps its own copy of your session in a file on your computer, at `%APPDATA%\nova\credentials.json` on Windows or `~/.config/nova/credentials.json` on Linux (or under `$XDG_CONFIG_HOME` if you set it), and shares the session with the Nexus app through Windows Credential Manager on Windows or your Secret Service keyring (such as GNOME Keyring or KWallet) on Linux. Nova does not separately encrypt its file, so you are responsible for the security of your device and user account. Running `nova logout` revokes the session and removes both copies.
 
 You are responsible for protecting your device, your Google or GitHub account, your credentials, and your API key and for activity occurring through your account, except to the extent caused by Nexus's own failure to maintain required security measures.
 
@@ -287,8 +287,8 @@ Where required, notices are provided with the Software, within the application, 
 
 Questions regarding these Terms may be directed to:
 
-**Nawrasse Andaloussi Dahman**
-Operator of Nexus
+**Nawrasse Andaloussi Dahman**  
+Operator of Nexus  
 Morocco
 
 **Email:** [support@nexusworkspace.net](mailto:support@nexusworkspace.net)
