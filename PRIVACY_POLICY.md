@@ -269,12 +269,6 @@ For material changes, Nexus may provide reasonable notice through the Website, S
 
 The "Last updated" date above shows when this policy was most recently revised.
 
-## 19. Contact
+---
 
-Privacy questions and requests may be directed to:
-
-**Nawrasse Andaloussi Dahman**
-Operator of Nexus
-Morocco
-
-**Email:** [support@nexusworkspace.net](mailto:support@nexusworkspace.net)
+**Copyright © 2026 Nawrasse Andaloussi Dahman. All Rights Reserved.**
