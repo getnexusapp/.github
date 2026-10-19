@@ -1,6 +1,6 @@
 # Nexus Privacy Policy
 
-**Last updated:** October 18, 2026
+*Last updated: October 18, 2026*
 
 Nexus is developed and operated by **Nawrasse Andaloussi Dahman**, an independent software developer based in Morocco.
 
@@ -251,9 +251,9 @@ On Linux, installing a .deb or .rpm requires root. Nova runs only your package m
 ### What Nova sends, and to whom
 
 - **GitHub.** Nova requests the Nexus release information and downloads the installer or package from GitHub. GitHub receives your IP address and ordinary request information, including a user-agent identifying the Nova version. If you set a `GITHUB_TOKEN` environment variable, Nova sends it to GitHub's API to avoid rate limits, and only there.
-- **Nexus Cloud.**
-- **Google or GitHub (sign-in).**
-- **Your browser.**
+- **Nexus Cloud.** When you sign in, sign out, or ask Nova to show your account email, usage, or service health, Nova contacts the Nexus Cloud Service. Nexus Cloud receives your IP address, ordinary request information, and your session key as your credential, and handles that information as described in Sections 2 and 14. Nova does not send Your Content to Nexus Cloud.
+- **Google or GitHub (sign-in).** When you sign in, you authenticate with Google or GitHub in your browser, under that provider's own terms and privacy policy. Nova does not receive or store your Google or GitHub password. Nova displays a confirmation code, and the sign-in page asks you to confirm that the code matches.
+- **Your browser.** Nova opens your default browser to the sign-in page and, when you ask it to, to Nexus web pages. Websites you reach this way receive ordinary request information, such as your IP address and browser details, under their own policies.
 
 Nova includes no analytics, telemetry, or crash reporting. After you install it, Nova does not contact npm.
 
@@ -269,6 +269,12 @@ For material changes, Nexus may provide reasonable notice through the Website, S
 
 The "Last updated" date above shows when this policy was most recently revised.
 
----
+## 19. Contact
 
-**Copyright © 2026 Nawrasse Andaloussi Dahman. All Rights Reserved.**
+Privacy questions and requests may be directed to:
+
+**Nawrasse Andaloussi Dahman**  
+Operator of Nexus  
+Morocco
+
+**Email:** [support@nexusworkspace.net](mailto:support@nexusworkspace.net)
